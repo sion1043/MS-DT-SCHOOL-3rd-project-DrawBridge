@@ -40,21 +40,21 @@ Microsoft Data School 3차 프로젝트, **DrawBridge** 저장소입니다.
 │   │   ├── fapp-jumpit      # 점핏 실시간 데이터 수집
 │   │   ├── fapp-huggingface # HuggingFace API 실시간 수집
 │   │   ├── fapp-rag         # RAG 기능 구현
-│   │   └── fapp-saramin     # 사람인 데이터 수집
+│   │   └── capp-saramin     # 사람인 데이터 수집
 │   ├── ASA                  # ASA 쿼리 텍스트
 │   └── Web                  # 웹 서비스 소스 코드
 │
 ├── PowerBI                  # Power BI 파일 (.pbix)
 │
 ├── image                    # 이미지 자료
+ |    ├── Azure resource         # Azure 리소스 그룹 목록 및 비용
 │   ├── ERD                  # 데이터 모델 ERD
 │   ├── Databricks           # 클러스터/잡 이미지
 │   │   ├── cluster
 │   │   └── job
 │   ├── Function App
-│   │   ├── fapp-rag         # RAG 구조도
-│   │   └── fapp-saramin     # 웹훅 PNG
 │   ├── ASA                  # ASA 입출력 구조도
+│   ├── PowerBI             # Power BI 화면
 │   └── Web                  # 웹 서비스 화면
 │
 ├── video                    # 시연 영상
@@ -63,6 +63,7 @@ Microsoft Data School 3차 프로젝트, **DrawBridge** 저장소입니다.
 │   ├── daily_report         # 데일리 리포트
 │   ├── proposal_paper       # 프로젝트 제안서
 │   ├── table_definition     # 테이블 명세서
+│   ├── feature_definition     # 테이블 명세서
 │   └── PPT                  # 발표 자료
 │
 ```
