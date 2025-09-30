@@ -23,18 +23,18 @@ Microsoft Data School 3차 프로젝트, **DrawBridge** 저장소입니다.
 │   │   ├── silver           # 실버 계층 데이터
 │   │   └── gold             # 골드 계층 데이터
 │   └── Databricks           # Databricks 데이터
-│       ├── bronze
-│       ├── silver
-│       └── gold
+│       ├── bronze           # 브릭스 브론즈 데이터
+│       ├── silver           # 브릭스 실버 데이터
+│       └── gold             # 브릭스 골드 데이터
 │
 ├── src                      # 전체 코드
 │   ├── PostgreSQL           # PostgreSQL 쿼리
 │   │   ├── table definition # 테이블 정의 쿼리
 │   │   └── gold             # 골드 테이블 생성 쿼리
 │   ├── Databricks           # Databricks Notebook 소스
-│   │   ├── bronze
-│   │   ├── silver
-│   │   └── gold
+│   │   ├── bronze           # 브릭스 브론즈 소스코드
+│   │   ├── silver           # 브릭스 실버 소스코드
+│   │   └── gold             # 브릭스 골드 소스코드
 │   ├── Function App         # Azure Functions 코드
 │   │   ├── fapp-dummy       # 더미 데이터 생성
 │   │   ├── fapp-jumpit      # 점핏 실시간 데이터 수집
@@ -47,14 +47,14 @@ Microsoft Data School 3차 프로젝트, **DrawBridge** 저장소입니다.
 ├── PowerBI                  # Power BI 파일 (.pbix)
 │
 ├── image                    # 이미지 자료
- |    ├── Azure resource         # Azure 리소스 그룹 목록 및 비용
+|    └── Azure resource      # Azure 리소스 그룹 목록 및 비용
 │   ├── ERD                  # 데이터 모델 ERD
 │   ├── Databricks           # 클러스터/잡 이미지
-│   │   ├── cluster
-│   │   └── job
-│   ├── Function App
+│   │   ├── cluster          # 클러스터 이미지
+│   │   └── job              # job 이미지
+│   ├── Function App         # Funciton App 사진
 │   ├── ASA                  # ASA 입출력 구조도
-│   ├── PowerBI             # Power BI 화면
+│   ├── PowerBI              # Power BI 화면
 │   └── Web                  # 웹 서비스 화면
 │
 ├── video                    # 시연 영상
