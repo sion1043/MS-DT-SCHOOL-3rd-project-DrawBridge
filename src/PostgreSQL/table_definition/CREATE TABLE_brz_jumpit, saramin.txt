@@ -1,0 +1,351 @@
+CREATE EXTENSION IF NOT EXISTS pgcrypto;
+ 
+CREATE TABLE bronze.brz_jumpit_job_category(
+uuid uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+job_category TEXT,
+jumpit_link_collection_time TIMESTAMPTZ
+);
+ 
+COMMENT ON TABLE bronze.brz_jumpit_job_category IS '직무 카테고리별 링크 수집 시각';
+COMMENT ON COLUMN bronze.brz_jumpit_job_category.uuid IS '범용 고유 식별자';
+COMMENT ON COLUMN bronze.brz_jumpit_job_category.job_category IS '직무 카테고리';
+COMMENT ON COLUMN bronze.brz_jumpit_job_category.jumpit_link_collection_time IS '점핏 공고 상세 링크 수집 시각';
+ 
+CREATE TABLE bronze.brz_jumpit_posting(
+posting_title TEXT,
+company_name TEXT,
+hiring_bonus TEXT,
+posting_tech_stack TEXT,
+responsibilities TEXT,
+minimum_qualifications TEXT,
+preferred_qualifications TEXT,
+posting_benefits TEXT,
+hiring_process TEXT,
+experience TEXT,
+education TEXT,
+end_date TEXT,
+work_location TEXT,
+posting_url TEXT,
+posting_id DOUBLE NOT NULL,
+company_url_jumpit TEXT,
+job_category BIGINT,
+jumpit_posting_collection_time TIMESTAMPTZ NOT NULL,
+ 
+PRIMARY KEY (posting_id, jumpit_posting_collection_time)
+);
+ 
+COMMENT ON TABLE bronze.brz_jumpit_posting IS '카테고리별 채용공고 상세 페이지';
+COMMENT ON COLUMN bronze.brz_jumpit_posting.posting_title IS '공고명';
+COMMENT ON COLUMN bronze.brz_jumpit_posting.company_name IS '기업명';
+COMMENT ON COLUMN bronze.brz_jumpit_posting.hiring_bonus IS '점핏취업축하금';
+COMMENT ON COLUMN bronze.brz_jumpit_posting.posting_tech_stack IS '공고별 기술스택';
+COMMENT ON COLUMN bronze.brz_jumpit_posting.responsibilities IS '주요업무';
+COMMENT ON COLUMN bronze.brz_jumpit_posting.minimum_qualifications IS '자격요건';
+COMMENT ON COLUMN bronze.brz_jumpit_posting.preferred_qualifications IS '우대사항';
+COMMENT ON COLUMN bronze.brz_jumpit_posting.posting_benefits IS '공고별 복지 및 혜택';
+COMMENT ON COLUMN bronze.brz_jumpit_posting.hiring_process IS '채용절차 및 기타 지원 유의사항';
+COMMENT ON COLUMN bronze.brz_jumpit_posting.experience IS '경력';
+COMMENT ON COLUMN bronze.brz_jumpit_posting.education IS '학력';
+COMMENT ON COLUMN bronze.brz_jumpit_posting.end_date IS '마감일';
+COMMENT ON COLUMN bronze.brz_jumpit_posting.work_location IS '근무지역';
+COMMENT ON COLUMN bronze.brz_jumpit_posting.posting_url IS '공고 상세페이지 URL';
+COMMENT ON COLUMN bronze.brz_jumpit_posting.posting_id IS '공고 ID';
+COMMENT ON COLUMN bronze.brz_jumpit_posting.company_url_jumpit IS '점핏 기업 상세페이지 URL';
+COMMENT ON COLUMN bronze.brz_jumpit_posting.job_category IS '직무 카테고리';
+COMMENT ON COLUMN bronze.brz_jumpit_posting.jumpit_posting_collection_time IS '점핏 공고 상세 수집 시각';
+ 
+CREATE TABLE bronze.brz_jumpit_company(
+company_name TEXT NOT NULL,
+company_keywords_jumpit TEXT,
+active_positions DOUBLE,
+years_in_business TEXT,
+founded_year DOUBLE,
+address TEXT,
+homepage_url TEXT,
+company_tech_stack TEXT,
+company_benefits TEXT,
+company_url_jumpit TEXT,
+jumpit_company_collection_time TIMESTAMPTZ NOT NULL,
+ 
+PRIMARY KEY (company_name, jumpit_company_collection_time)
+);
+ 
+COMMENT ON TABLE bronze.brz_jumpit_company IS '기업정보 상세 페이지';
+COMMENT ON COLUMN bronze.brz_jumpit_company.company_name IS '기업명';
+COMMENT ON COLUMN bronze.brz_jumpit_company.company_keywords_jumpit IS '점핏 기업 키워드';
+COMMENT ON COLUMN bronze.brz_jumpit_company.active_positions IS '채용 중인 포지션 수';
+COMMENT ON COLUMN bronze.brz_jumpit_company.years_in_business IS '업력';
+COMMENT ON COLUMN bronze.brz_jumpit_company.founded_year IS '설립연도';
+COMMENT ON COLUMN bronze.brz_jumpit_company.address IS '주소';
+COMMENT ON COLUMN bronze.brz_jumpit_company.homepage_url IS '홈페이지 URL';
+COMMENT ON COLUMN bronze.brz_jumpit_company.company_tech_stack IS '기업별 기술 스택';
+COMMENT ON COLUMN bronze.brz_jumpit_company.company_benefits IS '기업별 복지 및 혜택';
+COMMENT ON COLUMN bronze.brz_jumpit_company.company_url_jumpit IS '점핏 기업 상세 페이지 URL';
+COMMENT ON COLUMN bronze.brz_jumpit_company.jumpit_company_collection_time IS '점핏 기업 상세 수집 시각';
+
+
+
+CREATE TABLE bronze.brz_saramin_posting(
+posting_title  TEXT,
+company_name TEXT,
+posting_id  TEXT NOT NULL,
+is_closed  TEXT,
+posting_bookmarks_total  TEXT,
+posting_views_total  TEXT,
+homepage_visits_total  TEXT,
+experience  TEXT,
+education  TEXT,
+employment_type  TEXT,
+salary  TEXT,
+position  TEXT,
+working_hours  TEXT,
+work_location  TEXT,
+start_datetime  TEXT,
+end_datetime  TEXT,
+application_method  TEXT,
+application_format  TEXT,
+applicants_total  TEXT,
+applicants_by_exp_new  TEXT,
+applicants_by_exp_less_than_1yr  TEXT,
+applicants_by_exp_1_3yrs  TEXT,
+applicants_by_exp_3_5yrs  TEXT,
+applicants_by_exp_over_5yrs  TEXT,
+applicants_by_salary_2200_2600  TEXT,
+applicants_by_salary_2600_3000  TEXT,
+applicants_by_salary_3000_4000  TEXT,
+applicants_by_salary_over_4000  TEXT,
+applicants_by_gender_total  TEXT,
+applicants_by_gender_male  TEXT,
+applicants_by_gender_female  TEXT,
+applicants_by_gender_ratio_male  TEXT,
+applicants_by_gender_ratio_female  TEXT,
+applicants_by_age_20s  TEXT,
+applicants_by_age_30s  TEXT,
+applicants_by_age_40s  TEXT,
+applicants_by_age_50s  TEXT,
+applicants_by_age_over_60s  TEXT,
+applicants_by_education_highschool_or_less  TEXT,
+applicants_by_education_associates  TEXT,
+applicants_by_education_bachelors  TEXT,
+applicants_by_education_masters  TEXT,
+applicants_by_education_phd  TEXT,
+applicants_submitted_portfolio_json  TEXT,
+saramin_posting_collection_time  TEXT NOT NULL,
+company_url_saramin  TEXT,
+
+PRIMARY KEY (posting_id, saramin_posting_collection_time)
+);
+
+COMMENT ON TABLE bronze.brz_saramin_posting IS 'brz_saramin_posting';
+COMMENT ON COLUMN bronze.brz_saramin_posting.posting_title IS '공고명';
+COMMENT ON COLUMN bronze.brz_saramin_posting.company_name IS '기업명';
+COMMENT ON COLUMN bronze.brz_saramin_posting.posting_id IS '공고 ID';
+COMMENT ON COLUMN bronze.brz_saramin_posting.is_closed IS '접수마감여부';
+COMMENT ON COLUMN bronze.brz_saramin_posting.posting_bookmarks_total IS '스크랩수';
+COMMENT ON COLUMN bronze.brz_saramin_posting.posting_views_total IS '조회수';
+COMMENT ON COLUMN bronze.brz_saramin_posting.homepage_visits_total IS '홈페이지접속수';
+COMMENT ON COLUMN bronze.brz_saramin_posting.experience IS '경력';
+COMMENT ON COLUMN bronze.brz_saramin_posting.education IS '학력';
+COMMENT ON COLUMN bronze.brz_saramin_posting.employment_type IS '근무형태';
+COMMENT ON COLUMN bronze.brz_saramin_posting.salary IS '급여';
+COMMENT ON COLUMN bronze.brz_saramin_posting.position IS '직급/직책';
+COMMENT ON COLUMN bronze.brz_saramin_posting.working_hours IS '출퇴근 시간';
+COMMENT ON COLUMN bronze.brz_saramin_posting.work_location IS '근무지역';
+COMMENT ON COLUMN bronze.brz_saramin_posting.start_datetime IS '시작일시';
+COMMENT ON COLUMN bronze.brz_saramin_posting.end_datetime IS '마감일시';
+COMMENT ON COLUMN bronze.brz_saramin_posting.application_method IS '지원방법';
+COMMENT ON COLUMN bronze.brz_saramin_posting.application_format IS '접수양식';
+COMMENT ON COLUMN bronze.brz_saramin_posting.applicants_total IS '지원자수';
+COMMENT ON COLUMN bronze.brz_saramin_posting.applicants_by_exp_new IS '지원현황_경력별_신입';
+COMMENT ON COLUMN bronze.brz_saramin_posting.applicants_by_exp_less_than_1yr IS '지원현황_경력별_1년미만';
+COMMENT ON COLUMN bronze.brz_saramin_posting.applicants_by_exp_1_3yrs IS '지원현황_경력별_1-3년';
+COMMENT ON COLUMN bronze.brz_saramin_posting.applicants_by_exp_3_5yrs IS '지원현황_경력별_3-5년';
+COMMENT ON COLUMN bronze.brz_saramin_posting.applicants_by_exp_over_5yrs IS '지원현황_경력별_5년이상';
+COMMENT ON COLUMN bronze.brz_saramin_posting.applicants_by_salary_2200_2600 IS '지원현황_연봉별_2200_2600';
+COMMENT ON COLUMN bronze.brz_saramin_posting.applicants_by_salary_2600_3000 IS '지원현황_연봉별_2600_3000';
+COMMENT ON COLUMN bronze.brz_saramin_posting.applicants_by_salary_3000_4000 IS '지원현황_연봉별_3000_4000';
+COMMENT ON COLUMN bronze.brz_saramin_posting.applicants_by_salary_over_4000 IS '지원현황_연봉별_4000이상';
+COMMENT ON COLUMN bronze.brz_saramin_posting.applicants_by_gender_total IS '지원현황_성별_전체';
+COMMENT ON COLUMN bronze.brz_saramin_posting.applicants_by_gender_male IS '지원현황_성별_남';
+COMMENT ON COLUMN bronze.brz_saramin_posting.applicants_by_gender_female IS '지원현황_성별_여';
+COMMENT ON COLUMN bronze.brz_saramin_posting.applicants_by_gender_ratio_male IS '지원현황_성별_비율_남';
+COMMENT ON COLUMN bronze.brz_saramin_posting.applicants_by_gender_ratio_female IS '지원현황_성별_비율_여';
+COMMENT ON COLUMN bronze.brz_saramin_posting.applicants_by_age_20s IS '지원현황_연령별_20대';
+COMMENT ON COLUMN bronze.brz_saramin_posting.applicants_by_age_30s IS '지원현황_연령별_30대';
+COMMENT ON COLUMN bronze.brz_saramin_posting.applicants_by_age_40s IS '지원현황_연령별_40대';
+COMMENT ON COLUMN bronze.brz_saramin_posting.applicants_by_age_50s IS '지원현황_연령별_50대';
+COMMENT ON COLUMN bronze.brz_saramin_posting.applicants_by_age_over_60s IS '지원현황_연령별_60대이상';
+COMMENT ON COLUMN bronze.brz_saramin_posting.applicants_by_education_highschool_or_less IS '지원현황_학력별_고졸이하';
+COMMENT ON COLUMN bronze.brz_saramin_posting.applicants_by_education_associates IS '지원현황_학력별_2-3년제';
+COMMENT ON COLUMN bronze.brz_saramin_posting.applicants_by_education_bachelors IS '지원현황_학력별_4년제';
+COMMENT ON COLUMN bronze.brz_saramin_posting.applicants_by_education_masters IS '지원현황_학력별_석사';
+COMMENT ON COLUMN bronze.brz_saramin_posting.applicants_by_education_phd IS '지원현황_학력별_박사';
+COMMENT ON COLUMN bronze.brz_saramin_posting.applicants_submitted_portfolio_json IS '지원현황_포트폴리오 및 기타문서 제출';
+COMMENT ON COLUMN bronze.brz_saramin_posting.saramin_posting_collection_time IS '사람인 공고상세 수집시각';
+COMMENT ON COLUMN bronze.brz_saramin_posting.company_url_saramin IS '사람인 기업 상세페이지 URL';
+
+
+CREATE TABLE bronze.brz_saramin_company(
+company_name TEXT NOT NULL,
+company_bookmarks_total TEXT,
+company_views_monthly TEXT,
+company_view_increase_rate_monthly TEXT,
+company_bookmarks_monthly TEXT,
+company_bookmark_increase_rate_monthly TEXT,
+company_keyword_search_count_monthly TEXT,
+company_keyword_search_increase_rate_monthly TEXT,
+company_keywords_saramin TEXT,
+founded_date TEXT,
+company_type TEXT,
+revenue TEXT,
+industry TEXT,
+ceo_name TEXT,
+homepage_url TEXT,
+business_description TEXT,
+address TEXT,
+company_benefits TEXT,
+employees_total TEXT,
+employees_timeseries_json TEXT,
+company_url_saramin TEXT,
+saramin_company_collection_time TIMESTAMPTZ NOT NULL,
+ 
+PRIMARY KEY (company_name, saramin_company_collection_time)
+);
+ 
+COMMENT ON TABLE bronze.brz_saramin_company IS '사람인 기업정보 상세 페이지';
+COMMENT ON COLUMN bronze.brz_saramin_company.company_name IS '기업명';
+COMMENT ON COLUMN bronze.brz_saramin_company.company_bookmarks_total IS '관심 기업 수_총합';
+COMMENT ON COLUMN bronze.brz_saramin_company.company_views_monthly IS '조회수';
+COMMENT ON COLUMN bronze.brz_saramin_company.company_view_increase_rate_monthly IS '조회수_상승 비율';
+COMMENT ON COLUMN bronze.brz_saramin_company.company_bookmarks_monthly IS '관심 기업 수';
+COMMENT ON COLUMN bronze.brz_saramin_company.company_bookmark_increase_rate_monthly IS '관심 기업 수_상승 비율';
+COMMENT ON COLUMN bronze.brz_saramin_company.company_keyword_search_count_monthly IS '기업 키워드 검색 횟수';
+COMMENT ON COLUMN bronze.brz_saramin_company.company_keyword_search_increase_rate_monthly IS '기업 키워드 검색 횟수_상승 비율';
+COMMENT ON COLUMN bronze.brz_saramin_company.company_keywords_saramin IS '기업 키워드';
+COMMENT ON COLUMN bronze.brz_saramin_company.founded_date IS '설립일';
+COMMENT ON COLUMN bronze.brz_saramin_company.company_type IS '기업 형태';
+COMMENT ON COLUMN bronze.brz_saramin_company.revenue IS '매출액';
+COMMENT ON COLUMN bronze.brz_saramin_company.industry IS '업종';
+COMMENT ON COLUMN bronze.brz_saramin_company.ceo_name IS '대표자명';
+COMMENT ON COLUMN bronze.brz_saramin_company.homepage_url IS '홈페이지';
+COMMENT ON COLUMN bronze.brz_saramin_company.business_description IS '사업 내용';
+COMMENT ON COLUMN bronze.brz_saramin_company.address IS '주소';
+COMMENT ON COLUMN bronze.brz_saramin_company.company_benefits IS '복리후생';
+COMMENT ON COLUMN bronze.brz_saramin_company.employees_total IS '전체 사원 수';
+COMMENT ON COLUMN bronze.brz_saramin_company.employees_timeseries_json IS '사원 수 변화량';
+COMMENT ON COLUMN bronze.brz_saramin_company.company_url_saramin IS '사람인 기업 상세페이지 URL';
+COMMENT ON COLUMN bronze.brz_saramin_company.saramin_company_collection_time IS '사람인 기업 상세 수집 시각';
+ 
+
+
+CREATE TABLE bronze.brz_saramin_company_salary(
+company_name TEXT NOT NULL,
+salary_min TEXT,
+salary_max TEXT,
+salary_yoy_change TEXT,
+salary_info_reliability TEXT,
+salary_2021_avg TEXT,
+salary_2021_min TEXT,
+salary_2021_max TEXT,
+salary_2022_avg TEXT,
+salary_2022_min TEXT,
+salary_2022_max TEXT,
+salary_2023_avg TEXT,
+salary_2023_min TEXT,
+salary_2023_max TEXT,
+salary_2021_avg_industry TEXT,
+salary_2022_avg_industry TEXT,
+salary_2023_avg_industry TEXT,
+starting_salary_bachelors_avg TEXT,
+starting_salary_bachelors_yoy_change TEXT,
+starting_salary_bachelors_2021_avg TEXT,
+starting_salary_bachelors_2022_avg TEXT,
+starting_salary_bachelors_2023_avg TEXT,
+starting_salary_bachelors_estimated_monthly_takehome TEXT,
+salary_staff_high_school_avg TEXT,
+salary_staff_high_school_min TEXT,
+salary_staff_high_school_max TEXT,
+salary_staff_associates_avg TEXT,
+salary_staff_associates_min TEXT,
+salary_staff_associates_max TEXT,
+salary_staff_bachelors_avg TEXT,
+salary_staff_bachelors_min TEXT,
+salary_staff_bachelors_max TEXT,
+salary_junior_mgr_avg TEXT,
+salary_junior_mgr_min TEXT,
+salary_junior_mgr_max TEXT,
+salary_deputy_mgr_avg TEXT,
+salary_deputy_mgr_min TEXT,
+salary_deputy_mgr_max TEXT,
+salary_section_chief_avg TEXT,
+salary_section_chief_min TEXT,
+salary_section_chief_max TEXT,
+salary_deputy_section_chief_avg TEXT,
+salary_deputy_section_chief_min TEXT,
+salary_deputy_section_chief_max TEXT,
+salary_department_head_avg TEXT,
+salary_department_head_min TEXT,
+salary_department_head_max TEXT,
+salary_by_age_2021_json TEXT,
+salary_by_age_2022_json TEXT,
+salary_by_age_2023_json TEXT,
+company_salary_url_saramin TEXT,
+saramin_company_salary_collection_time TIMESTAMPTZ NOT NULL,
+ 
+PRIMARY KEY (company_name, saramin_company_salary_collection_time)
+);
+ 
+COMMENT ON TABLE bronze.brz_saramin_company_salary IS '사람인 기업 연봉정보 상세 페이지';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.company_name IS '기업명';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_avg IS '연봉_평균';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_min IS '연봉_최저';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_max IS '연봉_최고';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_yoy_change IS '연봉_전년도대비비율';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_info_reliability IS '연봉 정보 신뢰도';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_2021_avg IS '연봉_2021_평균';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_2021_min IS '연봉_2021_최저';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_2021_max IS '연봉_2021_최고';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_2022_avg IS '연봉_2022_평균';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_2022_min IS '연봉_2022_최저';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_2022_max IS '연봉_2022_최고';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_2023_avg IS '연봉_2023_평균';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_2023_min IS '연봉_2023_최저';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_2023_max IS '연봉_2023_최고';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_2021_avg_industry IS '연봉_2021_평균_동종업계';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_2022_avg_industry IS '연봉_2022_평균_동종업계';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_2023_avg_industry IS '연봉_2023_평균_동종업계';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.starting_salary_bachelors_avg IS '연봉_대졸초임_평균';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.starting_salary_bachelors_yoy_change IS '연봉_대졸초임_전년도대비비율';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.starting_salary_bachelors_2021_avg IS '연봉_2021_대졸초임_평균';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.starting_salary_bachelors_2022_avg IS '연봉_2022_대졸초임_평균';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.starting_salary_bachelors_2023_avg IS '연봉_2023_대졸초임_평균';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.starting_salary_bachelors_estimated_monthly_takehome IS '연봉_대졸초임_예상월실수령액';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_staff_high_school_avg IS '연봉_직급별_사원고졸_평균';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_staff_high_school_min IS '연봉_직급별_사원고졸_최저';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_staff_high_school_max IS '연봉_직급별_사원고졸_최고';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_staff_associates_avg IS '연봉_직급별_사원초대졸_평균';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_staff_associates_min IS '연봉_직급별_사원초대졸_최저';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_staff_associates_max IS '연봉_직급별_사원초대졸_최고';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_staff_bachelors_avg IS '연봉_직급별_사원대졸_평균';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_staff_bachelors_min IS '연봉_직급별_사원대졸_최저';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_staff_bachelors_max IS '연봉_직급별_사원대졸_최고';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_junior_mgr_avg IS '연봉_직급별_주임_평균';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_junior_mgr_min IS '연봉_직급별_주임_최저';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_junior_mgr_max IS '연봉_직급별_주임_최고';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_deputy_mgr_avg IS '연봉_직급별_대리_평균';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_deputy_mgr_min IS '연봉_직급별_대리_최저';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_deputy_mgr_max IS '연봉_직급별_대리_최고';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_section_chief_avg IS '연봉_직급별_과장_평균';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_section_chief_min IS '연봉_직급별_과장_최저';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_section_chief_max IS '연봉_직급별_과장_최고';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_deputy_section_chief_avg IS '연봉_직급별_차장_평균';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_deputy_section_chief_min IS '연봉_직급별_차장_최저';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_deputy_section_chief_max IS '연봉_직급별_차장_최고';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_department_head_avg IS '연봉_직급별_부장_평균';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_department_head_min IS '연봉_직급별_부장_최저';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_department_head_max IS '연봉_직급별_부장_최고';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_by_age_2021_json IS '연봉_연령별_2021';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_by_age_2022_json IS '연봉_연령별_2022';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.salary_by_age_2023_json IS '연봉_연령별_2023';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.company_salary_url_saramin IS '사람인 기업연봉 상세페이지 URL';
+COMMENT ON COLUMN bronze.brz_saramin_company_salary.saramin_company_salary_collection_time IS '사람인 기업연봉상세 수집시각';
