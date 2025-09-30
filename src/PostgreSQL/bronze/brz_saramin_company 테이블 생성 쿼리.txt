@@ -1,0 +1,26 @@
+CREATE TABLE bronze.brz_saramin_company(
+company_name TEXT NOT NULL,
+company_bookmarks_total TEXT,
+company_views_monthly TEXT,
+company_view_increase_rate_monthly TEXT,
+company_bookmarks_monthly TEXT,
+company_bookmark_increase_rate_monthly TEXT,
+company_keyword_search_count_monthly TEXT,
+company_keyword_search_increase_rate_monthly TEXT,
+company_keywords_saramin TEXT,
+founded_date TEXT,
+company_type TEXT,
+revenue TEXT,
+industry TEXT,
+ceo_name TEXT,
+homepage_url TEXT,
+business_description TEXT,
+address TEXT,
+company_benefits TEXT,
+employees_total TEXT,
+employees_timeseries_json TEXT,
+company_url_saramin TEXT,
+saramin_company_collection_time TIMESTAMPTZ NOT NULL,
+
+PRIMARY KEY (company_name, saramin_company_collection_time)
+);

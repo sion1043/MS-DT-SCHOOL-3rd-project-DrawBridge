@@ -1,0 +1,4 @@
+CREATE TABLE bronze.brz_jumpit_posting_id(
+posting_id_collection_time TIMESTAMPTZ,
+posting_id FLOAT
+);

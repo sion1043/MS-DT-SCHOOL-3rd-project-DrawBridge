@@ -1,0 +1,4 @@
+CREATE TABLE gold.gld_hf AS
+SELECT id, author, pipeline_tag, library_name, likes, downloads, last_modified
+FROM bronze.brz_hf_meta
+WHERE likes > 1000 AND downloads > 1000
