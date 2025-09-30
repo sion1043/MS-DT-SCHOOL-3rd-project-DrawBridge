@@ -23,18 +23,18 @@ Microsoft Data School 3차 프로젝트, **DrawBridge** 저장소입니다.
 │   │   ├── silver           # 실버 계층 데이터
 │   │   └── gold             # 골드 계층 데이터
 │   └── Databricks           # Databricks 데이터
-│       ├── bronze
-│       ├── silver
-│       └── gold
+│       ├── bronze           # 브론즈 DB 데이터
+│       ├── silver           # 실버 DB 데이터
+│       └── gold             # 골드 DB 데이터
 │
 ├── src                      # 전체 코드
 │   ├── PostgreSQL           # PostgreSQL 쿼리
 │   │   ├── table definition # 테이블 정의 쿼리
 │   │   └── gold             # 골드 테이블 생성 쿼리
 │   ├── Databricks           # Databricks Notebook 소스
-│   │   ├── bronze
-│   │   ├── silver
-│   │   └── gold
+│   │   ├── bronze           # 브론즈 브릭스 소스
+│   │   ├── silver           # 실버 브릭스 소스
+│   │   └── gold             # 골드 브릭스 소스
 │   ├── Function App         # Azure Functions 코드
 │   │   ├── fapp-dummy       # 더미 데이터 생성
 │   │   ├── fapp-jumpit      # 점핏 실시간 데이터 수집
@@ -49,9 +49,9 @@ Microsoft Data School 3차 프로젝트, **DrawBridge** 저장소입니다.
 ├── image                    # 이미지 자료
 │   ├── ERD                  # 데이터 모델 ERD
 │   ├── Databricks           # 클러스터/잡 이미지
-│   │   ├── cluster
-│   │   └── job
-│   ├── Function App
+│   │   ├── cluster          # 클러스터 이미지(상세히)
+│   │   └── job              # job 이미지(상세히)
+│   ├── Function App         # Function App 사진
 │   │   ├── fapp-rag         # RAG 구조도
 │   │   └── fapp-saramin     # 웹훅 PNG
 │   ├── ASA                  # ASA 입출력 구조도
