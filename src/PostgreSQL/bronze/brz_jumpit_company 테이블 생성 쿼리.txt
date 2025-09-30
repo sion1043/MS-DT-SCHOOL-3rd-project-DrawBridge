@@ -1,0 +1,15 @@
+CREATE TABLE bronze.brz_jumpit_company(
+company_name TEXT NOT NULL,
+company_keywords_jumpit TEXT,
+active_positions DOUBLE,
+years_in_business TEXT,
+founded_year DOUBLE,
+address TEXT,
+homepage_url TEXT,
+company_tech_stack TEXT,
+company_benefits TEXT,
+company_url_jumpit TEXT,
+jumpit_company_collection_time TIMESTAMPTZ NOT NULL,
+ 
+PRIMARY KEY (company_name, jumpit_company_collection_time)
+);
