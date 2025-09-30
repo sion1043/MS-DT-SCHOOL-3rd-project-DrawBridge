@@ -43,6 +43,8 @@ Microsoft Data School 3차 프로젝트, **DrawBridge** 저장소입니다.
 │   │   └── fapp-saramin     # 사람인 데이터 수집
 │   ├── ASA                  # ASA 쿼리 텍스트
 │   └── Web                  # 웹 서비스 소스 코드
+│   └── Jobkorea             # 잡코리아 공고 지원자 현황 크롤링
+│   └── Wanted               # 원티드 지원자 스킬 분포
 │
 ├── PowerBI                  # Power BI 파일 (.pbix)
 │
