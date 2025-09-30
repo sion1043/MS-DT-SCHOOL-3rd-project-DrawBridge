@@ -1,0 +1,256 @@
+/*
+INPUT 데이터가 Eventhub에 들어오면 감지해서, PostgreSQL에 각기 맞는 테이블을 찾아 적재하는 코드
+*/
+
+
+-- INPUT: 더미데이터
+SELECT  employee_id, employee_name, age, age_category, gender, location, education, career, job, skills_current, skfn_current, work_location, hope_salary, skills_past, skfn_past, skills_p2,skfn_p2,skills_p3,skfn_p3,skills_p4,skfn_p4,skills_p5,skfn_p5,skills_p6,skfn_p6,timestamp
+INTO
+    [postgres-test] -- test에서 기존 user DB로 변경해놨음 안바꿔도 괜찮
+FROM
+    [drawbridge-eventhub]
+
+
+-- INPUT: 허깅페이스 meta
+SELECT
+    try_cast(id AS NVARCHAR(MAX)) AS id,
+    try_cast(hexid AS NVARCHAR(MAX)) AS hexid,
+    try_cast(sha AS NVARCHAR(MAX)) AS sha,
+    try_cast(author AS NVARCHAR(MAX)) AS author,
+    try_cast(private AS BIT) AS private,
+    try_cast(disabled AS BIT) AS disabled,
+    -- try_cast(gated AS NVARCHAR(MAX)) AS gated,
+    try_cast(gated AS NVARCHAR(MAX)) AS gated,
+    try_cast(pipeline_tag AS NVARCHAR(MAX)) AS pipeline_tag,
+    try_cast(library_name AS NVARCHAR(MAX)) AS library_name,
+    try_cast(tags AS NVARCHAR(MAX)) AS tags,
+    try_cast(likes AS FLOAT) AS likes,
+    try_cast(downloads AS FLOAT) AS downloads,
+    try_cast(trending_score AS FLOAT) AS trending_score,
+    -- try_cast(CONCAT(SUBSTRING(created_at, 1, 19), SUBSTRING(created_at, 21, 24)) AS NVARCHAR(MAX)) AS created_at,
+    -- try_cast(created_at AS NVARCHAR(MAX)) AS created_at,
+    try_cast(created_at AS DATETIME) AS created_at,
+    -- try_cast(CONCAT(SUBSTRING(last_modified, 1, 19), SUBSTRING(last_modified, 21, 24)) AS NVARCHAR(MAX)) AS last_modified,
+    -- try_cast(last_modified AS NVARCHAR(MAX)) AS last_modified,
+    try_cast(last_modified AS DATETIME) AS last_modified,
+    try_cast(config AS NVARCHAR(MAX)) AS config,
+    try_cast(card_data AS NVARCHAR(MAX)) AS card_data,
+    try_cast(safetensors AS NVARCHAR(MAX)) AS safetensors,
+    try_cast(spaces AS NVARCHAR(MAX)) AS spaces,
+    try_cast(transformers_info AS NVARCHAR(MAX)) AS transformers_info,
+    try_cast(used_storage AS FLOAT) AS used_storage,
+    try_cast(readme AS NVARCHAR(MAX)) AS readme,
+    try_cast(model_index AS NVARCHAR(MAX)) AS model_index,
+    try_cast(gguf AS NVARCHAR(MAX)) AS gguf,
+    try_cast(inference AS NVARCHAR(MAX)) AS inference,
+    try_cast(mask_token AS NVARCHAR(MAX)) AS mask_token,
+    try_cast(widget_data AS NVARCHAR(MAX)) AS widget_data,
+    try_cast(security_repo_status AS NVARCHAR(MAX)) AS security_repo_status
+INTO
+    [postgres-brz-hf-meta]
+FROM
+    [huggingface-meta-eventhub]
+
+
+-- INPUT: 허깅페이스 files
+SELECT
+    try_cast(uuid7 AS NVARCHAR(MAX)) AS uuid7,
+    try_cast(model_id AS NVARCHAR(MAX)) AS model_id,
+    try_cast(type AS NVARCHAR(MAX)) AS type,
+    try_cast(oid AS NVARCHAR(MAX)) AS oid,
+    try_cast(size AS BIGINT) AS size,
+    try_cast(path AS NVARCHAR(MAX)) AS path,
+    try_cast(lfs_oid AS NVARCHAR(MAX)) AS lfs_oid,
+    try_cast(lfs_size AS FLOAT) AS lfs_size,
+    try_cast(lfs_pointersize AS FLOAT) AS lfs_pointersize,
+    try_cast(xethash AS NVARCHAR(MAX)) AS xethash
+INTO
+    [postgres-brz-hf-files]
+FROM
+    [huggingface-files-eventhub]
+
+
+-- INPUT: 허깅페이스 community
+SELECT
+    try_cast(uuid7 AS NVARCHAR(MAX)) AS uuid7,
+    try_cast(model_id AS NVARCHAR(MAX)) AS model_id,
+    try_cast(num AS BIGINT) AS num,
+    try_cast(title AS NVARCHAR(MAX)) AS title,
+    try_cast(status AS NVARCHAR(MAX)) AS status,
+    -- try_cast(CONCAT(SUBSTRING(created_at, 1, 19), SUBSTRING(created_at, 21, 24)) AS NVARCHAR(MAX)) AS created_at,
+    -- try_cast(created_at AS NVARCHAR(MAX)) AS created_at,
+    try_cast(created_at AS DATETIME) AS created_at,
+    try_cast(is_pull_request AS BIT) AS is_pull_request,
+    try_cast(num_comments AS BIGINT) AS num_comments,
+    try_cast(top_reactions AS NVARCHAR(MAX)) AS top_reactions,
+    try_cast(num_reaction_users AS BIGINT) AS num_reaction_users,
+    try_cast(pinned AS BIT) AS pinned,
+    try_cast(author_id AS NVARCHAR(MAX)) AS author_id,
+    try_cast(author_avatar_url AS NVARCHAR(MAX)) AS author_avatar_url,
+    try_cast(author_fullname AS NVARCHAR(MAX)) AS author_fullname,
+    try_cast(author_name AS NVARCHAR(MAX)) AS author_name,
+    try_cast(author_type AS NVARCHAR(MAX)) AS author_type,
+    try_cast(author_ispro AS BIT) AS author_ispro,
+    try_cast(author_ishf AS BIT) AS author_ishf,
+    try_cast(author_ishf_admin AS BIT) AS author_ishf_admin,
+    try_cast(author_ismod AS BIT) AS author_ismod,
+    try_cast(repo_name AS NVARCHAR(MAX)) AS repo_name,
+    try_cast(repo_type AS NVARCHAR(MAX)) AS repo_type,
+    try_cast(repo_owner_name AS NVARCHAR(MAX)) AS repo_owner_name,
+    try_cast(repo_owner_isparticipating AS BIT) AS repo_owner_isparticipating,
+    try_cast(repo_owner_type AS NVARCHAR(MAX)) AS repo_owner_type,
+    try_cast(repo_owner_isdiscussion_author AS BIT) AS repo_owner_isdiscussion_author,
+    try_cast(author_follower_count AS FLOAT) AS author_follower_count
+INTO
+    [postgres-brz-hf-community]
+FROM
+    [huggingface-community-eventhub]
+
+
+/*
+쓸모없는 MS 주석인데 혹시 몰라서 살려두고 맨아래 박아둠
+다음은 Stream Analytics 쿼리 언어를 시작하는 데 도움이 되는 링크입니다.
+일반적인 쿼리 패턴 - https://go.microsoft.com/fwLink/?LinkID=619153
+쿼리 언어 - https://docs.microsoft.com/stream-analytics-query/query-language-elements-azure-stream-analytics
+*/
+
+
+SELECT
+    posting_rowsRecords.ArrayValue.posting_title as posting_title,
+    posting_rowsRecords.ArrayValue.company_name as company_name,
+    posting_rowsRecords.ArrayValue.posting_id as posting_id,
+    CASE WHEN posting_rowsRecords.ArrayValue.is_closed = 1 THEN 'true' ELSE 'false' END as is_closed,
+    posting_rowsRecords.ArrayValue.posting_bookmarks_total as posting_bookmarks_total,
+    posting_rowsRecords.ArrayValue.posting_views_total as posting_views_total,
+    posting_rowsRecords.ArrayValue.homepage_visits_total as homepage_visits_total,
+    posting_rowsRecords.ArrayValue.experience as experience,
+    posting_rowsRecords.ArrayValue.education as education,
+    posting_rowsRecords.ArrayValue.employment_type as employment_type,
+    posting_rowsRecords.ArrayValue.salary as salary,
+    posting_rowsRecords.ArrayValue.position as position,
+    posting_rowsRecords.ArrayValue.working_hours as working_hours,
+    posting_rowsRecords.ArrayValue.work_location as work_location,
+    posting_rowsRecords.ArrayValue.start_datetime as start_datetime,
+    posting_rowsRecords.ArrayValue.end_datetime as end_datetime,
+    posting_rowsRecords.ArrayValue.application_method as application_method,
+    posting_rowsRecords.ArrayValue.application_format as application_format,
+    posting_rowsRecords.ArrayValue.applicants_total as applicants_total,
+    posting_rowsRecords.ArrayValue.applicants_by_exp_new as applicants_by_exp_new,
+    posting_rowsRecords.ArrayValue.applicants_by_exp_less_than_1yr as applicants_by_exp_less_than_1yr,
+    posting_rowsRecords.ArrayValue.applicants_by_exp_1_3yrs as applicants_by_exp_1_3yrs,
+    posting_rowsRecords.ArrayValue.applicants_by_exp_3_5yrs as applicants_by_exp_3_5yrs,
+    posting_rowsRecords.ArrayValue.applicants_by_exp_over_5yrs as applicants_by_exp_over_5yrs,
+    posting_rowsRecords.ArrayValue.applicants_by_salary_2200_2600 as applicants_by_salary_2200_2600,
+    posting_rowsRecords.ArrayValue.applicants_by_salary_2600_3000 as applicants_by_salary_2600_3000,
+    posting_rowsRecords.ArrayValue.applicants_by_salary_3000_4000 as applicants_by_salary_3000_4000,
+    posting_rowsRecords.ArrayValue.applicants_by_salary_over_4000 as applicants_by_salary_over_4000,
+    posting_rowsRecords.ArrayValue.applicants_by_gender_total as applicants_by_gender_total,
+    posting_rowsRecords.ArrayValue.applicants_by_gender_male as applicants_by_gender_male,
+    posting_rowsRecords.ArrayValue.applicants_by_gender_female as applicants_by_gender_female,
+    posting_rowsRecords.ArrayValue.applicants_by_gender_ratio_male as applicants_by_gender_ratio_male,
+    posting_rowsRecords.ArrayValue.applicants_by_gender_ratio_female as applicants_by_gender_ratio_female,
+    posting_rowsRecords.ArrayValue.applicants_by_age_20s as applicants_by_age_20s,
+    posting_rowsRecords.ArrayValue.applicants_by_age_30s as applicants_by_age_30s,
+    posting_rowsRecords.ArrayValue.applicants_by_age_40s as applicants_by_age_40s,
+    posting_rowsRecords.ArrayValue.applicants_by_age_50s as applicants_by_age_50s,
+    posting_rowsRecords.ArrayValue.applicants_by_age_over_60s as applicants_by_age_over_60s,
+    posting_rowsRecords.ArrayValue.applicants_by_education_highschool_or_less as applicants_by_education_highschool_or_less,
+    posting_rowsRecords.ArrayValue.applicants_by_education_associates as applicants_by_education_associates,
+    posting_rowsRecords.ArrayValue.applicants_by_education_bachelors as applicants_by_education_bachelors,
+    posting_rowsRecords.ArrayValue.applicants_by_education_masters as applicants_by_education_masters,
+    posting_rowsRecords.ArrayValue.applicants_by_education_phd as applicants_by_education_phd,
+    posting_rowsRecords.ArrayValue.applicants_submitted_portfolio_json as applicants_submitted_portfolio_json,
+    posting_rowsRecords.ArrayValue.saramin_posting_collection_time as saramin_posting_collection_time,
+    posting_rowsRecords.ArrayValue.company_url_saramin as company_url_saramin
+INTO [postgres-saramin-posting]
+FROM [saramin-eventhub] AS Posting
+CROSS APPLY GetArrayElements(items.posting_rows) AS posting_rowsRecords
+WHERE Posting.source = 'saramin_posting'
+
+SELECT
+    company_rowsRecords.ArrayValue.company_name as company_name,
+    company_rowsRecords.ArrayValue.company_bookmarks_total as company_bookmarks_total,
+    company_rowsRecords.ArrayValue.company_views_monthly as company_views_monthly,
+    company_rowsRecords.ArrayValue.company_view_increase_rate_monthly as company_view_increase_rate_monthly,
+    company_rowsRecords.ArrayValue.company_bookmarks_monthly as company_bookmarks_monthly,
+    company_rowsRecords.ArrayValue.company_bookmark_increase_rate_monthly as company_bookmark_increase_rate_monthly,
+    company_rowsRecords.ArrayValue.company_keyword_search_count_monthly as company_keyword_search_count_monthly,
+    company_rowsRecords.ArrayValue.company_keyword_search_increase_rate_monthly as company_keyword_search_increase_rate_monthly,
+    company_rowsRecords.ArrayValue.company_keywords_saramin as company_keywords_saramin,
+    company_rowsRecords.ArrayValue.founded_date as founded_date,
+    company_rowsRecords.ArrayValue.company_type as company_type,
+    company_rowsRecords.ArrayValue.revenue as revenue,
+    company_rowsRecords.ArrayValue.industry as industry,
+    company_rowsRecords.ArrayValue.ceo_name as ceo_name,
+    company_rowsRecords.ArrayValue.homepage_url as homepage_url,
+    company_rowsRecords.ArrayValue.business_description as business_description,
+    company_rowsRecords.ArrayValue.address as address,
+    company_rowsRecords.ArrayValue.company_benefits_json as company_benefits_json,
+    company_rowsRecords.ArrayValue.employees_total as employees_total,
+    company_rowsRecords.ArrayValue.employees_timeseries_json as employees_timeseries_json,
+    company_rowsRecords.ArrayValue.company_url_saramin as company_url_saramin,
+    company_rowsRecords.ArrayValue.saramin_company_collection_time as saramin_company_collection_time
+INTO [postgres-saramin-company]
+FROM [saramin-eventhub] AS Company
+CROSS APPLY GetArrayElements(items.company_rows) AS company_rowsRecords
+WHERE Company.source = 'saramin_company';
+
+
+SELECT
+    salary_rowsRecords.ArrayValue.company_name as company_name,
+    salary_rowsRecords.ArrayValue.salary_avg as salary_avg,
+    salary_rowsRecords.ArrayValue.salary_min as salary_min,
+    salary_rowsRecords.ArrayValue.salary_max as salary_max,
+    salary_rowsRecords.ArrayValue.salary_yoy_change as salary_yoy_change,
+    salary_rowsRecords.ArrayValue.salary_info_reliability as salary_info_reliability,
+    salary_rowsRecords.ArrayValue.salary_2022_avg as salary_2022_avg,
+    salary_rowsRecords.ArrayValue.salary_2022_min as salary_2022_min,
+    salary_rowsRecords.ArrayValue.salary_2022_max as salary_2022_max,
+    salary_rowsRecords.ArrayValue.salary_2023_avg as salary_2023_avg,
+    salary_rowsRecords.ArrayValue.salary_2023_min as salary_2023_min,
+    salary_rowsRecords.ArrayValue.salary_2023_max as salary_2023_max,
+    salary_rowsRecords.ArrayValue.salary_2024_avg as salary_2024_avg,
+    salary_rowsRecords.ArrayValue.salary_2024_min as salary_2024_min,
+    salary_rowsRecords.ArrayValue.salary_2024_max as salary_2024_max,
+    salary_rowsRecords.ArrayValue.salary_2022_avg_industry as salary_2022_avg_industry,
+    salary_rowsRecords.ArrayValue.salary_2023_avg_industry as salary_2023_avg_industry,
+    salary_rowsRecords.ArrayValue.salary_2024_avg_industry as salary_2024_avg_industry,
+    salary_rowsRecords.ArrayValue.starting_salary_bachelors_avg as starting_salary_bachelors_avg,
+    salary_rowsRecords.ArrayValue.starting_salary_bachelors_yoy_change as starting_salary_bachelors_yoy_change,
+    salary_rowsRecords.ArrayValue.starting_salary_bachelors_2022_avg as starting_salary_bachelors_2022_avg,
+    salary_rowsRecords.ArrayValue.starting_salary_bachelors_2023_avg as starting_salary_bachelors_2023_avg,
+    salary_rowsRecords.ArrayValue.starting_salary_bachelors_2024_avg as starting_salary_bachelors_2024_avg,
+    salary_rowsRecords.ArrayValue.starting_salary_bachelors_estimated_monthly_takehome as starting_salary_bachelors_estimated_monthly_takehome,
+    salary_rowsRecords.ArrayValue.salary_staff_high_school_avg as salary_staff_high_school_avg,
+    salary_rowsRecords.ArrayValue.salary_staff_high_school_min as salary_staff_high_school_min,
+    salary_rowsRecords.ArrayValue.salary_staff_high_school_max as salary_staff_high_school_max,
+    salary_rowsRecords.ArrayValue.salary_staff_associates_avg as salary_staff_associates_avg,
+    salary_rowsRecords.ArrayValue.salary_staff_associates_min as salary_staff_associates_min,
+    salary_rowsRecords.ArrayValue.salary_staff_associates_max as salary_staff_associates_max,
+    salary_rowsRecords.ArrayValue.salary_staff_bachelors_avg as salary_staff_bachelors_avg,
+    salary_rowsRecords.ArrayValue.salary_staff_bachelors_min as salary_staff_bachelors_min,
+    salary_rowsRecords.ArrayValue.salary_staff_bachelors_max as salary_staff_bachelors_max,
+    salary_rowsRecords.ArrayValue.salary_junior_mgr_avg as salary_junior_mgr_avg,
+    salary_rowsRecords.ArrayValue.salary_junior_mgr_min as salary_junior_mgr_min,
+    salary_rowsRecords.ArrayValue.salary_junior_mgr_max as salary_junior_mgr_max,
+    salary_rowsRecords.ArrayValue.salary_deputy_mgr_avg as salary_deputy_mgr_avg,
+    salary_rowsRecords.ArrayValue.salary_deputy_mgr_min as salary_deputy_mgr_min,
+    salary_rowsRecords.ArrayValue.salary_deputy_mgr_max as salary_deputy_mgr_max,
+    salary_rowsRecords.ArrayValue.salary_section_chief_avg as salary_section_chief_avg,
+    salary_rowsRecords.ArrayValue.salary_section_chief_min as salary_section_chief_min,
+    salary_rowsRecords.ArrayValue.salary_section_chief_max as salary_section_chief_max,
+    salary_rowsRecords.ArrayValue.salary_deputy_section_chief_avg as salary_deputy_section_chief_avg,
+    salary_rowsRecords.ArrayValue.salary_deputy_section_chief_min as salary_deputy_section_chief_min,
+    salary_rowsRecords.ArrayValue.salary_deputy_section_chief_max as salary_deputy_section_chief_max,
+    salary_rowsRecords.ArrayValue.salary_department_head_avg as salary_department_head_avg,
+    salary_rowsRecords.ArrayValue.salary_department_head_min as salary_department_head_min,
+    salary_rowsRecords.ArrayValue.salary_department_head_max as salary_department_head_max,
+    salary_rowsRecords.ArrayValue.salary_by_age_2022_json as salary_by_age_2022_json,
+    salary_rowsRecords.ArrayValue.salary_by_age_2023_json as salary_by_age_2023_json,
+    salary_rowsRecords.ArrayValue.salary_by_age_2024_json as salary_by_age_2024_json,
+    salary_rowsRecords.ArrayValue.company_salary_url_saramin as company_salary_url_saramin,
+    salary_rowsRecords.ArrayValue.saramin_company_salary_collection_time as saramin_company_salary_collection_time
+INTO [postgres-saramin-company-salary]
+FROM [saramin-eventhub] AS Salary
+CROSS APPLY GetArrayElements(items.salary_rows) AS salary_rowsRecords
+WHERE Salary.source = 'saramin_salary';
