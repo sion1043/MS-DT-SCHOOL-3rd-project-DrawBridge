@@ -1,0 +1,33 @@
+{
+  "Source": "Cosmos-nosql",
+  "Sink": "JSON",
+
+  "SourceSettings": {
+    "ConnectionString": "AccountEndpoint=https://jobskill-cosmosdb.documents.azure.com:443/;AccountKey=<PRIMARY_KEY>;",
+    "Database": "jumpit_skills",
+    "EnableCrossPartition": true,
+    "DegreeOfParallelism": 8,
+    "PageSize": 1000
+  },
+
+  "SinkSettings": {
+    "JsonFormat": "NewLineDelimited",
+    "Compression": "None",
+    "Append": false
+  },
+
+  "Operations": [
+    {
+      "SourceSettings": { "Container": "skill_info", "Query": "SELECT * FROM c" },
+      "SinkSettings":   { "FilePath": "C:\\cosmos\\skill_info.ndjson" }
+    },
+    {
+      "SourceSettings": { "Container": "skill_answers", "Query": "SELECT * FROM c" },
+      "SinkSettings":   { "FilePath": "C:\\cosmos\\skill_answers.ndjson" }
+    },
+    {
+      "SourceSettings": { "Container": "skill_questions", "Query": "SELECT * FROM c" },
+      "SinkSettings":   { "FilePath": "C:\\cosmos\\skill_questions.ndjson" }
+    }
+  ]
+}
