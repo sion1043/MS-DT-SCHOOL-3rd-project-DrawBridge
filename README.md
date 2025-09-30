@@ -28,7 +28,7 @@ Microsoft Data School 3차 프로젝트, **DrawBridge** 저장소입니다.
 │       └── gold             # 브릭스 골드 데이터
 │
 ├── src                      # 전체 코드
-│   ├── PostgreSQL           # PostgreSQL 쿼리
+│   ├── PostgreSQL           # (참고용) PostgreSQL 쿼리
 │   │   ├── table definition # 테이블 정의 쿼리
 │   │   └── gold             # 골드 테이블 생성 쿼리
 │   ├── Databricks           # Databricks Notebook 소스
