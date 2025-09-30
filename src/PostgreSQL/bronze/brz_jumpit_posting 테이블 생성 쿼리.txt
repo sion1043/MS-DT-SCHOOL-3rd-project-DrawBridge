@@ -1,0 +1,22 @@
+CREATE TABLE bronze.brz_jumpit_posting(
+posting_title TEXT,
+company_name TEXT,
+hiring_bonus TEXT,
+posting_tech_stack TEXT,
+responsibilities TEXT,
+minimum_qualifications TEXT,
+preferred_qualifications TEXT,
+posting_benefits TEXT,
+hiring_process TEXT,
+experience TEXT,
+education TEXT,
+end_date TEXT,
+work_location TEXT,
+posting_url TEXT,
+posting_id FLOAT NOT NULL,
+company_url_jumpit TEXT,
+job_category INT,
+jumpit_posting_collection_time TIMESTAMPTZ NOT NULL,
+
+PRIMARY KEY (posting_id, jumpit_posting_collection_time)
+);
