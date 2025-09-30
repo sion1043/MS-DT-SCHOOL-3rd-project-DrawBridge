@@ -1,0 +1,13 @@
+SELECT *
+FROM bronze.brz_hf_meta
+WHERE likes > 1000
+	AND downloads > 1000
+
+
+likes > 10 : 16031
+likes > 30 : 6724
+likes > 100: 2285
+likes > 100 AND downloads > 100 : 1900
+likes > 300 AND downloads > 300 : 1027
+likes > 500 AND downloads > 500 : 380
+likes > 1000 AND downloads > 1000 : 145
