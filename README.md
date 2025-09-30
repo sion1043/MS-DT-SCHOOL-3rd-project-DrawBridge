@@ -63,7 +63,7 @@ Microsoft Data School 3차 프로젝트, **DrawBridge** 저장소입니다.
 │   ├── daily_report         # 데일리 리포트
 │   ├── proposal_paper       # 프로젝트 제안서
 │   ├── table_definition     # 테이블 명세서
-│   ├── feature_definition     # 테이블 명세서
+│   ├── feature_definition   # 테이블 명세서
 │   └── PPT                  # 발표 자료
 │
 ```
