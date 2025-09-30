@@ -1,18 +1,3 @@
-CREATE TABLE gold.gld_employee_careerpit_tech_stack_reqs (
-	posting_tech_stack_one TEXT,
-	job_category_kor_one TEXT,
-	require_experience_single_year DOUBLE PRECISION,
-	exp_min	DOUBLE PRECISION,
-	exp_max	DOUBLE PRECISION,
-	require_experience_role TEXT,
-	require_experience_band_kr TEXT,
-	posting_start_month_key TEXT,
-	posting_count_s  DOUBLE PRECISION,
-	posting_share_s DOUBLE PRECISION,
-	PRIMARY KEY (posting_tech_stack_one, require_experience_single_year)
-);
-
-
 COMMENT ON TABLE gold.gld_employee_careerpit_tech_stack_reqs IS '구직자 - 커리어핏 - 연차별 기술스택 요구도';
 COMMENT ON COLUMN gold.gld_employee_careerpit_tech_stack_reqs.posting_tech_stack_one IS '요구 기술스택 단일값';
 COMMENT ON COLUMN gold.gld_employee_careerpit_tech_stack_reqs.job_category_kor_one IS '직무 카테고리 대표값';
