@@ -1,0 +1,382 @@
+jcompany_name,scompany_name,company_name_clean,company_tech_stack,company_keywords_jumpit,company_type,industry
+오픈엣지테크놀로지,오픈엣지테크놀로지(주),오픈엣지테크놀로지,C++;C;EDA;PyTorch;Linux;JavaScript;Verilog;ES6;Perl;Python;TensorFlow,2호선 역세권 기업;점심지원,중소기업;주식회사;병역특례 인증업체,시스템ㆍ응용 소프트웨어 개발 및 공급업
+유아이엠디,(주)유아이엠디,유아이엠디,AI/인공지능;C++;C;PyTorch;SW;OpenCV;DeepLearning;Python;TensorFlow,급성장중;매출액 150% 급성장;재택근무;5호선 역세권 기업;점심지원;매출액 20% 지속성장,중소기업,시스템 소프트웨어 개발 및 공급업
+파인더갭,파인더갭(주),파인더갭,CSS 3;Cloud Foundry;GitHub;WebAssembly;Node.js;CISA;Bugcrowd;JSON-RPC;TypeScript;Solidity;JavaScript;SQLite;CISSP;Embedded;ARM,"",중소기업,""
+글로벌시스템스,(주)글로벌시스템스,글로벌시스템스,yolo;AI/인공지능;C++;PyTorch;C;DeepLearning;PyQt;Python,자유로운 연차;프리한 복장;점심지원,중소기업,방송장비 제조업
+슈프리마,(주)슈프리마,슈프리마,RTOS;C++;C;Embedded Linux;Embedded;ARM;Android OS,주거복지;슈프리마에이치큐 계열사;코스닥;수인분당선 역세권 기업,중소기업;코스닥;주식회사,유선 통신장비 제조업
+쏠리드윈텍,(주)쏠리드윈텍,쏠리드윈텍,FPGA,"매출액 500억 기업;쏠리드 계열사;수인분당선 역세권 기업;평균연봉 6,000 이상",중소기업,기타 무선 통신장비 제조업
+팀블랙버드,팀블랙버드(주),팀블랙버드,Matplotlib;Google Analytics;Blockchain;GraphQL;NumPy;SQL;ethernet;Git;Google BigQuery;Jupyter;Amazon Athena;DataTables;Python,"평균연봉 상위 10%;육아휴직;급성장중;2호선 역세권 기업;시리즈A 투자유치;평균연봉 7,000 이상",중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+페이타랩,(주)페이타랩,페이타랩,C#;AngularJS;Firebase;Java;C++;Sass;Visual Studio;Windows;iOS;WPF;Jenkins;QA;Git;Docker;Slack;NGINX;JavaScript;.NET;Swift;Zeplin;AWS;Android OS;Python,시리즈B 투자유치;스타트업;급성장중,스타트업;중소기업;주식회사;병역특례 인증업체,시스템 소프트웨어 개발 및 공급업
+크레스콤,(주)크레스콤,크레스콤,AI/인공지능;PyTorch;Linux;Docker;DeepLearning;Python,급성장중;수인분당선 역세권 기업,중소기업;주식회사;수출입 기업,그 외 기타 정보 서비스업
+모비루스,(주)모비루스,모비루스,AI/인공지능;C++;C;PyTorch;Qt;SW;GitHub;Embedded Linux;Keras;MCU;Python;TensorFlow,"주거복지;매출액 100억 기업;급성장중;유연근무제;평균연봉 6,000 이상",중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+빌드코퍼레이션,(주)빌드코퍼레이션,빌드코퍼레이션,Framer;Vercel;Figma;GitHub;TailwindCSS;Recoil;Next.js;Pulumi;NestJS;Linear,점심지원,중소기업,그 외 기타 정보 서비스업
+이마고웍스,이마고웍스(주),이마고웍스,C;CMake;PostgreSQL;Spring Boot;Windows;QA;TypeScript;AZURE;PyTorch;Docker;Terraform;Confluence;MySQL;JavaScript;Embedded;AWS;Python;TensorFlow;WebGL;Java;C++;OpenGL;React;SQL;Figma;Git;Linux;OpenCV;HTML5;MongoDB;Webpack;Kubernetes,"시리즈C 투자유치;연봉상승률 15% 이상;급성장중;자유로운 연차;3호선 역세권 기업;점심지원;평균연봉 6,000 이상",중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+이노버스,(주)이노버스,이노버스,Firebase;Git;Flutter;AWS,급성장중;유연근무제;성과급/상여금,중소기업;병역특례 인증업체,그 외 기타 일반목적용 기계 제조업
+큐어스트림,큐어스트림(주),큐어스트림,REST API;SW;Redux;Flutter;Android SDK;iOS;React;Android OS,"평균연봉 상위 10%;연봉상승률 20% 이상;평균연봉 7,000 이상",중소기업,""
+엑소시스템즈,(주)엑소시스템즈,엑소시스템즈,Firebase;C++;C;SW;FPGA;R Language;Windows;SQL;Kotlin;Git;PyTorch;Linux;Docker;Network;MySQL;Pandas;Embedded;AWS;Android OS;Python;TensorFlow,스타트업;급성장중;자유로운 연차;휴가비 지원;시리즈A 투자유치,스타트업;중소기업;주식회사;병역특례 인증업체;수출입 기업,전기식 진단 및 요법 기기 제조업
+에피소든,(주)에피소든,에피소든,Java;PostgreSQL;Next.js;React;Kotlin;TypeScript;Terraform;Docker;JavaScript;React Native;NestJS;Kubernetes;WebRTC,"연봉상승률 30% 이상;9호선 역세권 기업;평균연봉 6,000 이상",중소기업;외국인 투자기업;주식회사,기타 정보 서비스업
+코닉글로리,(주)코닉글로리,코닉글로리,TypeScript;C#;C++;Linux;Network,자유로운 연차;7호선 역세권 기업;매출액 20% 지속성장,중소기업,응용 소프트웨어 개발 및 공급업
+혜성테크윈,(주)혜성테크윈,혜성테크윈,Linux;Windows Server;Network;TCP/IP;Embedded;Ccna;Ccnp,영업이익 20% 지속성장;급성장중;점심지원;영업이익 150% 급성장,중소기업;주식회사,유선 통신장비 제조업
+콜로세움코퍼레이션,(주)콜로세움코퍼레이션,콜로세움코퍼레이션,Infra;Spring Boot;Next.js;TypeScript;QA;AZURE;Shell;Storybook;Confluence;MySQL;JavaScript;Emotion;Ruby;AWS;Spring Batch;Spring Data JPA;Python;Java;QueryDSL;Perl;React;Jira;Kotlin;jQuery;Git;Slack;GCP;HTML5;Gradle;Mybatis;Amazon RDS,급성장중;자유로운 연차;매출액 150% 급성장;휴가비 지원;2호선 역세권 기업;아기 유니콘;유연근무제;점심지원;매출액 20% 지속성장;성과급/상여금;예비 유니콘;시리즈B 투자유치;연봉상승률 10% 이상;매출액 100억 기업,중소기업,기타 보관 및 창고업
+설텍,(주)설텍,설텍,RTOS;C++;C;Qt;SW;FPGA;Pads;Autocad;Embedded Linux;OpenGL;Fusion 360;Mfc;Orcad;MATLAB;PCB;HW;ethernet;Verilog;Solidworks;Embedded;MCU,매출액 100억 기업;장기근속 포상;성과급/상여금,중소기업;주식회사;연구소;병역특례 인증업체;수출입 기업,에너지 저장장치 제조업
+제이브이엠,(주)제이브이엠,제이브이엠,C#;Microsoft SQL Server;Blazor;WCF;WPF;Python,"연봉상승률 10% 이상;주거복지;장기근속 포상;한미사이언스 계열사;코스닥;점심지원;평균연봉 6,000 이상","","용기 세척, 포장 및 충전기 제조업"
+아세아텍,(주)아세아텍,아세아텍,FW;C;HW,"코스닥;휴가비 지원;점심지원;평균연봉 6,000 이상","",농업 및 임업용 기계 제조업
+토모큐브,(주)토모큐브,토모큐브,CUDA;C#;C++;SW;Linux;Docker;3D Rendering;GUI;Azure Application Insights;MATLAB,"스타트업;시리즈C 투자유치;급성장중;코스닥;휴가비 지원;성과급/상여금;평균연봉 6,000 이상",스타트업;중소기업;코스닥;주식회사;외부감사법인;병역특례 인증업체;수출입 기업,기타 광학기기 제조업
+러닝포인트,(주)러닝포인트,러닝포인트,Firebase;React Canvas;Node.js;iOS;React;Kotlin;AZURE;Swagger UI;Git;Figma;Socket.IO;Sequelize;Swift;AWS;Android OS;ExpressJS,급성장중;1호선 역세권 기업;유연근무제,중소기업;주식회사,그 외 기타 스포츠 서비스업
+엘리스그룹,(주)엘리스그룹,엘리스그룹,AI/인공지능;ISMS;VPN;Network;MachineLearning;IPS,2호선 역세권 기업,중소기업;주식회사;병역특례 인증업체,""
+비글즈,(주)비글즈,비글즈,TypeScript;REST API;Java;Docker;JavaScript;Spring Boot;Next.js;React,급성장중;프리한 복장;유연근무제;간식 제공;성과급/상여금,중소기업;주식회사,포털 및 기타 인터넷 정보매개 서비스업
+브이피피랩,(주)브이피피랩,브이피피랩,Java;CSS 3;GitHub;Next.js;React;TypeScript;REST API;Vue.js;Git;React D3 Library;HTML5;AWS;Python,급성장중;패밀리데이;유연근무제;점심지원;매출액 20% 지속성장;간식 제공,중소기업,기타 정보기술 및 컴퓨터운영 관련 서비스업
+(주)트래딧,(주)트래딧,트래딧,FW;SW;Embedded,연봉상승률 20% 이상;매출액 100억 기업;9호선 역세권 기업;유연근무제;점심지원;성과급/상여금,중소기업;주식회사;사단법인;수출입 기업,절삭가공 및 유사처리업
+에이아이웍스,(주)에이아이웍스,에이아이웍스,Docker Cloud;C#;AI/인공지능;C;GitHub;DeepLearning;Laravel;QA;Shell;PyTorch;NLP;Docker;Confluence;Semantic UI React;MySQL;3D Rendering;JavaScript;PHP;TCP/IP;Selenium;TensorFlow;Python;C++;Appium;Jira;Vue.js;Git;Slack;Django;BigData;Transformers;Keras;Etl;Kubernetes,시리즈B 투자유치;스타트업;급성장중;장기근속 포상;자유로운 연차;아기 유니콘,스타트업;중소기업;주식회사;병역특례 인증업체,응용 소프트웨어 개발 및 공급업
+아타드,아타드(주),아타드,Golang;Amazon EC2;AI/인공지능;DeepLearning;Next.js;Npl;MachineLearning;TypeScript;AZURE;Solidity;Docker;Terraform;MySQL;JavaScript;Objective-C;Oracle;AWS;Azure DevOps;ExpressJS;Flask;Java;C lang;MariaDB;Node.js;React;SQL;Git;Slack;GCP;Swift;React Native;Android OS;Kubernetes;WebRTC,자유로운 연차;매출액 150% 급성장;유연근무제;매출액 20% 지속성장,중소기업,응용 소프트웨어 개발 및 공급업
+미조리장갑,미조리장갑(주),미조리장갑,SW;Linux;React Router;Embedded,점심지원,중소기업,""
+이투비비,(주)이투비비,이투비비,Git;MCU;Python,급성장중;1호선 역세권 기업;성과급/상여금,중소기업;주식회사;연구소,그 외 기타 전자부품 제조업
+블링크큐벡스핀,블링크큐벡스핀,블링크큐벡스핀,C#;Java;CSS 3;Figma;jQuery;JavaScript;HTML5;PHP,장기근속 포상;프리한 복장;1호선 역세권 기업,"",쇼핑몰·오픈마켓
+에스티씨랩,주식회사 에스티씨랩,에스티씨랩,Golang;RDB;GitHub;K8S;Go;Redis;OLAP;Datadog;AWS,"연봉상승률 15% 이상;급성장중;아기 유니콘;유연근무제;시리즈A 투자유치;평균연봉 6,000 이상","",""
+혜연전자,혜연전자(주),혜연전자,C++;C;Git;RF;Pads;Zephyr;MCU;PCB;Bootsnap;HW,프리한 복장;점심지원,중소기업;주식회사,연성 및 기타 인쇄회로기판 제조업
+허드슨에이아이,(주)허드슨에이아이,허드슨에이아이,TypeScript;Java;NoSql;Docker;Flutter;MongoDB;iOS;Android OS;React;Python;REST API;PyTorch;Timber.io,"매출액 150% 급성장;점심지원;매출액 20% 지속성장;평균연봉 6,000 이상",중소기업,응용 소프트웨어 개발 및 공급업
+맥스인포텍,(주)맥스인포텍,맥스인포텍,CSS 3;Deta Cloud;Infra;Node.js;Spring;AZURE;ISMS;JavaScript;HTML5;CISSP;CloudFlare;AWS;Azure DevOps,8호선 역세권 기업;유연근무제,중소기업;주식회사,"컴퓨터 및 주변장치, 소프트웨어 도매업"
+트리플콤마,트리플콤마(주),트리플콤마,Java;RDB;REST API;MySQL;Spring Security;WebSocket,"연봉상승률 10% 이상;평균연봉 상위 10%;주거복지;매출액 100억 기업;재택근무;유연근무제;매출액 20% 지속성장;평균연봉 7,000 이상","",모바일 게임 소프트웨어 개발 및 공급업
+데이터메이커,(주)데이터메이커,데이터메이커,Golang;AngularJS;scikit-learn;Babel;GitHub;PostgreSQL;ES6;three.js;REST API;Shell;PyTorch;GitHub Actions;Docker;Terraform;Django REST framework;JavaScript;MySQL;Oracle;Python;Ubuntu;CSS 3;Rust;Argo;Redis;Nuxt.js;Node.js;Spring;Pulumi;React;Rails;Vue.js;Git;Linux;Django;TailwindCSS;Ansible;HTML5;Keras;GoLand;Webpack;Kubernetes,급성장중;휴가비 지원;프리한 복장;재택근무;유연근무제;성과급/상여금,중소기업,전기ㆍ전자공학 연구개발업
+폴라리스쓰리디,(주)폴라리스쓰리디,폴라리스쓰리디,MQTT;RTOS;AI/인공지능;C;MVVM;PostgreSQL;ES6;Spring Boot;Debian;Docker;NGINX;MySQL;TCP/IP;Flutter;AWS;Python;TensorFlow;Ubuntu;C++;Vite;React;Vue.js;Linux;Zustand;Kubernetes,연봉상승률 10% 이상;급성장중;자유로운 연차;유연근무제,중소기업;주식회사;병역특례 인증업체,"기타 측정, 시험, 항해, 제어 및 정밀기기 제조업"
+와이톤,(주)와이톤,와이톤,Java;CSS 3;Shopify;React;SQL;REST API;Vue.js;Git;Figma;Django;HTML5;PHP;FastAPI;AWS;Python,7호선 역세권 기업;유연근무제,중소기업;주식회사,광고 대행업
+모멘티어테크놀로지스,(주)모멘티어테크놀로지스,모멘티어테크놀로지스,AI/인공지능;NLP;GCP;DeepLearning;MachineLearning;AWS;Python,5호선 역세권 기업;유연근무제,중소기업,응용 소프트웨어 개발 및 공급업
+뷰런테크놀로지,(주)뷰런테크놀로지,뷰런테크놀로지,C++;C;Appium;DeepLearning;MATLAB;gRPC;Protobuf;QA;TypeScript;Vue.js;REST API;PyTorch;Linux;JavaScript;TCP/IP;GUI;Selenium;Python;TensorFlow,급성장중;자유로운 연차;2호선 역세권 기업;유연근무제;점심지원;매출액 20% 지속성장;시리즈A 투자유치,중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+포우,포우,포우,C++;SW;OpenCV,점심지원,중소기업,""
+컨두잇,(주)컨두잇,컨두잇,Jenkins;Java;Git;PostgreSQL;JavaScript;PHP;Spring Boot;Node.js;Spring;Ruby,장기근속 포상;매출액 150% 급성장;5호선 역세권 기업;매출액 20% 지속성장,중소기업,포털 및 기타 인터넷 정보매개 서비스업
+인졀미,(주)인졀미,인졀미,IntelliJ IDEA;Git Flow;scikit-learn;PostgreSQL;iOS;Anaconda;notion.so;TypeScript;REST API;Visual Studio Code;NoSql;Flutter;Android Studio;AWS;Python;TensorFlow;Java;Node.js;Kotlin;Git;Linux;Sequelize;Swift;Android SDK;Android OS;Dart,급성장중;재택근무;Seed 투자유치;성과급/상여금,중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+포스로직,(주)포스로직,포스로직,C#;CUDA;C++;AI/인공지능;C;OpenMP;DeepLearning;Visual Studio;MachineLearning,급성장중;2호선 역세권 기업;사내 카페,중소기업;주식회사;사단법인,응용 소프트웨어 개발 및 공급업
+스패로우,(주)스패로우,스패로우,Airflow;C#;PostgreSQL;GitHub;Kafka;RDB;REST API;Docker;Terraform;MySQL;AWS;Spring Data JPA;Python;Java;C++;Scala;JSP;Redis;SQL;Kotlin;Apache Spark;Spring Framework;Spark;DB;Kubernetes,주거복지;매출액 100억 기업;파수 계열사;재택근무;경의선 역세권 기업,중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+에이엠스퀘어,에이엠스퀘어(주),에이엠스퀘어,AI/인공지능;PyTorch;Docker;scikit-learn;MachineLearning;NumPy;Python;TensorFlow,급성장중;영업이익률 20% 이상,중소기업;주식회사,컴퓨터시스템 통합 자문 및 구축 서비스업
+넥스트챕터,(주)넥스트챕터,넥스트챕터,TypeScript;REST API;Vue.js;Linux;Redux;JavaScript;GraphQL;Windows;React,점심지원;시리즈A 투자유치,중소기업,전자상거래 소매업
+이노비즈,(주)이노비즈,이노비즈,C++;SW;Visual C++;MachineLearning,"매출액 500억 기업;급성장중;매출액 150% 급성장;영업이익 150% 급성장;평균연봉 6,000 이상;영업이익률 20% 이상",중소기업;주식회사;외부감사법인;병역특례 인증업체;수출입 기업,반도체 제조용 기계 제조업
+알피니언메디칼시스템,알피니언메디칼시스템(주),알피니언메디칼시스템,C#;C++;C;SW;Windows Server;Visual C++;Windows;WPF;MATLAB;PCB;HW;labview;JavaScript;DICOM;Python,장기근속 포상;자유로운 연차;일진 계열사;점심지원;사내 카페,중소기업;주식회사;병역특례 인증업체;수출입 기업,전기·전자·제어
+유디아이디,(주)유디아이디,유디아이디,Java;jQuery;JavaScript;MySQL;PHP;MongoDB;Laravel;GitLab,스타트업;매출액 100억 기업;장기근속 포상;2호선 역세권 기업;스타트업 인기TOP100,스타트업;중소기업;주식회사;외부감사법인,응용 소프트웨어 개발 및 공급업
+에스디바이오센서,에스디바이오센서(주),에스디바이오센서,REST API;C++;Objective-C;Swift;iOS,"급성장중;수인분당선 역세권 기업;점심지원;코스피;평균연봉 6,000 이상",중견기업;코스피;외국인 투자기업;주식회사;외부감사법인;수출입 기업,전기식 진단 및 요법 기기 제조업
+엔클로니,(주)엔클로니,엔클로니,C#;C++;C;SW;Embedded Linux,매출액 100억 기업;급성장중;7호선 역세권 기업;아기 유니콘,중소기업;주식회사;병역특례 인증업체,"물질 검사, 측정 및 분석기구 제조업"
+엑심베이,(주)엑심베이,엑심베이,Amazon EC2;AI/인공지능;ELK;Amazon S3;AWS CloudFormation;Infra;Next.js;Datadog;QA;REST API;FW;Shell;NoSql;Terraform;Confluence;Percona Server for MySQL;JavaScript;MySQL;Network;Oracle;AWS;Python;Java;Amazon CloudFront;MariaDB;Jira;Refactor.io;ISMS;jQuery;Git;Slack;Linux;AWS WAF;GCP;Apache Aurora;Spring Framework;CentOS;DB;Amazon RDS,연봉상승률 20% 이상;자유로운 연차;프리한 복장;2호선 역세권 기업;유연근무제;워라밸,중소기업;주식회사;병역특례 인증업체,그 외 기타 금융 지원 서비스업
+원익피앤이,(주)원익피앤이,원익피앤이,C#;FW;C;SW;Keras;Embedded;WPF;MCU;Python;TensorFlow;HW,주거복지;장기근속 포상;패밀리데이;원익 계열사;코스닥;매출액 1000억 기업;수인분당선 역세권 기업,중견기업;코스닥,그 외 기타 특수목적용 기계 제조업
+제이엔에스,(주)제이엔에스,제이엔에스,C#;SW,주거복지,중소기업;주식회사;외부감사법인;수출입 기업,반도체 제조용 기계 제조업
+파이,파이(주),파이,C#;C++;Xcode;OpenGL;Mfc;WPF;React;REST API;OpenCV;Objective-C;Flutter;Swift;GUI;Android Studio,급성장중;장기근속 포상;성과급/상여금,중소기업;주식회사;수출입 기업,전기식 진단 및 요법 기기 제조업
+피앤이시스템즈,(주)피앤이시스템즈,피앤이시스템즈,Composer;C++;Rust;C;Kafka;Redis;Node.js;WebSocket;Kotlin;Jetpack;TypeScript;Druid;Elasticsearch;Docker;MySQL;SQLite;GUI;NestJS;Python,"매출액 100억 기업;장기근속 포상;원익 계열사;점심지원;평균연봉 6,000 이상",중소기업;연구소;수출입 기업,기타 전기 변환장치 제조업
+유버,유버 주식회사,유버,Pads;SMPS;Orcad;PCB;HW,스타트업;급성장중;장기근속 포상;점심지원,스타트업;외국 법인기업;주식회사;연구소;병역특례 인증업체;수출입 기업,""
+포유디지탈,(주)포유디지탈,포유디지탈,FW;Ccie;Switch;L2;L3;Ccnp;HW,매출액 100억 기업;육아휴직;급성장중;자유로운 연차;점심지원;성과급/상여금;사내 카페,중소기업;주식회사;병역특례 인증업체,컴퓨터 제조업
+프로게이트테크놀로지,(주)프로게이트테크놀로지,프로게이트테크놀로지,C;Linux;iOS;Android OS,수인분당선 역세권 기업;간식 제공;영업이익률 20% 이상,중소기업,전기용 기계ㆍ장비 및 관련 기자재 도매업
+라닉스,(주)라닉스,라닉스,C++;Linux;FPGA;Embedded Linux;ARM,"장기근속 포상;코스닥;7호선 역세권 기업;유연근무제;사내 카페;평균연봉 6,000 이상",중소기업;코스닥;주식회사,비메모리용 및 기타 전자집적회로 제조업
+지니언스,지니언스(주),지니언스,AngularJS;C;GitHub;Linux Mint;Kafka;Testrail;ES6;Spark Framework;Next.js;Laravel;QA;ScriptRock;VPN;JavaScript;PHP;PowerShell;CSS 3;C++;Travis CI;Jira;React;OpenSSL;Git;jQuery;Linux;HTML5;Webpack,"패밀리데이;코스닥;4호선 역세권 기업;유연근무제;사내 카페;평균연봉 6,000 이상",중소기업;코스닥;주식회사;외부감사법인;병역특례 인증업체;수출입 기업,응용 소프트웨어 개발 및 공급업
+라온피플,라온피플(주),라온피플,RDB;NoSql;MySQL;Kafka;Redis;MongoDB;Python,스타트업;장기근속 포상;코스닥;유연근무제;점심지원;간식 제공,스타트업;중소기업;코스닥;주식회사;외부감사법인;연구소;병역특례 인증업체;수출입 기업,응용 소프트웨어 개발 및 공급업
+브릭,(주)브릭,브릭,Jenkins;TypeScript;Java;Git;Linux;Docker;Eclipse;JavaScript;Oracle;Spring;React,장기근속 포상;점심지원,중소기업;주식회사;수출입 기업,""
+노아시스템즈,(주)노아시스템즈,노아시스템즈,Java;C++;ApexCharts;C;IntelliJ IDEA;Spring Boot;Spring;React;Utm;TypeScript;REST API;Shell;Visual Studio Code;Swagger UI;Git;Linux;JavaScript;TCP/IP;GUI;Spring Security,"평균연봉 상위 10%;연봉상승률 15% 이상;급성장중;2호선 역세권 기업;유연근무제;평균연봉 7,000 이상;영업이익률 20% 이상",중소기업,시스템 소프트웨어 개발 및 공급업
+야나두,(주)야나두,야나두,Java;MSA;Node.js;Spring;Spring Data JPA;Kotlin;TypeORM,"카카오 계열사;평균연봉 6,000 이상",기타;주식회사,온라인 교육 학원
+아이디에스앤트러스트,(주)아이디에스앤트러스트,아이디에스앤트러스트,C#;ERP;SAP;Babel;Next.js;ABAP;TypeScript;NoSql;JavaScript;MySQL;Oracle;Python;Java;CSS 3;Node.js;Spring;MSSQL;Vite;React;Kotlin;SQL;DB2;Django;HTML5;Spring Framework;Webpack,"대웅 계열사;9호선 역세권 기업;점심지원;평균연봉 6,000 이상",중소기업;외부감사법인,응용 소프트웨어 개발 및 공급업
+린컴퍼니,(주)린컴퍼니,린컴퍼니,Java;ERP;Miplatform;Spring;Oracle,매출액 500억 기업;7호선 역세권 기업;영업이익률 20% 이상,"",여자용 겉옷 제조업
+텔코웨어,텔코웨어(주),텔코웨어,Golang;C;SW;Linux;Network;TCP/IP,"평균연봉 상위 10%;주거복지;2호선 역세권 기업;코스피;평균연봉 7,000 이상;사내 카페",중소기업;코스피;주식회사;외부감사법인;연구소;수출입 기업,응용 소프트웨어 개발 및 공급업
+팜클,(주)팜클,팜클,HW,매출액 100억 기업;장기근속 포상;패밀리데이;유연근무제,중소기업;주식회사,화학 살균ㆍ살충제 및 농업용 약제 제조업
+서플러스글로벌,(주)서플러스글로벌,서플러스글로벌,Java;ERP;Git Flow;PostgreSQL;MariaDB;Spring Boot;MSSQL;Spring;Jira;REST API;Elasticsearch;Confluence;MySQL;Oracle;Etl,급성장중;코스닥,중견기업;코스닥;주식회사;수출입 기업,기타 산업용 기계 및 장비 도매업
+한국네트웍스,(주)한국네트웍스,한국네트웍스,SAP;ABAP,주거복지;대기업;매출액 100억 기업;육아휴직;장기근속 포상;한국앤컴퍼니그룹 계열사;경강선 역세권 기업;점심지원,대기업;외부감사법인;수출입 기업,컴퓨터시스템 통합 자문 및 구축 서비스업
+건솔루션,건솔루션(주),건솔루션,C++;AI/인공지능;JSP;MySQL;.NET;MSSQL;Python;SQL,연봉상승률 20% 이상;1호선 역세권 기업;사내 카페,중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+이지스엔터프라이즈,이지스엔터프라이즈(주),이지스엔터프라이즈,Jenkins;Java;Git;Confluence;MySQL;Spring Framework;Amazon Aurora;Spring Boot;Oracle;Jira;AWS,"평균연봉 상위 10%;매출액 100억 기업;육아휴직;장기근속 포상;1호선 역세권 기업;점심지원;평균연봉 7,000 이상;영업이익률 20% 이상",중견기업;외부감사법인,그 외 기타 금융 지원 서비스업
+위드네트웍스,(주)위드네트웍스,위드네트웍스,FortiGate NGFW;Java;Vue.js;Docker;Linux;Network;JavaScript;MongoDB;Spring Boot;Spring;Python,영업이익 20% 지속성장;매출액 100억 기업;육아휴직;장기근속 포상;자유로운 연차;프리한 복장;9호선 역세권 기업;영업이익 150% 급성장;성과급/상여금,중소기업;주식회사;외부감사법인,응용 소프트웨어 개발 및 공급업
+미투온,(주)미투온,미투온,C#;REST API;Git;Unity;Mfc;iOS;Android OS;JavaScript;Next.js;React,주거복지;육아휴직;장기근속 포상;코스닥;프리한 복장;9호선 역세권 기업;사내 카페,중소기업;코스닥;주식회사;사단법인,유선 온라인 게임 소프트웨어 개발 및 공급업
+피플앤드테크놀러지,(주)피플앤드테크놀러지,피플앤드테크놀러지,Ubuntu;NGINX;InfluxDB;Azure App Service;MariaDB;Redis;CentOS;Apache Tomcat;AWS Amplify,시리즈C 투자유치;육아휴직;급성장중;자유로운 연차;프리한 복장;2호선 역세권 기업;유연근무제;워라밸,중소기업;주식회사;외부감사법인,응용 소프트웨어 개발 및 공급업
+이브릿지,(주)이브릿지,이브릿지,REST API;CSS 3;jQuery;MySQL;HTML5;JavaScript;PHP;Node.js;Apache HTTP Server,육아휴직;2호선 역세권 기업,중소기업,광고 대행업
+세기알앤디,(주)세기알앤디,세기알앤디,RF;Pads;HW,"평균연봉 상위 10%;주거복지;인천1호선 역세권 기업;평균연봉 7,000 이상",중소기업;외국인 투자기업;주식회사;연구소;수출입 기업,기타 공학 연구개발업
+111퍼센트,111퍼센트(주),111퍼센트,Infra;Photon;TypeScript;Jenkins;AZURE;Cocos2D-X;Unity;Linux;GCP;GitLab CI;HTML5;Network;TCP/IP;Phaser;AWS;Azure DevOps;Kubernetes,"슈퍼패스트 계열사;매출액 150% 급성장;매출액 1000억 기업;2호선 역세권 기업;점심지원;영업이익 150% 급성장;사내 카페;평균연봉 6,000 이상",중소기업,모바일 게임 소프트웨어 개발 및 공급업
+엠투아이코퍼레이션,(주)엠투아이코퍼레이션,엠투아이코퍼레이션,MQTT;C#;C++;Qt;C;Circuit design;Pads;Embedded Linux;Windows;Zephyr;iOS;Orcad;PCB;Yocto;Linux;Docker;Scope;MES;Embedded;Android OS;MCU;Python;SCADA,"주거복지;육아휴직;장기근속 포상;스마트이노베이션홀딩스 계열사;코스닥;휴가비 지원;4호선 역세권 기업;점심지원;평균연봉 6,000 이상",1000대기업;중소기업;코스닥;주식회사;외부감사법인;수출입 기업,산업처리공정 제어장비 제조업
+덴티움,(주)덴티움,덴티움,C#;C++;ERP;Qt;SW;Pads;DirectX;PostgreSQL;GraphQL;OpenGL;Node.js;Windows;MSSQL;WPF;Orcad;NestJS,신분당선 역세권 기업;코스피;성과급/상여금;사내 카페,중견기업;코스피;주식회사;외부감사법인;병역특례 인증업체;수출입 기업,치과용 기기 제조업
+스트라티오코리아,(주)스트라티오코리아,스트라티오코리아,Embedded;MCU;PCB,스타트업;급성장중;시리즈A 투자유치,스타트업;중소기업;주식회사;병역특례 인증업체;수출입 기업,컴퓨터시스템 통합 자문 및 구축 서비스업
+크레셈,(주)크레셈,크레셈,C#;SW;OpenCV;HALCON;WPF;MachineLearning;PCB,"급성장중;장기근속 포상;자유로운 연차;인천1호선 역세권 기업;평균연봉 6,000 이상",중소기업;주식회사;외부감사법인;수출입 기업,반도체 제조용 기계 제조업
+쿤텍,쿤텍(주),쿤텍,C++;C;SW;Embedded;HW,육아휴직;급성장중;장기근속 포상;프리한 복장;재택근무;점심지원;유연근무제;워라밸,중소기업;주식회사;연구소;병역특례 인증업체,시스템 소프트웨어 개발 및 공급업
+버즈니,(주)버즈니,버즈니,Kafka;Prometheus;Redis;Amazon EKS;Grafana;Jenkins;PyTorch;MySQL;FastAPI;Sentry;MongoDB;Helm;AWS;Python;Kubernetes;TensorFlow,"평균연봉 상위 10%;스타트업;자유로운 연차;2호선 역세권 기업;유연근무제;점심지원;스타트업 인기TOP100;평균연봉 7,000 이상",스타트업;중소기업;연구소;병역특례 인증업체,응용 소프트웨어 개발 및 공급업
+알에프텍,(주)알에프텍,알에프텍,FW;SW;RF;Analog;Genesys;Embedded;Orcad;PCB;HW,급성장중;장기근속 포상;코스닥;점심지원,중견기업;코스닥;주식회사;외부감사법인;수출입 기업,기타 무선 통신장비 제조업
+리트빅,(주)리트빅,리트빅,C++;C;JSP;Embedded Linux;OpenGL;Windows;VSCodium;Azure Application Insights;PyTorch;Linux;OpenCV;Embedded;Android OS;AWS;MCU;Python,"평균연봉 상위 10%;매출액 100억 기업;급성장중;장기근속 포상;평균연봉 7,000 이상",중소기업;주식회사;수출입 기업,전기용 기계ㆍ장비 및 관련 기자재 도매업
+송암시스콤,송암시스콤(주),송암시스콤,MQTT;Java;JSTL;JSP;PostgreSQL;MariaDB;Spring Boot;Node.js;Spring;WebSocket;jQuery;Spring Framework;TCP/IP;Bootstrap;Oracle,연봉상승률 10% 이상;매출액 100억 기업;육아휴직;장기근속 포상;자유로운 연차;휴가비 지원;프리한 복장;점심지원;워라밸;성과급/상여금,"",유선 통신장비 제조업
+인아텍앤코포,인아텍앤코포 (주),인아텍앤코포,C#;MQTT;Java;C++;AI/인공지능;Spring Boot;gRPC;REST API;Git;Linux;OpenCV;ROS;JavaScript;MES;Embedded;Python,장기근속 포상;인천1호선 역세권 기업,"",기계·설비·자동차
+스톤위즈,(주)스톤위즈,스톤위즈,AI/인공지능;SW;AWS IoT Device Management;Network;BigData,프리한 복장;5호선 역세권 기업;간식 제공,중소기업;주식회사,시스템 소프트웨어 개발 및 공급업
+엘아이지시스템,(주)엘아이지시스템,엘아이지시스템,Azure SQL Database;DB;SQL,장기근속 포상;자유로운 연차;엘아이지 계열사;휴가비 지원;매출액 1000억 기업;프리한 복장,중견기업;외부감사법인,응용 소프트웨어 개발 및 공급업
+태하,(주)태하,태하,C#;FW;C++;PLC;MES;Mfc;PCB;SQL,"평균연봉 상위 10%;주거복지;매출액 100억 기업;육아휴직;급성장중;장기근속 포상;휴가비 지원;프리한 복장;유연근무제;점심지원;평균연봉 7,000 이상;성과급/상여금","",산업용 로봇 제조업
+에이디티,(주)에이디티,에이디티,C#;REST API;C++;C;SW;Linux;Visual C++;JavaScript;Mfc,주거복지;매출액 100억 기업;육아휴직;급성장중;장기근속 포상;성과급/상여금,1000대기업;중소기업;외부감사법인;수출입 기업,기기용 자동측정 및 제어장치 제조업
+텔스타,텔스타(주),텔스타,C#;ERP;PLC;JavaScript;MySQL;HTML5;.NET;Bootstrap;TCP/IP;MES,"연봉상승률 15% 이상;주거복지;매출액 100억 기업;급성장중;장기근속 포상;평균연봉 6,000 이상","",기기용 자동측정 및 제어장치 제조업
+미라텍,미라텍(주),미라텍,RTOS;C++;C;Embedded Linux,영업이익 20% 지속성장;급성장중;8호선 역세권 기업;점심지원;매출액 20% 지속성장;영업이익 150% 급성장;영업이익률 20% 이상,중소기업;수출입 기업,기타 자연과학 연구개발업
+이우소프트,(주)이우소프트,이우소프트,Microsoft Office 365;Node.js;React;Jira;TypeScript;NoSql;Confluence;JavaScript;Flutter;Koa;AWS;DB;ExpressJS,"주거복지;장기근속 포상;바텍네트웍스 계열사;점심지원;간식 제공;평균연봉 6,000 이상",중소기업,컴퓨터 프로그래밍 서비스업
+플라잎,(주)플라잎,플라잎,C++;AI/인공지능;PyTorch;C;Linux;ROS;Network;DeepLearning;MachineLearning;Python;TensorFlow,점심지원,중소기업;병역특례 인증업체,시스템 소프트웨어 개발 및 공급업
+이스트에이드,(주)이스트에이드,이스트에이드,Git;Linux;GCP;HTML5;JavaScript;Spring Framework;Spring Boot;iOS;AWS;Python;AAC;MVVM;Coroutine;Kotlin;Flow,육아휴직;이스트소프트 계열사;코스닥;3호선 역세권 기업,중소기업;코스닥;주식회사,포털 및 기타 인터넷 정보매개 서비스업
+바로팜,(주)바로팜,바로팜,CSS 3;AI/인공지능;Vue Native;Seobility;DeepLearning;React;TypeScript;React Query;Vue.js;jQuery;HTML5;JavaScript;Python,"연봉상승률 10% 이상;장기근속 포상;2호선 역세권 기업;아기 유니콘;점심지원;매출액 20% 지속성장;평균연봉 6,000 이상",중소기업;병역특례 인증업체,전자상거래 소매 중개업
+하이테커,(주)하이테커,하이테커,TypeScript;Git;Next.js;React,급성장중;장기근속 포상;2호선 역세권 기업;성과급/상여금,중소기업;주식회사,""
+오래,(주)오래,오래,Google Analytics;PostgreSQL;GitHub;GraphQL;Nuxt.js;Node.js;Asana;notion.so;Kotlin;TypeScript;REST API;Vue.js;Swagger UI;Figma;Docker;Slack;MySQL;Notion;Swift;Zeplin;AWS;ExpressJS,스타트업;급성장중;자유로운 연차;재택근무;유연근무제;영업이익 150% 급성장,스타트업;중소기업;주식회사,컴퓨터시스템 통합 자문 및 구축 서비스업
+엠트리센,(주)엠트리센,엠트리센,C++;Rust;Autocad;Pads;PostgreSQL;Redis;Node.js;Orcad;PCB;HW;Git;Linux;Docker;JavaScript;Solidworks;FastAPI;MCU;Python,"평균연봉 상위 10%;급성장중;자유로운 연차;1호선 역세권 기업;유연근무제;점심지원;평균연봉 6,000 이상",중소기업;주식회사;외부감사법인;수출입 기업,경영 컨설팅업
+이즈파크,(주)이즈파크,이즈파크,C++;.NET,매출액 100억 기업;육아휴직;장기근속 포상;자유로운 연차;영업이익 150% 급성장,중소기업;주식회사;외부감사법인,응용 소프트웨어 개발 및 공급업
+센트비,(주)센트비,센트비,Golang;PostgreSQL;GitHub;Spring Boot;Next.js;CSS Modules;Tableau;gRPC;pnpm;TypeScript;Jotai;Docker;Confluence;Storybook;AWS;Java;Redis;Amazon Aurora;Tailwind CSS;Jira;React;Kotlin;SQL;Google Workspace;Git;Slack;Linux;Amazon Redshift;Spring Framework;Kubernetes,"시리즈B 투자유치;연봉상승률 10% 이상;스타트업;급성장중;5호선 역세권 기업;점심지원;평균연봉 6,000 이상",스타트업;중소기업;주식회사;병역특례 인증업체,그 외 기타 금융 지원 서비스업
+티피씨인터넷,(주)티피씨인터넷,티피씨인터넷,CSS 3;Google Analytics;Google App Engine;Trello;GitHub;Google Cloud Platform;Nuxt.js;Node.js;iOS;Kotlin;Flow;Jenkins;TypeScript;Vue.js;REST API;Slack;HTML5;JavaScript;Swift;Coroutine;Android OS,급성장중;2호선 역세권 기업;간식 제공,중소기업,응용 소프트웨어 개발 및 공급업
+트러스트,(주)트러스트,트러스트,CSS 3;Java;Vue.js;Django;JavaScript;HTML5;Node.js;Spring;React;Python,급성장중;프리한 복장;수인분당선 역세권 기업;워라밸,중소기업;주식회사;연구소,응용 소프트웨어 개발 및 공급업
+서울거래,서울거래(주),서울거래,Java;CSS 3;MVVM;PostgreSQL;Infra;iOS;REST API;RDB;jQuery;Git;Celery;Django;HTML5;JavaScript;Create React Native App;Flutter;AWS;Android OS;Python;Dart,"육아휴직;자유로운 연차;프리한 복장;5호선 역세권 기업;아기 유니콘;워라밸;시리즈A 투자유치;성과급/상여금;평균연봉 6,000 이상",중소기업;주식회사,컴퓨터 프로그래밍 서비스업
+디플래닉스,디플래닉스(주),디플래닉스,Jenkins;Java;PostgreSQL;Argo;MySQL;Redis;Spring Boot;Spring Data JPA;AWS;Mybatis;GitLab,"평균연봉 상위 10%;교보생명보험 계열사;9호선 역세권 기업;평균연봉 7,000 이상",중견기업;주식회사;외부감사법인,자료 처리업
+벳칭,벳칭(주),벳칭,RabbitMQ;TypeScript;REST API;NoSql;Terraform;GraphQL;Go;Kafka;Pulumi;AWS;Amazon RDS;gRPC,연봉상승률 15% 이상;아기 유니콘,중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+나무기술,나무기술(주),나무기술,AZURE;AI/인공지능;VPN;Infra;Prometheus;Istio;Citrix Gateway;MSSQL;AWS;Grafana;DB;Python,육아휴직;장기근속 포상;자유로운 연차;코스닥;9호선 역세권 기업;사내 카페,중소기업;코스닥,응용 소프트웨어 개발 및 공급업
+엔피아이네트웍스,(주)엔피아이네트웍스,엔피아이네트웍스,Java;C,영업이익 20% 지속성장;매출액 150% 급성장;7호선 역세권 기업;매출액 20% 지속성장;영업이익 150% 급성장,중소기업,"컴퓨터 및 주변장치, 소프트웨어 도매업"
+에스디티,에스디티(주),에스디티,C#;C++;C;Linux;Windows;Python,급성장중;패밀리데이;프리한 복장;2호선 역세권 기업;유연근무제,중소기업;주식회사;병역특례 인증업체,전기ㆍ전자공학 연구개발업
+제로,(주)제로,제로,Git;Rust;GitHub;Electron;Network;FastAPI;Windows;IPS;Python;Firewall,자유로운 연차;3호선 역세권 기업;유연근무제,중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+메디플렉서스,(주)메디플렉서스,메디플렉서스,SAP;Linux;PostgreSQL;MySQL;Vertica;MariaDB;Windows;MSSQL;Oracle;SQL,자유로운 연차;간식 제공,중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+코워커넷,(주)코워커넷,코워커넷,CSS 3;REST API;jQuery;Linux;MySQL;HTML5;JavaScript;PHP;MariaDB;Laravel,3호선 역세권 기업;간식 제공,중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+이스트소프트,(주)이스트소프트,이스트소프트,C lang;Microsoft Teams;PostgreSQL;Cassandra;DeepLearning;Spring Boot;Jira;REST API;PyTorch;Docker;FFMPEG;MySQL;Notion;FastAPI;MongoDB;Python;Flask;Kubernetes;TensorFlow,자유로운 연차;코스닥;휴가비 지원;3호선 역세권 기업,"",응용 소프트웨어 개발 및 공급업
+(주)혁산정보시스템,(주)혁산정보시스템,혁산정보시스템,Java;JavaScript;MySQL;JSON;Apache Tomcat;Oracle;MSSQL;React,스타트업;장기근속 포상;간식 제공,스타트업;중소기업;주식회사;외부감사법인,""
+페이앤스토어,(주)페이앤스토어,페이앤스토어,Java;Hibernate;Windows Terminal;Akka HTTP;Windows;Jira;Apache HTTP Server;QA;Slack;JavaScript;Spring Framework;TCP/IP;Spring Data JPA,자유로운 연차;프리한 복장;2호선 역세권 기업;유연근무제,중소기업;주식회사,포털 및 기타 인터넷 정보매개 서비스업
+온블록,(주)온블록,온블록,Golang;Git;Figma;Azure Cosmos DB;GitHub;MySQL;Jira;AWS;Nft;Python;Kubernetes;GitUI,"평균연봉 상위 10%;연봉상승률 20% 이상;자유로운 연차;2호선 역세권 기업;유연근무제;점심지원;평균연봉 7,000 이상",중소기업;외국인 투자기업;주식회사,응용 소프트웨어 개발 및 공급업
+퍼퓸그라피,(주)퍼퓸그라피,퍼퓸그라피,TypeScript;CSS 3;jQuery;Figma;HTML5;JavaScript;PHP;Node.js;Shopify;React,연봉상승률 10% 이상;스타트업;급성장중;자유로운 연차;4호선 역세권 기업;Pre A 투자유치,스타트업;중소기업,"화장품, 비누 및 방향제 소매업"
+피에프씨테크놀로지스,피에프씨테크놀로지스(주),피에프씨테크놀로지스,MVVM;Dagger Hilt;React;Jetpack;Kotlin;REST API;Vue.js;Retrofit;OkHttp;Django;Jetpack Compose;FastAPI;Room;Angular 2;Python,"스타트업;시리즈C 투자유치;매출액 100억 기업;2호선 역세권 기업;점심지원;500억 이상 투자유치;평균연봉 6,000 이상",스타트업;기타;병역특례 인증업체,그 외 기타 금융 지원 서비스업
+아인잡,(주)아인잡,아인잡,Java;CSS 3;GitHub;Redis;Spring Boot;Next.js;Jira;React;TypeScript;REST API;NoSql;Docker;Slack;MySQL;Spring Framework;Notion;MongoDB;AWS;Spring Data JPA;Webpack,급성장중;2호선 역세권 기업;간식 제공,중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+싸이프,(주)싸이프,싸이프,Jenkins;Java;C++;Spring MVC;Git;MySQL;Spring Boot;Oracle;Jira;Python,"평균연봉 상위 10%;연봉상승률 30% 이상;간식 제공;평균연봉 7,000 이상",중소기업;주식회사;외부감사법인;연구소,기타 반도체소자 제조업
+캔랩코리아,(주)캔랩코리아,캔랩코리아,TypeScript;Vue.js;Jasmine;Mocha;React;Jest,3호선 역세권 기업,중소기업,응용 소프트웨어 개발 및 공급업
+채비,채비(주),채비,C#;Java;C;SW;Autocad;Pads;Windows;WPF;Orcad;PCB;HW;FW;Linux;Analog;SMPS;Embedded;Android OS,매출액 500억 기업;자유로운 연차;프리한 복장,중소기업;주식회사;외부감사법인;수출입 기업,기타 전기 변환장치 제조업
+몬드리안에이아이,몬드리안에이아이(주),몬드리안에이아이,Linux;Docker;Terraform;Helm;Kubernetes,급성장중;자유로운 연차;유연근무제;성과급/상여금,중소기업;주식회사;연구소;병역특례 인증업체,시스템 소프트웨어 개발 및 공급업
+리비바이오,(주)리비바이오,리비바이오,Java;PostgreSQL;Go;Redis;Node.js;iOS;Kotlin;TypeScript;Backendless;Git;MySQL;PHP;BigData;MSA;Swift;Android SDK;Android Studio;Etl;Android OS,장기근속 포상;2호선 역세권 기업;유연근무제;점심지원,중소기업,데이터베이스 및 온라인정보 제공업
+에이엠시지,(주)에이엠시지,에이엠시지,C++;Qt;Fastify;Visual C++;DeepLearning;Node.js;MachineLearning;React;NumPy;WebSocket;Protobuf;SQL;FastAPI;GUI;DICOM;MessagePack;Python;ExpressJS,"평균연봉 상위 10%;코넥스;자유로운 연차;2호선 역세권 기업;점심지원;Seed 투자유치;평균연봉 7,000 이상",중소기업;코넥스;주식회사;수출입 기업,그 외 기타 의료용 기기 제조업
+패스트레인,(주)패스트레인,패스트레인,Java;IntelliJ IDEA;GitHub;Redis;Spring Boot;React;Jira;Kotlin;PyTorch;Elasticsearch;Docker;GCP;Confluence;NGINX;PHP;MongoDB;React Native;Gradle;AWS;TensorFlow;Python,"시리즈B 투자유치;평균연봉 상위 10%;영업이익 20% 지속성장;매출액 100억 기업;급성장중;장기근속 포상;2호선 역세권 기업;점심지원;매출액 20% 지속성장;간식 제공;성과급/상여금;평균연봉 6,000 이상",중소기업;주식회사,광고 대행업
+빅웨이브로보틱스,빅웨이브로보틱스(주),빅웨이브로보틱스,TypeScript;Java;JavaScript;Next.js;AWS;React;WebSocket,스타트업;급성장중;2호선 역세권 기업;유연근무제;점심지원,스타트업;주식회사;외부감사법인;병역특례 인증업체,응용 소프트웨어 개발 및 공급업
+이카루스,이카루스,이카루스,C++;SW;HW,"","",기계·설비·자동차
+스마트푸드네트웍스,스마트푸드네트웍스(주),스마트푸드네트웍스,Java;QueryDSL;Next.js;Spring;Jira;SQL;Kotlin;pnpm;React Query;Jotai;TypeScript;R;Git;Confluence;TailwindCSS;AWS;Webpack;Python,"연봉상승률 10% 이상;급성장중;자유로운 연차;3호선 역세권 기업;평균연봉 6,000 이상",중견기업;주식회사,"화물운송 중개, 대리 및 관련 서비스업"
+그리드큐어,(주)그리드큐어,그리드큐어,FPGA;Embedded;Orcad;PCB,프리한 복장,중소기업;주식회사,"그 외 기타 분류 안된 전문, 과학 및 기술 서비스업"
+씨맥스,씨맥스(주),씨맥스,C#;REST API;AI/인공지능;MySQL;.NET;MES;Spring Boot;Oracle;Spring;Python,매출액 150% 급성장;유연근무제;매출액 20% 지속성장,중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+시스트란,(주)시스트란,시스트란,AI/인공지능;PyTorch;NLP;Linux;Docker;K8S;DeepLearning;MachineLearning;Azure DevOps;Python;TensorFlow;Kubernetes,"평균연봉 상위 10%;급성장중;자유로운 연차;프리한 복장;점심지원;워라밸;간식 제공;평균연봉 6,000 이상",중소기업;주식회사;외부감사법인;연구소,응용 소프트웨어 개발 및 공급업
+라텔앤드파트너즈,(주)라텔앤드파트너즈,라텔앤드파트너즈,Java;Amazon EC2;Spring Boot;Apache Tomcat;Windows;Kotlin;Jenkins;Backendless;Linux;Docker;Network;SonarQube;AWS,연봉상승률 10% 이상;영업이익 20% 지속성장;장기근속 포상;3호선 역세권 기업;간식 제공;영업이익 150% 급성장,중소기업,응용 소프트웨어 개발 및 공급업
+에이버튼,(주)에이버튼,에이버튼,OpenProject;Project Reactor;C++;Unreal Engine;Git;Perforce;Unity;Blueprint;AWS Mobile Hub,경강선 역세권 기업;간식 제공;사내 카페,중소기업,응용 소프트웨어 개발 및 공급업
+드림라인,드림라인(주),드림라인,ERP;PostgreSQL;MySQL;Spring Framework;Oracle,대기업 인기TOP100;대기업;아이엠엠 계열사;7호선 역세권 기업;점심지원,대기업;외부감사법인,유선 통신업
+올거나이즈코리아,올거나이즈코리아(주),올거나이즈코리아,CSS 3;AI/인공지능;Babel;GraphQL;React;TypeScript;Backendless;PyTorch;NLP;Git;Docker;Django;JavaScript;HTML5;Keras;Webpack;TensorFlow;Python,"연봉상승률 10% 이상;평균연봉 상위 10%;스타트업;급성장중;2호선 역세권 기업;점심지원;평균연봉 7,000 이상",스타트업,데이터베이스 및 온라인정보 제공업
+제네시스네스트,(주)제네시스네스트,제네시스네스트,Java;REST API;Linux;Solidity;PostgreSQL;Blockchain;MySQL;Spring Framework;Spring;Oracle,영업이익 20% 지속성장;급성장중;매출액 150% 급성장;휴가비 지원;신분당선 역세권 기업;유연근무제;점심지원;매출액 20% 지속성장;영업이익 150% 급성장,중소기업;주식회사;연구소,응용 소프트웨어 개발 및 공급업
+비욘드메디슨,(주)비욘드메디슨,비욘드메디슨,REST API;Rust;Git;Flutter;Spring Boot;Spring;AWS;gRPC;Kotlin,급성장중;매출액 150% 급성장;2호선 역세권 기업;점심지원;매출액 20% 지속성장,중소기업;주식회사;사단법인;연구소,의학 및 약학 연구개발업
+이노케어플러스,(주)이노케어플러스,이노케어플러스,Docker;Pandas;Kafka;AWS;Kubernetes;Python;SQL;CSS 3;REST API;Git;Babel;Redux;HTML5;JavaScript;React;Webpack,2호선 역세권 기업;유연근무제;간식 제공,중소기업,응용 소프트웨어 개발 및 공급업
+엑스페릭스,(주)엑스페릭스,엑스페릭스,C#;Java;C++;PyTorch;Linux;SW;DeepLearning;Windows;Python;TensorFlow,"연봉상승률 10% 이상;주거복지;급성장중;코스닥;평균연봉 6,000 이상",중소기업;코스닥;주식회사,그 외 기타 전자부품 제조업
+삼영기업,(주)삼영기업,삼영기업,Java;JSP;JavaScript;HTML5;MySQL;Nexacro;PHP;Oracle;SQL,"연봉상승률 10% 이상;평균연봉 상위 10%;급성장중;매출액 1000억 기업;9호선 역세권 기업;평균연봉 7,000 이상",중견기업;주식회사,내부 전기배선 공사업
+아이코어,(주)아이코어,아이코어,FW;VHDL;FPGA;Verilog;Embedded;PCB;HW,급성장중;자유로운 연차;휴가비 지원;1호선 역세권 기업;유연근무제;점심지원;시리즈A 투자유치,중소기업;주식회사;수출입 기업,비디오 및 기타 영상기기 제조업
+제논,(주)제논,제논,Java;AI/인공지능;GitHub;Scala;DeepLearning;MachineLearning;Jira;NoSql;NLP;PyTorch;Docker;Linux;Elasticsearch;Django;FastAPI;Spark;Etl;Python;Flask;Kubernetes;TensorFlow,"평균연봉 상위 10%;영업이익 20% 지속성장;3호선 역세권 기업;점심지원;평균연봉 7,000 이상;영업이익 150% 급성장",중소기업;주식회사;병역특례 인증업체,경영 컨설팅업
+비바이노베이션,(주)비바이노베이션,비바이노베이션,scikit-learn;iOS;SQL;Git;PyTorch;NoSql;Celery;Docker;Terraform;Django;MySQL;FastAPI;MongoDB;Swift;AWS;Python;TensorFlow;Kubernetes,시리즈B 투자유치;연봉상승률 15% 이상;급성장중;장기근속 포상;9호선 역세권 기업;점심지원;간식 제공,중소기업;주식회사,시스템 소프트웨어 개발 및 공급업
+디아이,(주)디아이,디아이,C#;VHDL;C++;C;FPGA;Verilog,"연봉상승률 10% 이상;평균연봉 상위 10%;급성장중;7호선 역세권 기업;코스피;평균연봉 7,000 이상",중견기업;코스피;주식회사;외부감사법인;수출입 기업,"전자기 측정, 시험 및 분석기구 제조업"
+유진로봇,(주)유진로봇,유진로봇,C#;Google Analytics;C;PLC;PostgreSQL;TypeScript;RDB;NoSql;JavaScript;Network;MySQL;GUI;Embedded;Java;C++;SW;Node.js;WebSocket;SQL;Git;Linux;Analog;ROS;MES;Microsoft Excel,"연봉상승률 10% 이상;육아휴직;급성장중;장기근속 포상;코스닥;인천1호선 역세권 기업;유연근무제;점심지원;사내 카페;평균연봉 6,000 이상","",산업용 로봇 제조업
+금영제너럴,(주)금영제너럴,금영제너럴,C;SW;HW,매출액 100억 기업;5호선 역세권 기업,중소기업;외부감사법인;연구소;병역특례 인증업체;수출입 기업,승강기 제조업
+소프트넷,(주)소프트넷,소프트넷,Java;Windows Server;Windows;Spring;React;SQL;Azure Synapse;AZURE;Vue.js;REST API;Docker;JavaScript;Azure DevOps;Angular 2,"연봉상승률 10% 이상;평균연봉 상위 10%;스타트업;9호선 역세권 기업;평균연봉 7,000 이상",스타트업;중소기업;주식회사,컴퓨터시스템 통합 자문 및 구축 서비스업
+에스에이티,(주)에스에이티,에스에이티,C#;Java;SW;Mfc;HW;FW;Linux;OpenCV;Spring Framework;TCP/IP;Embedded;MCU;Python,연봉상승률 10% 이상;흥아 계열사;코스닥;1호선 역세권 기업,"",기기용 자동측정 및 제어장치 제조업
+인텔리안테크놀로지스,(주)인텔리안테크놀로지스,인텔리안테크놀로지스,C++;C;Embedded Linux;JsonAPI,"스타트업;연봉상승률 15% 이상;주거복지;급성장중;코스닥;휴가비 지원;간식 제공;평균연봉 6,000 이상",스타트업;중소기업;코스닥;외부감사법인;수출입 기업,기타 무선 통신장비 제조업
+애드크림,(주)애드크림,애드크림,C#;AngularJS;Vue.js;REST API;Classic ASP;ASP.NET;FastAPI;React.js Boilerplate;MSSQL;React;DB;Python,장기근속 포상;프리한 복장;3호선 역세권 기업;점심지원;워라밸;사내 카페;영업이익률 20% 이상,중소기업;주식회사,데이터베이스 및 온라인정보 제공업
+에어키,(주)에어키,에어키,CSS 3;Java;Ccie;Ccna;IPS;jQuery;VPN;HTML5;JavaScript;Network;Cisco;TCP/IP;Ccnp;Ajax;Python,"급성장중;장기근속 포상;자유로운 연차;재택근무;프리한 복장;9호선 역세권 기업;점심지원;워라밸;간식 제공;성과급/상여금;평균연봉 6,000 이상;영업이익 20% 지속성장;매출액 100억 기업",중소기업;주식회사,컴퓨터시스템 통합 자문 및 구축 서비스업
+슈어소프트테크,슈어소프트테크(주),슈어소프트테크,C#;RTOS;Java;C++;AI/인공지능;C;SW;Visual Studio;MATLAB;Kotlin;Linux;Embedded;MCU;Python,스타트업;코스닥;유연근무제,스타트업;중소기업;코스닥;주식회사;병역특례 인증업체,응용 소프트웨어 개발 및 공급업
+필라넷,(주)필라넷,필라넷,TypeScript;AZURE;Git;JavaScript;Node.js;Windows;MSSQL;React;NestJS,스타트업;육아휴직;한일홀딩스 계열사;3호선 역세권 기업;사내 카페,스타트업;중소기업;주식회사;외부감사법인;연구소;병역특례 인증업체,컴퓨터시스템 통합 자문 및 구축 서비스업
+크레버스,(주)크레버스,크레버스,CSS 3;AI/인공지능;PostgreSQL;Node.js;Next.js;gRPC;TypeScript;AZURE;Vue.js;NLP;Git;SCSS;MySQL;HTML5;JavaScript;FastAPI;AWS;Python,급성장중;코스닥;2호선 역세권 기업,중견기업;코스닥;외부감사법인,외국어학원
+사이버다임,(주)사이버다임,사이버다임,Xcode;Redmine;Recoil;Mfc;RDB;JavaScript;MySQL;Oracle;Android Studio;Java;CSS 3;C++;JSP;Redux;Node.js;Visual Studio;Spring;MSSQL;SQL;Jenkins;jQuery;HTML5;Spring Framework;React Native;Webpack,"매출액 100억 기업;자유로운 연차;2호선 역세권 기업;유연근무제;사내 카페;평균연봉 6,000 이상",중소기업;주식회사;외부감사법인;수출입 기업,응용 소프트웨어 개발 및 공급업
+티사이언티픽,(주)티사이언티픽,티사이언티픽,Golang;C++;Docker;Linux;vmware;Python,스타트업;급성장중;제이에스아이홀딩스 계열사;코스닥;1호선 역세권 기업,스타트업;중소기업;코스닥;주식회사;외부감사법인;병역특례 인증업체;수출입 기업,응용 소프트웨어 개발 및 공급업
+판도라티비,(주)판도라티비,판도라티비,Git;Elasticsearch;Django;NGINX;MySQL;Blockchain;Redis;AWS;Python,코넥스;패밀리데이;휴가비 지원;사내 카페,중소기업;코넥스;주식회사,시스템 소프트웨어 개발 및 공급업
+스콥정보통신,스콥정보통신(주),스콥정보통신,C++;Rust;C;LDAP;L2;L3;Go;L4;Git;Linux;Network;TCP/IP;Vault;Python;Kubernetes,"연봉상승률 15% 이상;장기근속 포상;자유로운 연차;휴가비 지원;재택근무;프리한 복장;3호선 역세권 기업;유연근무제;성과급/상여금;사내 카페;평균연봉 6,000 이상",중소기업;수출입 기업,응용 소프트웨어 개발 및 공급업
+에이스웍스코리아,(주)에이스웍스코리아,에이스웍스코리아,C#;RTOS;C++;AI/인공지능;C;SW;Autocad;DeepLearning;MATLAB;Linear;SQL;ethernet;labview;FW;PyTorch;Git;Linux;HTML5;Solidworks;Embedded;MCU;Python,스타트업;매출액 100억 기업;육아휴직;급성장중;장기근속 포상;자유로운 연차;휴가비 지원;2호선 역세권 기업;유연근무제,스타트업;중소기업;주식회사;연구소;병역특례 인증업체;수출입 기업,그 외 자동차용 신품 부품 제조업
+네비웍스,(주)네비웍스,네비웍스,C#;AI/인공지능;C;DeepLearning;Mfc;HW;QA;REST API;Unreal Engine;PyTorch;Confluence;3D Rendering;Solidworks;TCP/IP;GUI;NestJS;ExpressJS;Python;TensorFlow;C++;SW;Autocad;2D Rendering;React;Orcad;Jira;PCB;SQL;Git;Linux,매출액 100억 기업;재택근무;4호선 역세권 기업,중소기업;주식회사;병역특례 인증업체,응용 소프트웨어 개발 및 공급업
+엠로,(주)엠로,엠로,QA;Java;JavaScript;Spring Framework;Python,"평균연봉 상위 10%;장기근속 포상;코스닥;2호선 역세권 기업;성과급/상여금;평균연봉 6,000 이상",중소기업;코스닥;주식회사;외부감사법인;병역특례 인증업체,응용 소프트웨어 개발 및 공급업
+씨브이네트,(주)씨브이네트,씨브이네트,C++;Qt;Linux;SW;Embedded;ARM;Android OS;HW,"평균연봉 상위 10%;대기업;육아휴직;삼성 계열사;8호선 역세권 기업;점심지원;평균연봉 7,000 이상",대기업;외부감사법인,내부 통신배선 공사업
+한싹,(주)한싹,한싹,Linux;Network;DB,매출액 100억 기업;장기근속 포상;코스닥;프리한 복장;유연근무제;점심지원;워라밸;성과급/상여금,중소기업;코스닥;주식회사,응용 소프트웨어 개발 및 공급업
+다우기술,(주)다우기술,다우기술,ERP;C;PostgreSQL;Mfc;Mantis;VPN;JavaScript;MySQL;Objective-C;Oracle;Python;Java;C++;L2;L3;vmware;L4;Redis;MariaDB;Jira;Kotlin;Vue.js;jQuery;Linux;Cisco;Spring Framework;Swift;Mybatis;DB,"평균연봉 상위 10%;주거복지;다우키움 계열사;유연근무제;코스피;평균연봉 7,000 이상",1000대기업;중견기업;코스피;외부감사법인;수출입 기업,포털 및 기타 인터넷 정보매개 서비스업
+숲,(주)숲,숲,TypeScript;REST API;JavaScript;Node.js;NestJS;ExpressJS,"평균연봉 상위 10%;장기근속 포상;코스닥;평균연봉 7,000 이상;성과급/상여금;사내 카페",중견기업;코스닥;외부감사법인;수출입 기업,시스템 소프트웨어 개발 및 공급업
+이너버스,(주)이너버스,이너버스,Shell;SW;Linux;Docker;Elasticsearch;vmware;Kafka;Python,스타트업;육아휴직;장기근속 포상;재택근무;프리한 복장;9호선 역세권 기업;유연근무제;사내 카페,스타트업;중소기업;주식회사,시스템 소프트웨어 개발 및 공급업
+더블미디어,(주)더블미디어,더블미디어,Golang;Vue.js;CSS 3;JavaScript;MySQL;Redis;AWS;React;NestJS,매출액 500억 기업;장기근속 포상;7호선 역세권 기업;점심지원;사내 카페;영업이익률 20% 이상,중소기업,위성 및 기타 방송업
+알비에치,알비에치(주),알비에치,REST API;AI/인공지능;DeepLearning;Flutter;iOS;MachineLearning;Android OS;React;Python,"4호선 역세권 기업;유연근무제;점심지원;워라밸;평균연봉 6,000 이상",중소기업;주식회사;수출입 기업,""
+인피닉,(주)인피닉,인피닉,QA;C;SW;Python,매출액 100억 기업;육아휴직;장기근속 포상;1호선 역세권 기업;Pre IPO 투자유치,중소기업;주식회사;연구소;병역특례 인증업체,응용 소프트웨어 개발 및 공급업
+더블유쇼핑,(주)더블유쇼핑,더블유쇼핑,Java;Thymeleaf;Spring;Oracle;SQL,장기근속 포상;미디어윌홀딩스 계열사;매출액 1000억 기업;2호선 역세권 기업,1000대기업;중견기업;주식회사;외부감사법인,위성 및 기타 방송업
+유비퍼스트대원,(주)유비퍼스트대원,유비퍼스트대원,Java;CSS 3;C++;C;Kafka;Spring Boot;Amazon EKS;iOS;React;Kotlin;Vue.js;Figma;MySQL;Flutter;Oracle;Android OS;OpenAPI;AWS;Microsoft Excel;DB;Python,연봉상승률 15% 이상;포티투닷 계열사;휴가비 지원;점심지원,중소기업,무선 및 위성 통신업
+스카이월드와이드,(주)스카이월드와이드,스카이월드와이드,Java;Adobe XD;PostgreSQL;SQLAlchemy;Next.js;Vite;Jira;React;TypeScript;Jenkins;Git;Figma;GitHub Actions;PyTorch;NLP;Django;JavaScript;Pandas;Notion;FastAPI;Oracle;DB;Python;Flask,급성장중;코스닥;IPO 투자유치;2호선 역세권 기업;점심지원,중소기업;코스닥;주식회사;연구소,응용 소프트웨어 개발 및 공급업
+아일리스프런티어,아일리스프런티어(주),아일리스프런티어,AI/인공지능;Node.js;Next.js;React;SQL;RabbitMQ;NoSql;Figma;Elasticsearch;Django;TailwindCSS;FastAPI;Oracle;Flask;Python,"연봉상승률 10% 이상;평균연봉 상위 10%;자유로운 연차;2호선 역세권 기업;간식 제공;평균연봉 6,000 이상",중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+씨메스,(주)씨메스,씨메스,C#;Airflow;Microsoft Teams;AI/인공지능;C;Qt;Microsoft Office 365;Trello;CMake;ELK;PLC;notion.so;Grafana;gRPC;Utm;HW;Kubeflow;AZURE;NoSql;Debian;Docker;VPN;JavaScript;Notion;TCP/IP;Solidworks;AWS;GitLab;Python;Ubuntu;C++;Autocad;Apache Flink;GraphQL;K8S;Ccna;Jira;React;SQL;Git;Figma;ZeroMQ;Linux;GCP;Ansible;FastAPI;Kubernetes,"시리즈B 투자유치;급성장중;코스닥;7호선 역세권 기업;평균연봉 6,000 이상",중소기업;코스닥;주식회사;외부감사법인;병역특례 인증업체;수출입 기업,그 외 기타 특수목적용 기계 제조업
+코어시큐리티,(주)코어시큐리티,코어시큐리티,ISMS;CISSP;TCP/IP;CISA,급성장중;8호선 역세권 기업;유연근무제;사내 카페,중소기업;병역특례 인증업체,시스템 소프트웨어 개발 및 공급업
+트럼피아,트럼피아(주),트럼피아,Java;Redis;ES6;Spring Boot;Node.js;Apache Tomcat;Jenkins;Vue.js;Backendless;Git;Docker;Linux;NGINX;JavaScript;MySQL;PHP;Oracle;Spring Data JPA;GitLab;ExpressJS;Python,"장기근속 포상;자유로운 연차;2호선 역세권 기업;점심지원;평균연봉 6,000 이상",중소기업;외국인 투자기업;주식회사;수출입 기업,기타 게임 소프트웨어 개발 및 공급업
+어뮤즈랩,(주)어뮤즈랩,어뮤즈랩,TypeScript;Vue.js;Java;CSS 3;REST API;Git;HTML5;Node.js;Spring,급성장중;점심지원;간식 제공;영업이익 150% 급성장,중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+캐스트프로,(주)캐스트프로,캐스트프로,FW;C;Embedded;Android OS;MCU;HW,연봉상승률 10% 이상;매출액 100억 기업;점심지원;간식 제공;성과급/상여금,중소기업;주식회사;연구소;수출입 기업,기타 무선 통신장비 제조업
+포컴퍼니,(주)포컴퍼니,포컴퍼니,AWS Elastic Load Balancing;AWS Device Farm;R Language;AWS CodeBuild;AWS Data Wrangler;AWS;AWS Cloud Development Kit;AWS Amplify,장기근속 포상;9호선 역세권 기업;성과급/상여금,중소기업;주식회사;수출입 기업,화장품 제조업
+에너자이,(주)에너자이,에너자이,C++;AI/인공지능;C;MachineLearning;iOS;React;Kotlin;AZURE;PyTorch;Docker;Linux;Django;Haskell;Keras;AWS;Android OS;Python;Kubernetes;TensorFlow,육아휴직;급성장중;장기근속 포상;점심지원;시리즈A 투자유치,중소기업;병역특례 인증업체,""
+에스피코리아,(주)에스피코리아,에스피코리아,Jenkins;AZURE;Java;Vue.js;NGINX;MySQL;AWS CloudFormation;Node.js;AWS;Kotlin,급성장중;유연근무제;성과급/상여금,중소기업;주식회사;사단법인,광고 영화 및 비디오물 제작업
+에이아이콴텍,(주)에이아이콴텍,에이아이콴텍,Java;MariaDB;Spring Boot;Spring Batch;React,"평균연봉 상위 10%;육아휴직;자유로운 연차;콴텍 계열사;프리한 복장;9호선 역세권 기업;워라밸;평균연봉 7,000 이상;사내 카페",중소기업;주식회사,투자 자문업 및 투자 일임업
+에이아이썸,(주)에이아이썸,에이아이썸,yolo;Kafka;DeepLearning;AIOHTTP;REST API;Git;PyTorch;Celery;GCP;Django;MySQL;FastAPI;Flask;TensorFlow,"스타트업;연봉상승률 15% 이상;급성장중;9호선 역세권 기업;간식 제공;성과급/상여금;사내 카페;평균연봉 6,000 이상",스타트업;중소기업;주식회사;수출입 기업,응용 소프트웨어 개발 및 공급업
+제이엘케이,(주)제이엘케이,제이엘케이,AZURE;ISMS;VPN;CISSP;Infra;CISA;CPPG;AWS;Azure DevOps;Firewall,"평균연봉 상위 10%;스타트업;연봉상승률 30% 이상;코스닥;프리한 복장;IPO 투자유치;점심지원;평균연봉 7,000 이상;사내 카페",스타트업;중소기업;코스닥;주식회사;외부감사법인;연구소;병역특례 인증업체;수출입 기업,응용 소프트웨어 개발 및 공급업
+아이도트,(주)아이도트,아이도트,RTOS;RDB;REST API;Java;AI/인공지능;Git;FPGA;Embedded;Spring;AWS;MCU;HW,"자유로운 연차;프리한 복장;8호선 역세권 기업;점심지원;워라밸;간식 제공;시리즈A 투자유치;사내 카페;평균연봉 6,000 이상",중소기업;주식회사;수출입 기업,응용 소프트웨어 개발 및 공급업
+긴트,(주)긴트,긴트,C#;C++;C;SW;Node.js;React;MATLAB;TypeScript;JavaScript;React Native;Embedded;AWS;Python,급성장중;장기근속 포상;점심지원,중소기업;주식회사;외부감사법인;연구소;병역특례 인증업체;수출입 기업,자동차용 신품 전기장치 제조업
+유니아이,(주)유니아이,유니아이,Router;Next.js;Vite;React;SQL;TypeScript;REST API;Git;Docker;OpenCV;InfluxDB;JavaScript;HTML5;FastAPI;Webpack;AWS;Python;Kubernetes,연봉상승률 20% 이상;급성장중;반려동물 출근가능;재택근무;프리한 복장;유연근무제;성과급/상여금,중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+비즈톡,비즈톡(주),비즈톡,REST API;Java;AngularJS;C++;C;Git;Linux;Spring Boot;AWS,장기근속 포상;9호선 역세권 기업;점심지원;간식 제공;성과급/상여금,중소기업;주식회사;병역특례 인증업체,응용 소프트웨어 개발 및 공급업
+클레온,(주)클레온,클레온,Java;Xcode;Kotlin;WebSocket;PyTorch;Figma;Git;Docker;JavaScript;Spring Framework;Flutter;Android SDK;Android Studio;Android OS;TensorFlow;Dart,"평균연봉 상위 10%;연봉상승률 20% 이상;급성장중;2호선 역세권 기업;유연근무제;시리즈A 투자유치;평균연봉 7,000 이상",중소기업;주식회사;병역특례 인증업체,응용 소프트웨어 개발 및 공급업
+호패,(주)호패,호패,Google Analytics;GitHub;GraphQL;Node.js;Next.js;React;TypeScript;REST API;Expo;Git;Docker;SCSS;TailwindCSS;MySQL;JavaScript;AWS CodePipeline;MongoDB;AWS;NestJS;Python,"평균연봉 상위 10%;연봉상승률 20% 이상;재택근무;2호선 역세권 기업;유연근무제;평균연봉 6,000 이상",중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+플래닝고,(주)플래닝고,플래닝고,AWS Lambda;WebGL;Java;Amazon EC2;GitHub;Spring;React;Kotlin;three.js;TypeScript;REST API;AR;Unity;GCP;Django;Blender;3D Rendering;JavaScript;FastAPI;VR;AWS;Python;Kubernetes,연봉상승률 10% 이상;재택근무,중소기업;주식회사,""
+티투엘,티투엘(주),티투엘,Java,급성장중,중소기업;주식회사;수출입 기업,응용 소프트웨어 개발 및 공급업
+쿠도커뮤니케이션,쿠도커뮤니케이션(주),쿠도커뮤니케이션,CSS 3;Java;AngularJS;Oracle PL/SQL;PostgreSQL;Headless UI;React;SQL;Jenkins;REST API;Apache Sling;XML;JavaScript;HTML5;MongoDB;Oracle;Adobe Target,매출액 500억 기업,중소기업;주식회사;수출입 기업,방송장비 제조업
+어센트코리아,(주)어센트코리아,어센트코리아,Airflow;CSS 3;Google BigQuery;Git;GCP;HTML5;Pandas;Selenium;Python;SQL,"연봉상승률 10% 이상;급성장중;장기근속 포상;3호선 역세권 기업;유연근무제;평균연봉 6,000 이상",중소기업;주식회사;수출입 기업,응용 소프트웨어 개발 및 공급업
+하이비젼시스템,(주)하이비젼시스템,하이비젼시스템,C#;C++;Linux;FPGA;Embedded;Mfc;WPF;MCU;Python,주거복지;급성장중;코스닥;성과급/상여금;사내 카페,중견기업;코스닥;외부감사법인;수출입 기업,"사진기, 영사기 및 관련 장비 제조업"
+제이티비씨,제이티비씨(주),제이티비씨,Docker;Confluence;ELK;JavaScript;MariaDB;Redis;Bitbucket;MSSQL;Jira;Python,"평균연봉 상위 10%;장기근속 포상;중앙 계열사;경의선 역세권 기업;평균연봉 7,000 이상",1000대기업;중견기업;외부감사법인,유선 방송업
+한국비즈넷,(주)한국비즈넷,한국비즈넷,Java;Nexacro;Spring Boot;TortoiseSVN;MSSQL;Spring;React;Vue.js;REST API;Git;JavaScript;Tibero;Oracle,장기근속 포상;자유로운 연차;프리한 복장;2호선 역세권 기업;유연근무제,중소기업;주식회사;연구소;병역특례 인증업체,시스템 소프트웨어 개발 및 공급업
+신보,(주)신보,신보,AZURE;Linux;CISSP;Windows;CISA;AWS,매출액 5000억 기업;5호선 역세권 기업,중견기업;주식회사;외부감사법인,일반전기 공사업
+링네트,(주)링네트,링네트,AZURE;Switch;L2;Network;L3;L4;Cisco;Router;L7;HW,"코스닥;2호선 역세권 기업;평균연봉 6,000 이상","",컴퓨터시스템 통합 자문 및 구축 서비스업
+비욘드테크,(주)비욘드테크,비욘드테크,C#;Java;SW;JSP;PostgreSQL;MariaDB;Spring Boot;Spring Cloud;REST API;JavaScript;HTML5;Spring Framework;React Native;Spring Data JPA;AWS,매출액 100억 기업;급성장중;장기근속 포상;1호선 역세권 기업,중소기업;주식회사;외부감사법인;연구소;병역특례 인증업체;수출입 기업,"컴퓨터 및 주변장치, 소프트웨어 도매업"
+대원씨티에스,대원씨티에스(주),대원씨티에스,AI/인공지능;RPA;SW;Python;Ccie;Network;Cisco;Ccna;Ccnp,"1호선 역세권 기업;평균연봉 6,000 이상",중견기업;외부감사법인,"컴퓨터 및 주변장치, 소프트웨어 도매업"
+아이티로그인,(주)아이티로그인,아이티로그인,Network;Cisco;Infra;HP Cloud Compute;Ccnp,육아휴직;장기근속 포상;자유로운 연차;6호선 역세권 기업;간식 제공;성과급/상여금;사내 카페,중소기업;주식회사;외부감사법인,"컴퓨터 및 주변장치, 소프트웨어 도매업"
+디에스앤지,(주)디에스앤지,디에스앤지,CUDA;Ubuntu;AI/인공지능;Linux;Docker;K8S;Infra;DeepLearning;Docker Compose;Python;Kubernetes,"연봉상승률 15% 이상;매출액 500억 기업;주거복지;육아휴직;장기근속 포상;2호선 역세권 기업;성과급/상여금;평균연봉 6,000 이상",중소기업;주식회사;외부감사법인,"컴퓨터 및 주변장치, 소프트웨어 도매업"
+위버스브레인,(주)위버스브레인,위버스브레인,REST API;Git;Figma;Redux;Supabase;Next.js;React Native;Zeplin;React,급성장중;위버스마인드 계열사;프리한 복장;2호선 역세권 기업;간식 제공,중소기업;주식회사;사단법인,응용 소프트웨어 개발 및 공급업
+싸이버로지텍,(주)싸이버로지텍,싸이버로지텍,Java;AI/인공지능;RPA;Linux;XML;JavaScript;HTML5;Spring Boot;FastAPI;Windows;Oracle,"평균연봉 상위 10%;매출액 500억 기업;주거복지;장기근속 포상;유수 계열사;재택근무;경의선 역세권 기업;유연근무제;점심지원;평균연봉 7,000 이상","",응용 소프트웨어 개발 및 공급업
+인코칭,(주)인코칭,인코칭,AI/인공지능;Python,급성장중;장기근속 포상,"",직원훈련기관
+씨크코리아,씨크코리아(주),씨크코리아,TypeScript;C#;C++;OpenCV;HALCON;MachineLearning;Python;TensorFlow,매출액 500억 기업;9호선 역세권 기업,중견기업;외국인 투자기업;수출입 기업,그 외 기타 기계 및 장비 도매업
+딥노이드,(주)딥노이드,딥노이드,Microsoft Office 365;Spring Boot;React;gRPC;Kotlin;TypeScript;RDB;REST API;Shell;PyTorch;Figma;NoSql;Docker;Linux;MySQL;JavaScript;DICOM;Python;TensorFlow;WebRTC,연봉상승률 20% 이상;급성장중;코스닥;프리한 복장;7호선 역세권 기업;유연근무제,중소기업;코스닥;주식회사;외부감사법인;병역특례 인증업체,응용 소프트웨어 개발 및 공급업
+이노아이,이노아이(주),이노아이,QA;REST API;Slack;Confluence;Redmine;Selenium;iOS;Jira;Android OS;Postman,육아휴직;급성장중;장기근속 포상;에스피테크놀러지 계열사;프리한 복장;경강선 역세권 기업,중소기업;주식회사;외부감사법인,시스템 소프트웨어 개발 및 공급업
+안트로젠,(주)안트로젠,안트로젠,CSS 3;JavaScript;HTML5;Infra;Node.js;Spring,급성장중;코스닥;1호선 역세권 기업,중소기업;코스닥;주식회사;외부감사법인,그 외 기타 상품 전문 도매업
+에스엔에치,에스엔에치(주),에스엔에치,FW;VPN;Network;Cisco;Ccna;Firewall,매출액 100억 기업;급성장중;장기근속 포상;9호선 역세권 기업;간식 제공,중소기업,"컴퓨터 및 주변장치, 소프트웨어 도매업"
+쓰리아이,(주)쓰리아이,쓰리아이,Redmine;MachineLearning;Grafana;HW;Kubeflow;QA;TypeScript;OneSaas;PyTorch;Docker;Confluence;Easy Redmine;JavaScript;React.js Boilerplate;Selenium;AWS;Python;TensorFlow;C++;SW;Appium;Jira;Vue.js;Git;OpenCV;WebRTC,"연봉상승률 10% 이상;평균연봉 상위 10%;자유로운 연차;프리한 복장;시리즈A 투자유치;평균연봉 7,000 이상;예비 유니콘",중소기업;병역특례 인증업체;수출입 기업,응용 소프트웨어 개발 및 공급업
+컬쳐히어로,(주)컬쳐히어로,컬쳐히어로,Rails;TypeScript;FastAPI;Ruby;AWS;Python;Kubernetes,시리즈B 투자유치;스타트업;스타트업 인기TOP100,스타트업;중소기업;사단법인,응용 소프트웨어 개발 및 공급업
+연합인포맥스,(주)연합인포맥스,연합인포맥스,AZURE;GCP;AWS;Azure DevOps;Python,매출액 500억 기업;육아휴직;연합뉴스 계열사;프리한 복장;3호선 역세권 기업;점심지원;사내 카페,중견기업;외부감사법인;병역특례 인증업체,데이터베이스 및 온라인정보 제공업
+이지케어텍,이지케어텍(주),이지케어텍,C#;PostgreSQL;CouchDB;Kafka;Prometheus;Windows;WPF;Grafana;AZURE;ArangoDB;Elasticsearch;Neo4j;Azure Database for MySQL;MySQL;JavaScript;.NET;Entity Framework;Oracle;AWS;Azure DevOps;vmware;MSSQL;Linux;GCP;ASP.NET;MongoDB;Kubernetes,"장기근속 포상;서울대학교병원 계열사;코스닥;2호선 역세권 기업;평균연봉 6,000 이상",중소기업;코스닥;주식회사;병역특례 인증업체,응용 소프트웨어 개발 및 공급업
+페니로이스,(주)페니로이스,페니로이스,R;Sass;BigData;MachineLearning;Python,"장기근속 포상;3호선 역세권 기업;평균연봉 6,000 이상",중소기업;주식회사,경영 컨설팅업
+헬스커넥트,헬스커넥트(주),헬스커넥트,Docker Cloud;Java;AI/인공지능;CrewAI;GitHub;PostgreSQL;MariaDB;Next.js;Spring;React;TypeScript;AZURE;Docker;MySQL;JavaScript;Oracle;AWS;Azure DevOps;Kubernetes;Python,"매출액 100억 기업;씨지인바이츠 계열사;1호선 역세권 기업;유연근무제;평균연봉 6,000 이상",중소기업;외부감사법인,응용 소프트웨어 개발 및 공급업
+메타넷티플랫폼,(주)메타넷티플랫폼,메타넷티플랫폼,PowerShell;PostgreSQL;Kafka;Spring Boot;AZURE;Vue.js;Terraform;MySQL;Microsoft Azure;Spring Framework;Oracle;OpenAPI;AWS;Spring Data JPA;Azure DevOps;Python,"평균연봉 상위 10%;메타넷글로벌 계열사;1호선 역세권 기업;평균연봉 6,000 이상",중견기업;주식회사;외부감사법인,컴퓨터시스템 통합 자문 및 구축 서비스업
+인텍에프에이,(주)인텍에프에이,인텍에프에이,Pads;Orcad;HW,"연봉상승률 10% 이상;스타트업;주거복지;매출액 100억 기업;급성장중;장기근속 포상;점심지원;성과급/상여금;평균연봉 6,000 이상",스타트업;중소기업;외부감사법인;병역특례 인증업체;수출입 기업,그 외 기타 전기장비 제조업
+미디어로그,(주)미디어로그,미디어로그,Java;Spring Boot;Node.js;Java 8;Vue.js;ISMS;PyTorch;Elasticsearch;Docker;MySQL;React.js Boilerplate;CPPG;Oracle;AWS;Python;TensorFlow;Kubernetes,대기업,대기업,유선 통신업
+웨어러블에이아이,주식회사웨어러블에이아이,웨어러블에이아이,C++;AI/인공지능;C;Autocad;Embedded Linux;SummitDB;DeepLearning;Fusion 360;MachineLearning;MATLAB;PCB;CUDA;Kubeflow;PyTorch;Docker;Linux;ROS;Solidworks;Embedded;AWS;MCU;Python;Kubernetes,자유로운 연차;유연근무제;점심지원,중소기업;주식회사,솔루션·SI·ERP·CRM
+메디트,(주)메디트,메디트,C#;AI/인공지능;Qt;Xcode;Babel;CMake;DeepLearning;Spark Framework;Windows;iOS;rollup;TypeScript;QA;Backendless;REST API;JavaScript;TCP/IP;Productboard;Embedded;vscode.dev;macOS;Flask;WebGL;Java;CSS 3;C++;Mac OS X;SW;AWS CloudTrail;Google Cloud Platform;OpenGL;Embedded Linux;SwiftUI;Vite;React;WebSocket;CUDA;Vue.js;Git;Linux;React D3 Library;HTML5;Spring Framework;Transformers;FastAPI;Swift;Webpack,"연봉상승률 10% 이상;평균연봉 상위 10%;급성장중;장기근속 포상;MBK파트너스 계열사;매출액 1000억 기업;9호선 역세권 기업;유연근무제;평균연봉 7,000 이상",중견기업;주식회사;병역특례 인증업체;수출입 기업,기타 주변기기 제조업
+플래티어,(주)플래티어,플래티어,PostgreSQL;Spring Boot;Groovy;NumPy;QA;PyTorch;Google BigQuery;Docker;NGINX;MySQL;Selenium;Python;Matplotlib;QueryDSL;JSP;GraphQL;K8S;Playwright;Spring;SQL;Jenkins;Vue.js;Git;Linux;Plotly.js;Swift;MongoDB;Newman;OpenAPI;Amazon Quicksight;SAP;GitHub;Next.js;Tableau;Windows;TypeScript;AZURE;REST API;R;Shell;NoSql;NLP;Confluence;JavaScript;Oracle;AWS;GitLab;Azure DevOps;TensorFlow;Java;CSS 3;Firebase;Redis;Appium;SwiftUI;React;Jira;Kotlin;React Query;jQuery;GCP;HTML5;Envoy;Pandas;FastAPI;Apache JMeter;Postman;Mybatis;Kubernetes,"연봉상승률 10% 이상;자유로운 연차;코스닥;8호선 역세권 기업;유연근무제;성과급/상여금;평균연봉 6,000 이상",중소기업;코스닥;주식회사,응용 소프트웨어 개발 및 공급업
+오픈소스컨설팅,(주)오픈소스컨설팅,오픈소스컨설팅,GitHub;Prometheus;OpenStack;Apache Tomcat;Grafana;YAML;AZURE;Shell;Confluence;NGINX;Network;AWS;GitLab;Python;JBoss;Argo;L2;vmware;L3;Jira;Red Hat OpenShift;Jenkins;Git;Linux;GCP;Ansible;Bitbucket;Helm;Bamboo;Kubernetes,"평균연봉 상위 10%;급성장중;재택근무;9호선 역세권 기업;유연근무제;평균연봉 7,000 이상",중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+키트웍스,(주)키트웍스,키트웍스,TypeScript;Vue.js;JavaScript;Nuxt.js;React,스타트업;2호선 역세권 기업;유연근무제;영업이익률 20% 이상,스타트업;중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+누리인포스,(주)누리인포스,누리인포스,Linux;Windows Server;Citrix Gateway,매출액 100억 기업;경강선 역세권 기업;유연근무제;성과급/상여금,"",응용 소프트웨어 개발 및 공급업
+펜타시큐리티,펜타시큐리티(주),펜타시큐리티,Java;C++;C;MariaDB;Spring Boot;Mantis;Firewall;WebSocket;Jenkins;RDB;Shell;NoSql;Git;Slack;Linux;Docker;Network;JavaScript;PHP;TCP/IP;DB;Mybatis;Python,"매출액 100억 기업;장기근속 포상;자유로운 연차;휴가비 지원;5호선 역세권 기업;평균연봉 6,000 이상",중소기업;주식회사;외부감사법인;병역특례 인증업체;수출입 기업,시스템 소프트웨어 개발 및 공급업
+파이오링크,(주)파이오링크,파이오링크,Golang;AngularJS;C;NetBeans IDE;GitHub;Go;OpenStack;REST API;Docker;Network;JavaScript;GUI;AWS;Python;Java;C++;SW;L4;L7;Spring;React;SQL;Jenkins;Git;jQuery;Linux;Django;Kubernetes,육아휴직;장기근속 포상;코스닥;1호선 역세권 기업;성과급/상여금,중소기업;코스닥;주식회사;외부감사법인;병역특례 인증업체;수출입 기업,유선 통신장비 제조업
+엠씨넥스,(주)엠씨넥스,엠씨넥스,RTOS;C++;SW;Linux;RF;FPGA;Verilog;Embedded;MATLAB;MCU;PCB;HW,주거복지;장기근속 포상;인천1호선 역세권 기업;점심지원;코스피,1000대기업;중견기업;코스피;주식회사;외부감사법인;병역특례 인증업체;수출입 기업,비디오 및 기타 영상기기 제조업
+알에프메디컬,(주)알에프메디컬,알에프메디컬,C#;RTOS;C++;Visual C++;Embedded;Windows;Visual Studio;Android OS,매출액 100억 기업;육아휴직;프리한 복장;점심지원;워라밸;영업이익 150% 급성장;영업이익률 20% 이상,중소기업;주식회사;외부감사법인;병역특례 인증업체;수출입 기업,그 외 기타 의료용 기기 제조업
+리브스메드,(주)리브스메드,리브스메드,ERP;C;Qt;FPGA;Deta Cloud;MATLAB;HW;FW;VHDL;Network;Notion;MSA;GUI;Python;C++;SW;Embedded Linux;Jira;Orcad;React Query;Git;Linux;MES;MCU;Kubernetes,육아휴직;급성장중;프리한 복장;간식 제공;예비 유니콘,"",""
+대진정보통신,대진정보통신(주),대진정보통신,ISMS;Hack;Azure Security Center;CISSP;CISA;CPPG,2호선 역세권 기업,중소기업,""
+텐핑거스,(주)텐핑거스,텐핑거스,REST API;GitHub Actions;Docker;GCP;Django;FastAPI;GoLand;Next.js;AWS;React;Python;GCP IAM,스타트업;급성장중;3호선 역세권 기업;매출액 20% 지속성장,스타트업;중소기업;주식회사;병역특례 인증업체,응용 소프트웨어 개발 및 공급업
+오버컴테크,(주)오버컴테크,오버컴테크,RTOS;FW;FPGA;Embedded;HW,급성장중;장기근속 포상;1호선 역세권 기업;성과급/상여금,중소기업;주식회사,산업처리공정 제어장비 제조업
+에이핀테크놀러지,(주)에이핀테크놀러지,에이핀테크놀러지,C#;Java;Oracle;WPF;React,장기근속 포상;프리한 복장;7호선 역세권 기업;사내 카페,중소기업;주식회사,유선 온라인 게임 소프트웨어 개발 및 공급업
+퀀타매트릭스,(주)퀀타매트릭스,퀀타매트릭스,C++;C,급성장중;장기근속 포상;코스닥;1호선 역세권 기업;점심지원,중소기업;코스닥;주식회사;병역특례 인증업체,그 외 기타 의료용 기기 제조업
+비솔,(주)비솔,비솔,C#;C++;AI/인공지능;SW;DirectX;Pads;MachineLearning;Orcad;PCB;HW;Unreal Engine;PyTorch;OpenCV;3D Rendering;AWS;Python;TensorFlow,"연봉상승률 15% 이상;매출액 100억 기업;급성장중;장기근속 포상;1호선 역세권 기업;점심지원;평균연봉 6,000 이상","","기타 측정, 시험, 항해, 제어 및 정밀기기 제조업"
+이노시뮬레이션,(주)이노시뮬레이션,이노시뮬레이션,C#;C++;WPF,장기근속 포상;패밀리데이;코스닥;유연근무제;점심지원;사내 카페,중소기업;코스닥;주식회사;외부감사법인;연구소;병역특례 인증업체;수출입 기업,시스템 소프트웨어 개발 및 공급업
+에쓰씨케이,(주)에쓰씨케이,에쓰씨케이,Java;Microsoft Teams;SW;Microsoft Office 365;Microsoft SQL Server;Google Cloud Platform;AWS Copilot;MSSQL;Azure Application Insights;Microsoft SharePoint;GitHub Copilot;AZURE;Microsoft IIS;Linux;GCP;Microsoft Azure;Spring Framework;Notion;AWS;Azure DevOps Server;Azure DevOps;Python,"평균연봉 상위 10%;매출액 100억 기업;육아휴직;장기근속 포상;패밀리데이;에쓰쎄븐 계열사;7호선 역세권 기업;점심지원;평균연봉 7,000 이상;영업이익률 20% 이상","","컴퓨터 및 주변장치, 소프트웨어 도매업"
+디어유,(주)디어유,디어유,Java;Cassandra;Kafka;Redis;Spring Boot;Windows;iOS;REST API;NoSql;Git;Docker;Linux;Elasticsearch;Django;MySQL;SQLite;Objective-C;Swift;Android OS;AWS;Python;Flask;Kubernetes,"평균연봉 상위 10%;급성장중;장기근속 포상;카카오 계열사;코스닥;7호선 역세권 기업;점심지원;평균연봉 7,000 이상;사내 카페",중견기업;코스닥;주식회사,응용 소프트웨어 개발 및 공급업
+드림마크원,드림마크원(주),드림마크원,Java;Network;Cisco;Python,"평균연봉 상위 10%;연봉상승률 20% 이상;대기업;매출액 100억 기업;아이엠엠 계열사;7호선 역세권 기업;점심지원;평균연봉 7,000 이상",대기업,통신 재판매업
+딥인사이트,(주)딥인사이트,딥인사이트,RTOS;AI/인공지능;SW;DeepLearning;Embedded;Azure DevOps,"평균연봉 상위 10%;급성장중;장기근속 포상;경강선 역세권 기업;점심지원;시리즈A 투자유치;평균연봉 7,000 이상",중소기업;주식회사;연구소,컴퓨터 프로그래밍 서비스업
+제너디어스,(주)제너디어스,제너디어스,OAuth2;AI/인공지능;PostgreSQL;GitHub;Recoil;OLAP;Next.js;TypeScript;React Query;TailwindCSS;Zustand;Supabase;Python,"",중소기업,컴퓨터시스템 통합 자문 및 구축 서비스업
+인베스티,(주)인베스티,인베스티,Java;GitHub;Recoil;Node.js;Spring Boot;Next.js;Tailwind CSS;Spring;React;SQL;TypeScript;React Query;Figma;GitHub Actions;JavaScript;axios;React Native;styled-components;Spring Data JPA;AWS;NestJS,급성장중;2호선 역세권 기업;유연근무제,중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+애자일소다,(주)애자일소다,애자일소다,DeepLearning;MariaDB;Node.js;React;TypeScript;Linux;Docker;MySQL;MongoDB;FastAPI;AWS;Azure DevOps;Python;TensorFlow;Kubernetes,"시리즈B 투자유치;영업이익 20% 지속성장;급성장중;장기근속 포상;2호선 역세권 기업;점심지원;평균연봉 6,000 이상",중소기업,응용 소프트웨어 개발 및 공급업
+클레,(주)클레,클레,C#;C++;AI/인공지능;C;Qt;SW;MVVM;Pads;OpenGL;Windows;WPF;Orcad;PCB;CUDA;PyTorch;Linux;OpenCV;.NET;macOS;Python;TensorFlow,수인분당선 역세권 기업;점심지원;유연근무제;매출액 20% 지속성장,중소기업;주식회사;수출입 기업,응용 소프트웨어 개발 및 공급업
+큐픽스,(주)큐픽스,큐픽스,AngularJS;AI/인공지능;DeepLearning;Tableau;MachineLearning;TypeScript;REST API;PyTorch;JavaScript;Snowflake;Flutter;Ruby;AWS;Angular 2;Python;TensorFlow;WebGL;Java;C++;Power BI;Node.js;React;WebSocket;Rails;PowerBI;Swift;Amazon Quicksight,스타트업;매출액 100억 기업;급성장중;자유로운 연차;재택근무;경강선 역세권 기업;유연근무제;매출액 20% 지속성장,스타트업;중소기업;주식회사;병역특례 인증업체,응용 소프트웨어 개발 및 공급업
+하이퍼정보,(주)하이퍼정보,하이퍼정보,Java;Linux;MySQL;MariaDB;Spring Framework;Spring;DB;Mybatis;SQL,장기근속 포상;자유로운 연차;워라밸,중소기업;주식회사,컴퓨터시설 관리업
+낭만상회,(주)낭만상회,낭만상회,TypeScript;Git;Infra;Create React Native App;Node.js;React Native;React,급성장중;2호선 역세권 기업;점심지원,중소기업,컴퓨터시스템 통합 자문 및 구축 서비스업
+리뷰닷컴,주식회사리뷰닷컴,리뷰닷컴,Java;AI/인공지능;jQuery;Linux;GitHub;JavaScript;Apache Tomcat;Spring,프리한 복장;점심지원;성과급/상여금,"",광고·홍보·전시
+아이브,(주)아이브,아이브,C;Git Flow;Windows Server;PostgreSQL;PLC;Infra;Prometheus;Next.js;Windows;Grafana;gRPC;TypeScript;QA;REST API;PyTorch;Docker;JavaScript;Network;TCP/IP;Notion;HALCON;Milanote;Python;TensorFlow;Ubuntu;CSS 3;C++;React;Jira;CUDA;ethernet;Git;Linux;OpenCV;HTML5;FastAPI;MongoDB;MES;Bitbucket;Kubernetes,"평균연봉 상위 10%;급성장중;자유로운 연차;재택근무;신분당선 역세권 기업;아기 유니콘;점심지원;평균연봉 7,000 이상",중소기업;주식회사;병역특례 인증업체,산업처리공정 제어장비 제조업
+톤28,(주)톤28,톤28,CSS 3;jQuery;Git;HTML5;JavaScript;Go;PHP;Bitbucket;Laravel;AWS,스타트업;매출액 100억 기업;급성장중;자유로운 연차;프리한 복장;Pre A 투자유치,스타트업;중소기업;주식회사,화장품 및 화장용품 도매업
+엠투클라우드,엠투클라우드(주),엠투클라우드,CSS 3;AngularJS;Spring MVC;C;SW;MariaDB;Node.js;TypeScript;RDB;REST API;FW;Git;jQuery;JavaScript;HTML5;MySQL;AWS;MCU,급성장중;자유로운 연차;패밀리데이;프리한 복장;8호선 역세권 기업;워라밸,중소기업;주식회사;연구소,컴퓨터 프로그래밍 서비스업
+트리페이네트웍스,(주)트리페이네트웍스,트리페이네트웍스,Java;C,영업이익 20% 지속성장;7호선 역세권 기업,중소기업,그 외 기타 기계 및 장비 도매업
+혜움,(주)혜움,혜움,Airflow;Amazon SQS;pytest;GitHub;PostgreSQL;Kafka;Redis;SQL;AZURE;NLP;Google BigQuery;GCP;Amazon Redshift;Django;MySQL;FastAPI;Sentry;MSA;AWS;Queue;Python;TypeScript;Vue.js;GitHub Actions;TailwindCSS;SCSS;pnpm;Jest,육아휴직;급성장중;자유로운 연차;패밀리데이;인천1호선 역세권 기업;아기 유니콘,중소기업;주식회사,시스템 소프트웨어 개발 및 공급업
+피아스페이스,피아스페이스(주),피아스페이스,TypeScript;RDB;REST API;AI/인공지능;PyTorch;GitHub;Notion;Node.js;NestJS;Linear;WebSocket;Kubernetes,급성장중;자유로운 연차;매출액 150% 급성장;점심지원;매출액 20% 지속성장,중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+디윅스,(주)디윅스,디윅스,Java;AngularJS;CSS 3;AI/인공지능;PostgreSQL;Spring Boot;Next.js;Spring;React;TypeScript;REST API;Vue.js;PyTorch;Elasticsearch;Docker;Linux;JavaScript;HTML5;Spring Framework;FastAPI;Jupyter;Python;TensorFlow,"평균연봉 상위 10%;연봉상승률 15% 이상;급성장중;패밀리데이;2호선 역세권 기업;평균연봉 7,000 이상",중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+가온브로드밴드,가온브로드밴드(주),가온브로드밴드,C++;C;Linux;SW;Embedded Linux;Network;Router;TCP/IP;Embedded,"평균연봉 상위 10%;급성장중;자유로운 연차;가온그룹 계열사;매출액 1000억 기업;수인분당선 역세권 기업;점심지원;평균연봉 7,000 이상;사내 카페",중견기업;주식회사,기타 무선 통신장비 제조업
+핀즐,주식회사핀즐,핀즐,CSS 3;ISMS;GCP;JavaScript;HTML5;Node.js;CloudFlare,8호선 역세권 기업;유연근무제,중소기업;주식회사,솔루션·SI·ERP·CRM
+데이원컴퍼니,(주)데이원컴퍼니,데이원컴퍼니,Java;GitHub Actions;Terraform;Docker;Node.js;React Native;AWS;React;OpenAPI;QA;Confluence;Notion;Jira,급성장중;시리즈D 투자유치;패스트트랙아시아 계열사;코스닥;매출액 1000억 기업;2호선 역세권 기업,중소기업;코스닥,기타 기술 및 직업훈련학원
+유모델러,(주)유모델러,유모델러,C#;CUDA;C++;Unity;MVVM;DirectX;OpenGL;3D Rendering;.NET;Windows;macOS;Vulkan;TypeScript;AZURE;REST API;PHP;Node.js;React;AWS;NestJS,7호선 역세권 기업;유연근무제;시리즈A 투자유치,중소기업;주식회사;수출입 기업,유선 온라인 게임 소프트웨어 개발 및 공급업
+시에라베이스,(주)시에라베이스,시에라베이스,Java;C++;Visual C++;ROS;JavaScript;Node.js;Spring;C++ Builder;Python,"연봉상승률 10% 이상;급성장중;휴가비 지원;유연근무제;점심지원;매출액 20% 지속성장;평균연봉 6,000 이상",중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+더아머베어러,(주)더아머베어러,더아머베어러,C#;Java;MSSQL;AZURE;REST API;Docker;GCP;MySQL;ASP.NET;.NET;Oracle;AWS;Kubernetes;Python,"평균연봉 상위 10%;연봉상승률 30% 이상;급성장중;9호선 역세권 기업;유연근무제;점심지원;평균연봉 7,000 이상",중소기업,"화물운송 중개, 대리 및 관련 서비스업"
+엠에스코리아,엠에스코리아,엠에스코리아,C#;Java;C;Git;JavaScript;Amazon Aurora;React,인천1호선 역세권 기업,"",시설관리·경비·용역
+스토어링크,(주)스토어링크,스토어링크,Java;REST API;RDB;IntelliJ IDEA;MySQL;Spring Framework;Spring Boot;Gradle;Kotlin,영업이익 20% 지속성장;시리즈C 투자유치;매출액 100억 기업;급성장중;점심지원;매출액 20% 지속성장;영업이익 150% 급성장,중소기업;주식회사;병역특례 인증업체,응용 소프트웨어 개발 및 공급업
+인터엑스,(주)인터엑스,인터엑스,C#;Golang;C;PLC;PostgreSQL;WPF;HW;TypeScript;REST API;RDB;NoSql;PyTorch;Docker;Neo4j;Confluence;JavaScript;.NET;React.js Boilerplate;Azure DevOps;Python;TensorFlow;Java;CSS 3;C++;SW;Redis;React;Jira;SQL;Kotlin;Git;Linux;OpenCV;HTML5;Pandas;ASP.NET;MongoDB;FastAPI;AI/인공지능,"매출액 100억 기업;급성장중;자유로운 연차;아기 유니콘;매출액 20% 지속성장;성과급/상여금;평균연봉 6,000 이상",중소기업;주식회사;병역특례 인증업체,응용 소프트웨어 개발 및 공급업
+블루텍,(주)블루텍,블루텍,C#;FW;C++;C;SW;Linux;FPGA;Embedded Linux;Embedded;ARM;MCU;HW,"급성장중;자유로운 연차;휴가비 지원;점심지원;매출액 20% 지속성장;평균연봉 6,000 이상",중소기업;주식회사,유선 통신장비 제조업
+마카롱팩토리,(주)마카롱팩토리,마카롱팩토리,Next.js;iOS;Datadog;QA;TypeScript;Druid;Storybook;Jetpack Compose;MySQL;Flutter;Coroutine;Sentry;Emotion;Android Studio;Realm;AWS;Jest;Java;Redis;Spring;Dynamo;Vite;React;Kotlin;Git;XML;Zustand;Swift;Android SDK;Android OS;Rxswift;Postman,급성장중;장기근속 포상;경강선 역세권 기업;유연근무제;점심지원;매출액 20% 지속성장;시리즈A 투자유치;영업이익 150% 급성장;성과급/상여금;영업이익 20% 지속성장;스타트업;연봉상승률 15% 이상;매출액 100억 기업,스타트업;중소기업;주식회사,포털 및 기타 인터넷 정보매개 서비스업
+와탭랩스,(주)와탭랩스,와탭랩스,ELK;Go;Spring Boot;iOS;MachineLearning;Datadog;QA;Docker;CISSP;.NET;Flutter;Vert.x;Python;Rust;Playwright;Node.js;CISA;Spring;SQL;Zabbix;Git;Slack;Linux;Netty;Android OS;Undertow;WhatsApp;C#;C;Kafka;DeepLearning;Testrail;Windows;TypeScript;AZURE;RDB;Shell;NoSql;JavaScript;PHP;React.js Boilerplate;Oracle;AWS;Ruby;Spring Data JPA;Azure DevOps;Spring Security;Java;C++;AWS Shell;React;Jira;Containerum;GCP;Spring Framework;DB;Kubernetes,"시리즈B 투자유치;연봉상승률 10% 이상;평균연봉 상위 10%;스타트업;2호선 역세권 기업;아기 유니콘;점심지원;간식 제공;평균연봉 7,000 이상",스타트업;중소기업;주식회사;사단법인,응용 소프트웨어 개발 및 공급업
+스타마타,(주)스타마타,스타마타,AR;AI/인공지능;C++;C;Linux;SW;DeepLearning;Embedded;VR;Python,스타트업;급성장중;스타트업 인기TOP100,스타트업;중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+프라이빗테크놀로지,프라이빗테크놀로지(주),프라이빗테크놀로지,OpenResty;ELK;Windows Server;Infra;WPF;IPS;QA;Docker;NGINX;Network;MySQL;CISSP;Insight;TCP/IP;Embedded;Python;Hibernate;Node.js;CISA;Spring;Git;Linux;AssemblyScript;Nginx Proxy Manager;C#;C;Qt;Windows;Mfc;FW;Snort;VPN;JavaScript;Lua;Spring Data JPA;Java;CSS 3;C++;SecureCRT;SW;Windows Terminal;Redis;MariaDB;Jira;Firewall;Flow;ISMS;jQuery;Splunk;DB,급성장중;휴가비 지원;2호선 역세권 기업;유연근무제;간식 제공;성과급/상여금,중소기업,시스템 소프트웨어 개발 및 공급업
+아이트럭,(주)아이트럭,아이트럭,Ubuntu;Java;AI/인공지능;scikit-learn;GitHub;Node.js;MachineLearning;NumPy;Kotlin;SQL;TypeScript;REST API;Vue.js;MySQL;JavaScript;Pandas;BigData;Keras;AWS;Python,점심지원;매출액 20% 지속성장;간식 제공;성과급/상여금,중소기업;주식회사,컴퓨터시스템 통합 자문 및 구축 서비스업
+벤디트,(주)벤디트,벤디트,TypeScript;GraphQL;Electron;ES6;Redis;MSA;Node.js;MongoDB;AWS;React,2호선 역세권 기업;아기 유니콘;유연근무제,중소기업;주식회사;연구소,솔루션·SI·ERP·CRM
+휴네이트,(주)휴네이트,휴네이트,FW;Amazon Kinesis Firehose;C++;SW;Linux;Network;Infra;.NET;Embedded;MCU,급성장중;점심지원;매출액 20% 지속성장,중소기업;주식회사,기타 전기 변환장치 제조업
+모빌린트,(주)모빌린트,모빌린트,Java;C++;C;EDA;SW;FPGA;DeepLearning;Perl;MachineLearning;HW;ASIC;PyTorch;Git;Linux;Verilog;Embedded;Python;TensorFlow,"시리즈B 투자유치;연봉상승률 10% 이상;평균연봉 상위 10%;급성장중;2호선 역세권 기업;점심지원;평균연봉 7,000 이상",중소기업;주식회사;연구소;병역특례 인증업체,자연과학 및 공학 융합 연구개발업
+인공지능팩토리,(주)인공지능팩토리,인공지능팩토리,Java;CSS 3;AI/인공지능;GitHub;Spring Boot;Next.js;Cloud CMS;React;TypeScript;React Query;AZURE;GCP;TailwindCSS;HTML5;JavaScript;Zustand;AWS;NestJS;Python,육아휴직;장기근속 포상;자유로운 연차;성과급/상여금;Pre A 투자유치,중소기업;주식회사;외부감사법인,응용 소프트웨어 개발 및 공급업
+스키아,(주)스키아,스키아,C++;PyTorch;Docker;Linux;OpenCV;Swift;iOS;Python,매출액 150% 급성장;1호선 역세권 기업;유연근무제;매출액 20% 지속성장,중소기업;주식회사;병역특례 인증업체,그 외 기타 의료용 기기 제조업
+네오커스,(주)네오커스,네오커스,Git;JavaScript;HTML5;MariaDB;PHP;React.js Boilerplate;Laravel,9호선 역세권 기업;점심지원;간식 제공,중소기업,경영 컨설팅업
+더스윙,(주)더스윙,더스윙,Jetpack Compose;Router;FLEX;Flutter;Coroutine;Swift;iOS;Android OS;Rxswift;fastlane;Dart;Java;Spring Boot;Spring Data JPA;Kotlin,연봉상승률 20% 이상;매출액 500억 기업;주거복지;급성장중;4호선 역세권 기업;유연근무제;점심지원;시리즈A 투자유치;예비 유니콘,중소기업;외국인 투자기업;주식회사;연구소;병역특례 인증업체,응용 소프트웨어 개발 및 공급업
+에이트테크,(주)에이트테크,에이트테크,C#;CUDA;C++;AI/인공지능;C;PyTorch;OpenCV;GitHub;Python,육아휴직;자유로운 연차;프리한 복장;워라밸;사내 카페,중소기업;주식회사,산업용 로봇 제조업
+플랙스뉴럴랩스,(주)플랙스뉴럴랩스,플랙스뉴럴랩스,Urban Airship;Vue.js;Google BigQuery Data Transfer Service;BullMQ;Google Test;JavaScript;Node.js,연봉상승률 10% 이상;영업이익 20% 지속성장;매출액 150% 급성장;재택근무;5호선 역세권 기업;유연근무제;매출액 20% 지속성장;영업이익 150% 급성장,중소기업,전자상거래 소매 중개업
+픽켓팅,(주)픽켓팅,픽켓팅,TypeScript;Java;TailwindCSS;MySQL;Redis;Spring Boot;React,9호선 역세권 기업,중소기업,포털 및 기타 인터넷 정보매개 서비스업
+네일톡톡,(주)네일톡톡,네일톡톡,C++;GitHub;MachineLearning;Spring;iOS;Jira;Kotlin;TypeScript;REST API;Git;OpenCV;JavaScript;TCP/IP;Flutter;Android OS;Dart,4호선 역세권 기업;점심지원;간식 제공,중소기업;주식회사;수출입 기업,그 외 기타 특수목적용 기계 제조업
+텐빌리언,텐빌리언,텐빌리언,CSS 3;Spring Boot;iOS;React;REST API;jQuery;Git;HTML5;JavaScript;Network;PHP;Flutter;Android OS;AWS;DB,장기근속 포상;자유로운 연차;점심지원,"",쇼핑몰·오픈마켓
+누비랩,(주)누비랩,누비랩,MVVM;GitHub;PostgreSQL;Recoil;Prometheus;Spring Boot;Next.js;Svelte;Yarn;Grafana;fastlane;TypeScript;REST API;GitHub Actions;NLP;PyTorch;Docker;JavaScript;MySQL;Notion;Remix;Flutter;CodePush;AWS;Spring Batch;Angular 2;NestJS;Python;yolo;Rust;QueryDSL;Loki;Argo;Node.js;Google Docs;Vite;Spring;React;Kotlin;TypeORM;Vue.js;Figma;Slack;Swift;React Native;Webpack;Kubernetes,급성장중;자유로운 연차;휴가비 지원;아기 유니콘;유연근무제;점심지원,기타;주식회사;병역특례 인증업체,응용 소프트웨어 개발 및 공급업
+핀다,(주)핀다,핀다,Java;Kafka;Redis;Spring Boot;Node.js;Next.js;Spring;React;Kotlin;SQL;REST API;Backendless;Git;PyTorch;Linux;Docker;MySQL;HTML5;JavaScript;MongoDB;Spring Data JPA;AWS;Kubernetes;Python,"평균연봉 상위 10%;영업이익 20% 지속성장;스타트업;시리즈C 투자유치;매출액 100억 기업;급성장중;장기근속 포상;2호선 역세권 기업;평균연봉 7,000 이상;성과급/상여금",스타트업;중소기업;병역특례 인증업체,데이터베이스 및 온라인정보 제공업
+에프엘이에스,(주)에프엘이에스,에프엘이에스,RTOS;Golang;FPGA;PostgreSQL;Spring Boot;iOS;MachineLearning;MATLAB;HW;VHDL;Docker;MySQL;Verilog;Flutter;Embedded;NestJS;Python;Auth0;JSP;Embedded Linux;GraphQL;Node.js;MSSQL;Spring;PCB;SQL;Vue.js;Yocto;Git;Linux;Swift;Keras;Zeplin;Hyperledger Indy;ARM;Android OS;Dart;C;Qt;GitHub;Kafka;Windows;Laravel;TypeScript;FW;REST API;AZURE;Elasticsearch;Solidity;JavaScript;Cisco ISE;Objective-C;PHP;React.js Boilerplate;MSA;Oracle;AWS;TensorFlow;Java;CSS 3;Firebase;C++;SecureCRT;SW;Redis;MariaDB;React;Kotlin;jQuery;GCP;HTML5;Firebase Hosting;BigData;Slim;DB;Mybatis;Kubernetes,유연근무제,중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+심플사파리,(주)심플사파리,심플사파리,REST API;Django;Django REST framework;Spring;Azure DevOps,장기근속 포상;자유로운 연차,중소기업,기타 여행보조 및 예약 서비스업
+벙커키즈,(주)벙커키즈,벙커키즈,TypeScript;AI/인공지능;TailwindCSS;Playwright;Flux;Zustand;Supabase;Node.js;Next.js;Vite;React;Capacitor;Docker;FastAPI;Prisma;Python,연봉상승률 30% 이상;급성장중;유연근무제,중소기업;주식회사;사단법인,응용 소프트웨어 개발 및 공급업
+위펀,(주)위펀,위펀,Java;CSS 3;QueryDSL;Semantic UI;MariaDB;Spring Boot;React;TypeScript;Vue.js;Git;Semantic UI React;JavaScript;HTML5;MySQL,연봉상승률 10% 이상;시리즈C 투자유치;급성장중;장기근속 포상;자유로운 연차;패밀리데이;프리한 복장;2호선 역세권 기업;유연근무제;점심지원,중소기업;주식회사,""
+에프에스솔루션,(주)에프에스솔루션,에프에스솔루션,C++;PyTorch;C;Docker;OpenCV;DeepLearning;Embedded;MachineLearning;TensorFlow;Python,"평균연봉 상위 10%;연봉상승률 30% 이상;자유로운 연차;프리한 복장;점심지원;간식 제공;평균연봉 7,000 이상",중소기업;주식회사;연구소,응용 소프트웨어 개발 및 공급업
+하이카이브,(주)하이카이브,하이카이브,Java;PostgreSQL;Blockchain;Go;Tailwind CSS;Next.js;Jira;React;TypeScript;REST API;Git;Docker;Django;MySQL;JavaScript;HTML5;PHP;Kubernetes;Python,자유로운 연차;5호선 역세권 기업;매출액 20% 지속성장,중소기업,응용 소프트웨어 개발 및 공급업
+뉴로다임,(주)뉴로다임,뉴로다임,Linux;Keras;Python;TensorFlow,"",중소기업;주식회사,""
+피플리,(주)피플리,피플리,Google Drive;Java;REST API;Telegram;GitHub;AWS;Spring Data JPA;Jira,급성장중;장기근속 포상;2호선 역세권 기업;점심지원,중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+퍼플아카데미,(주)퍼플아카데미,퍼플아카데미,CSS 3;C++;Redis;Node.js;React;Jira;SQL;Jenkins;QA;REST API;NoSql;Git;Figma;GitHub Actions;Linux;Docker;GCP;Confluence;MySQL;Notion;TCP/IP;AWS;Python;Kubernetes,급성장중;장기근속 포상;프리한 복장;5호선 역세권 기업;성과급/상여금,중소기업;주식회사,온라인 교육 학원
+페이워크,페이워크(주),페이워크,TypeScript;CSS 3;MySQL;HTML5;JavaScript;redux-saga;Node.js;React Native;React;Webpack,연봉상승률 10% 이상;영업이익 20% 지속성장;매출액 150% 급성장;2호선 역세권 기업;점심지원;간식 제공,중소기업,데이터베이스 및 온라인정보 제공업
+아이디어스투실리콘,아이디어스투실리콘(주),아이디어스투실리콘,C#;C++;C;FPGA;Perl;ethernet;VHDL;ASIC;Git;Linux;Verilog;TCP/IP;Python,"",중소기업,응용 소프트웨어 개발 및 공급업
+에스엠해썹,(주)에스엠해썹,에스엠해썹,AI/인공지능;PLC;Spring Boot;HW;AZURE;REST API;PyTorch;Docker;Django REST framework;NGINX;JavaScript;GUI;AWS;Python;Flask;Ubuntu;Java;SW;MariaDB;React;SQL;Git;OpenCV;Django;MES;MongoDB;Keras;FastAPI,급성장중;장기근속 포상;프리한 복장;1호선 역세권 기업;유연근무제;점심지원;워라밸;간식 제공;사내 카페,중소기업;주식회사,컴퓨터시스템 통합 자문 및 구축 서비스업
+트렌드오브데이터,주식회사 트렌드오브데이터,트렌드오브데이터,AZURE;AWS,6호선 역세권 기업,"",솔루션·SI·ERP·CRM
+레벨나인,(주)레벨나인,레벨나인,REST API;Amazon EC2;Git;Prettier;JavaScript;Redis;Node.js;Next.js;Tailwind CSS,급성장중;경의선 역세권 기업;매출액 20% 지속성장;간식 제공,중소기업;연구소,응용 소프트웨어 개발 및 공급업
+부스터스,(주)부스터스,부스터스,Vue.js;Dashboards by Keen IO;jQuery;SW;Linux;TailwindCSS;JavaScript;MySQL;PHP;Bootstrap;ScrapingBot;Python,자유로운 연차;프리한 복장;유연근무제;시리즈A 투자유치,"",""
+한국디지털거래소,(주)한국디지털거래소,한국디지털거래소,Infra;Oracle;AWS,"평균연봉 상위 10%;연봉상승률 30% 이상;2호선 역세권 기업;평균연봉 7,000 이상",중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+옵트에이아이,(주)옵트에이아이,옵트에이아이,RTOS;C++;SW;FPGA;DeepLearning;MachineLearning;Python,점심지원;매출액 20% 지속성장;성과급/상여금,중소기업,응용 소프트웨어 개발 및 공급업
+10가트,(주)10가트,10가트,FW;C++;VHDL;Git;MATLAB;Python,"",중소기업,전자상거래 소매업
+아이비젼웍스,(주)아이비젼웍스,아이비젼웍스,C++;OpenCV;Mfc,"매출액 100억 기업;자유로운 연차;코스닥;휴가비 지원;유연근무제;매출액 20% 지속성장;성과급/상여금;평균연봉 6,000 이상",중소기업;코스닥;주식회사;외부감사법인;수출입 기업,그 외 기타 특수목적용 기계 제조업
+디엑스솔루션,디엑스솔루션(주),디엑스솔루션,RTOS;AI/인공지능;C++;C;Linux;SW;Embedded Linux;Spring Framework;Embedded;Python,다산그룹 계열사;유연근무제,중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+이파피루스,(주)이파피루스,이파피루스,C#;AngularJS;GNU Bash;C;PostgreSQL;RxJS;ibatis;Spring Boot;Windows;Next.js;TypeScript;NoSql;Docker;MySQL;JavaScript;Flutter;AWS;Azure DevOps Server;GitLab;Python;Java;C++;SW;AWS CloudTrail;JSP;Sass;MariaDB;Spring;React;Jenkins;Vue.js;Git;Linux;HTML5;Spring Framework;MES;MongoDB;React Native;Mybatis;REST API;gRPC,"연봉상승률 15% 이상;주거복지;매출액 100억 기업;자유로운 연차;점심지원;워라밸;간식 제공;평균연봉 6,000 이상",중소기업;주식회사;병역특례 인증업체,응용 소프트웨어 개발 및 공급업
+이포즌,(주)이포즌,이포즌,C#;Java;C++;Git;Linux;Scala;Network;Hadoop;Spark;Python,"연봉상승률 10% 이상;평균연봉 상위 10%;매출액 100억 기업;2호선 역세권 기업;평균연봉 7,000 이상",중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+웅진,(주)웅진,웅진,FW;ERP;SAP;SW;Linux;VPN;Windows;IPS;AWS;ABAP;SQL,육아휴직;장기근속 포상;1호선 역세권 기업;코스피;사내 카페,중견기업;코스피;주식회사;외부감사법인,지주회사
+알라딘커뮤니케이션,(주)알라딘커뮤니케이션,알라딘커뮤니케이션,AI/인공지능;Hadoop;WebAssembly;OLAP;Node.js;Tableau;SQL;Metabase;TypeScript;AZURE;Hive;R;Dw;NoSql;HTML5;Spark;Etl;AWS;Python,매출액 1000억 기업;프리한 복장;5호선 역세권 기업;성과급/상여금,1000대기업;중견기업;외부감사법인,전자상거래 소매업
+데이터드리븐,(주)데이터드리븐,데이터드리븐,TypeScript;Git;Docker;Django;Next.js;Vite;React;Python;Kubernetes;Chakra UI,"영업이익 20% 지속성장;스타트업;급성장중;재택근무;점심지원;영업이익 150% 급성장;평균연봉 6,000 이상",스타트업;주식회사,컴퓨터시스템 통합 자문 및 구축 서비스업
+에이아이파크,(주)에이아이파크,에이아이파크,Java;Vercel;GitHub;React;Kotlin;TypeScript;AZURE;PyTorch;Git;Docker;OpenCV;TailwindCSS;JavaScript;HTML5;Android OS;Python;TensorFlow,유연근무제;성과급/상여금;사내 카페,중소기업;주식회사,""
+보미오라한의원,보미오라한의원,보미오라한의원,CSS 3;HTML5;JavaScript;PHP;Node.js,급성장중;9호선 역세권 기업;유연근무제;점심지원,중소기업;주식회사;병원/의료기관;수출입 기업,한의원
+제이피아이헬스케어,제이피아이헬스케어(주),제이피아이헬스케어,C#;C++;C;DeepLearning,"평균연봉 상위 10%;매출액 100억 기업;장기근속 포상;코스닥;2호선 역세권 기업;평균연봉 7,000 이상;사내 카페",중소기업;코스닥;외부감사법인;수출입 기업,그 외 기타 의료용 기기 제조업
+에스엔에프코리아,에스엔에프코리아(주),에스엔에프코리아,PowerShell;Linux;Windows;Python;Firewall,"평균연봉 상위 10%;영업이익 20% 지속성장;주거복지;장기근속 포상;휴가비 지원;매출액 1000억 기업;2호선 역세권 기업;유연근무제;점심지원;평균연봉 7,000 이상",중견기업;외국인 투자기업;주식회사;외부감사법인;수출입 기업,그 외 기타 분류 안된 화학제품 제조업
+디지털포토,(주)디지털포토,디지털포토,Linux;NGINX;CentOS;Oracle;Apache HTTP Server,스타트업;스타트업 인기TOP100,스타트업;중소기업;주식회사,""
+에프알텍,(주)에프알텍,에프알텍,RTOS;FPGA;PCB;MCU,주거복지;장기근속 포상;코스닥,"",기타 무선 통신장비 제조업
+인터콘시스템스,인터콘시스템스(주),인터콘시스템스,RTOS;FW;C++;SW;Pads;Embedded Linux;Embedded;ARM;Orcad;MCU,주거복지;매출액 100억 기업;급성장중;장기근속 포상;자유로운 연차;프리한 복장;수인분당선 역세권 기업;점심지원,중소기업,철도차량 부품 및 관련 장치물 제조업
+한국전자인증,한국전자인증(주),한국전자인증,Java;C++;AWS Certificate Manager;C;Linux;Eclipse;MariaDB;Oracle;AWS;Python,육아휴직;코스닥;2호선 역세권 기업;간식 제공,"",시스템 소프트웨어 개발 및 공급업
+한우리아이티,(주)한우리아이티,한우리아이티,Java;C;Linux;MySQL;MariaDB;Spring Boot;Oracle;Spring;Jira;Python,육아휴직;자유로운 연차;9호선 역세권 기업;사내 카페,중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+칩스앤미디어,(주)칩스앤미디어,칩스앤미디어,FW;C++;VHDL;C;Linux;FPGA;Verilog;Python;HW,"평균연봉 상위 10%;연봉상승률 15% 이상;코넥스;2호선 역세권 기업;점심지원;평균연봉 7,000 이상",중소기업;코넥스;주식회사;외부감사법인;연구소;병역특례 인증업체;수출입 기업,비메모리용 및 기타 전자집적회로 제조업
+아이비리더스,(주)아이비리더스,아이비리더스,Java;JavaScript;Spring Boot;Spring;Spring Data JPA,매출액 100억 기업;육아휴직;간식 제공,중소기업;주식회사;외부감사법인;병역특례 인증업체,시스템 소프트웨어 개발 및 공급업
+엔큐리티,엔큐리티(주),엔큐리티,FortiGate NGFW;REST API;Cloudflare WAF;AWS WAF;Network;Cisco;TCP/IP;Citrix Gateway;AIOHTTP;Apache HTTP Server,수인분당선 역세권 기업,중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+에이치나인,(주)에이치나인,에이치나인,TypeScript;Git;Confluence;Ant Design;Jira;React,휴가비 지원;수인분당선 역세권 기업,중소기업,"그 외 기타 분류 안된 전문, 과학 및 기술 서비스업"
+씨앤유글로벌,(주)씨앤유글로벌,씨앤유글로벌,Java;Pads;Embedded Linux;Network;MariaDB;Spring;Oracle;Orcad;MCU;HW,"평균연봉 상위 10%;급성장중;자유로운 연차;경강선 역세권 기업;유연근무제;평균연봉 7,000 이상",중소기업;주식회사,유선 통신장비 제조업
+인크로스,인크로스(주),인크로스,TypeScript;REST API;Linux;JavaScript;MySQL;Kafka;MariaDB;Node.js;MSSQL;SQL,대기업;육아휴직;장기근속 포상;에스케이 계열사;코스닥;프리한 복장;2호선 역세권 기업;점심지원;사내 카페,대기업;코스닥;주식회사,광고 대행업
+네오랩컨버전스,주식회사 네오랩컨버전스,네오랩컨버전스,Orcad;PCB;HW,스타트업;2호선 역세권 기업;점심지원;예비 유니콘,스타트업;중소기업,""
+넥서스커뮤니티,(주)넥서스커뮤니티,넥서스커뮤니티,C;Coqui TTS;PostgreSQL;Kafka;DeepLearning;Spring Boot;JSON;MachineLearning;AZURE;REST API;RDB;NoSql;Docker;MySQL;TCP/IP;Oracle;AWS;Python;Java;C++;Amazon SQS;OAuth2;MariaDB;Redis;React;SQL;RabbitMQ;Git;Linux;GCP;XML;MongoDB;OpenAPI;DB;Kubernetes,"연봉상승률 10% 이상;평균연봉 상위 10%;매출액 100억 기업;육아휴직;장기근속 포상;유베이스 계열사;휴가비 지원;5호선 역세권 기업;평균연봉 7,000 이상","",응용 소프트웨어 개발 및 공급업
+포씨게이트,(주)포씨게이트,포씨게이트,C#;CSS 3;SW;Windows;iOS;MSSQL;Git;HTML5;JavaScript;MySQL;Spring Framework;Oracle;AWS;Python,MBK파트너스 계열사;5호선 역세권 기업;간식 제공,중소기업;주식회사;수출입 기업,응용 소프트웨어 개발 및 공급업
+쿼리시스템즈,(주)쿼리시스템즈,쿼리시스템즈,Network,"영업이익 20% 지속성장;프리한 복장;2호선 역세권 기업;점심지원;평균연봉 6,000 이상",중소기업;주식회사,시스템 소프트웨어 개발 및 공급업
+아이오트러스트,(주)아이오트러스트,아이오트러스트,"","시리즈B 투자유치;스타트업;육아휴직;급성장중;7호선 역세권 기업;아기 유니콘;점심지원;평균연봉 6,000 이상",스타트업;중소기업;주식회사,컴퓨터 프로그래밍 서비스업
+오프리메드,(주)오프리메드,오프리메드,"",장기근속 포상;자유로운 연차;프리한 복장;유연근무제;점심지원;워라밸;간식 제공;성과급/상여금,중소기업;주식회사;연구소,응용 소프트웨어 개발 및 공급업
+언에이아이,(주)언에이아이,언에이아이,PyTorch;Git;FastAPI;MachineLearning;AWS;Python;Kubernetes,자유로운 연차;경강선 역세권 기업;점심지원,중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+리만코리아,주식회사 리만코리아,리만코리아,Java;Git;QueryDSL;JUnit;Spring Framework;Amazon Aurora;Spring Boot;Gradle,"평균연봉 상위 10%;성과급/상여금;사내 카페;평균연봉 6,000 이상",중견기업;주식회사;외부감사법인,""
+엠핀스,엠핀스(주),엠핀스,Java;C++;C;Android OS;Kotlin,급성장중,중소기업,그 외 기타 전자부품 제조업
+아론티어,(주)아론티어,아론티어,TypeScript;Jotai;AI/인공지능;Git;PyTorch;Docker;Linux;Redux;GitHub;JavaScript;React;Python,"연봉상승률 10% 이상;평균연봉 상위 10%;급성장중;프리한 복장;3호선 역세권 기업;유연근무제;간식 제공;평균연봉 7,000 이상",중소기업;주식회사;연구소;병역특례 인증업체,응용 소프트웨어 개발 및 공급업
+센시리온오토모티브솔루션즈코리아,센시리온오토모티브솔루션즈코리아(주),센시리온오토모티브솔루션즈코리아,Amazon API Gateway;Python,장기근속 포상;재택근무;2호선 역세권 기업;유연근무제;점심지원,중소기업;외국인 투자기업;주식회사;외부감사법인;연구소;수출입 기업,그 외 자동차용 신품 부품 제조업
+오투플러스,(주)오투플러스,오투플러스,Java;AngularJS;vuex;Redis Cloud;Laravel;React;RabbitMQ;Vue.js;RDB;REST API;Git;Docker;Elasticsearch;MySQL;PHP;ReactPHP,자유로운 연차;신분당선 역세권 기업,중소기업,컴퓨터 프로그래밍 서비스업
+코아비스,(주)코아비스,코아비스,FW;C;SW;Embedded,한앤컴퍼니제일호사모투자전문회사 계열사;매출액 1000억 기업;프리한 복장;유연근무제,"",그 외 자동차용 신품 부품 제조업
+한국이에스지데이터,한국이에스지데이터(주),한국이에스지데이터,AI/인공지능;Docker;JavaScript;Semantic UI;Spring Boot;Node.js;FastAPI;Python,3호선 역세권 기업,중소기업;주식회사,컴퓨터시스템 통합 자문 및 구축 서비스업
+베스텔라랩,(주)베스텔라랩,베스텔라랩,C#;C;GitHub;Spring Boot;iOS;R;NoSql;VPN;JavaScript;MySQL;PHP;Embedded;AWS;Ccnp;Python;Java;C++;SW;MariaDB;Router;Ccna;React;SQL;Kotlin;Git;Linux;OpenCV;GCP;ROS;Spring Framework;Swift;React Native,급성장중;아기 유니콘;시리즈A 투자유치,중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+씨어스테크놀로지,(주)씨어스테크놀로지,씨어스테크놀로지,Chart.js;Matplotlib;AI/인공지능;OpenGL;Infra;PyQt;Windows;React;Jira;NumPy;WebSocket;Git;Linux;Pandas;Notion;D3.js;Python,"스타트업;급성장중;장기근속 포상;매출액 150% 급성장;코스닥;매출액 20% 지속성장;평균연봉 6,000 이상",스타트업;중소기업;코스닥;주식회사;연구소;수출입 기업,그 외 기타 의료용 기기 제조업
+프리시젼바이오,프리시젼바이오(주),프리시젼바이오,C++;Yocto;C;Qt;SW;Embedded Linux;SQLite;Mfc;Android OS,연봉상승률 15% 이상;급성장중;장기근속 포상;코스닥;점심지원;간식 제공,중소기업;코스닥;주식회사;외부감사법인;연구소;병역특례 인증업체;수출입 기업,그 외 기타 의료용 기기 제조업
+크리스틴컴퍼니,(주)크리스틴컴퍼니,크리스틴컴퍼니,GitHub;PostgreSQL;Redis;Next.js;React;WebSocket;TypeScript;React Query;REST API;Docker;Slack;Zustand;Notion;MongoDB;styled-components;NestJS;Python,급성장중;자유로운 연차;패밀리데이;프리한 복장;매출액 20% 지속성장;워라밸;성과급/상여금,중소기업;주식회사;수출입 기업,구두류 제조업
+액스비스,(주)액스비스,액스비스,C#;RTOS;AI/인공지능;C;Qt;FPGA;scikit-learn;PLC;Mfc;MachineLearning;REST API;VHDL;Verilog;JavaScript;Cisco ISE;.NET;GUI;HALCON;Dialogflow;Python;Flask;C++;DirectX;OpenGL;Embedded Linux;Visual Studio;SQL;labview;OpenCV;Django;FastAPI;ARM,"연봉상승률 10% 이상;스타트업;매출액 500억 기업;급성장중;장기근속 포상;성과급/상여금;평균연봉 6,000 이상",스타트업;중소기업;주식회사;외부감사법인;병역특례 인증업체;수출입 기업,전자 응용 절삭기계 제조업
+유씨아이,(주)유씨아이,유씨아이,C++;C;Azure DevOps,"",중소기업;주식회사,컴퓨터시설 관리업
+유리프트,(주)유리프트,유리프트,TypeScript;GCP;TailwindCSS;Firebase Realtime Database;Next.js;React,2호선 역세권 기업;아기 유니콘;점심지원,중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+딜리버리랩,(주)딜리버리랩,딜리버리랩,PostgreSQL;MySQL;Spring Boot;Oracle;AWS,연봉상승률 20% 이상;매출액 100억 기업;급성장중;자유로운 연차;재택근무;2호선 역세권 기업;아기 유니콘;매출액 20% 지속성장;시리즈A 투자유치,중소기업;주식회사,응용 소프트웨어 개발 및 공급업
+클럼엘,(주)클럼엘,클럼엘,Java;C++;Rust;GitHub;GraphQL;Infra;RDB;Shell;Git;NoSql;Linux;DbUnit;Network;Python,"평균연봉 상위 10%;연봉상승률 20% 이상;프리한 복장;2호선 역세권 기업;점심지원;유연근무제;간식 제공;평균연봉 7,000 이상",중소기업,응용 소프트웨어 개발 및 공급업
+블루개러지,(주)블루개러지,블루개러지,PostgreSQL;OpenGL;GraphQL;GraphicsMagick;React;Linear;Vulkan;TypeScript;PyTorch;GCP;Django;MySQL;3D Rendering;Pandas;React Native;AWS;Python,"연봉상승률 20% 이상;매출액 500억 기업;급성장중;제이와이피엔터테인먼트 계열사;5호선 역세권 기업;유연근무제;매출액 20% 지속성장;평균연봉 6,000 이상",중소기업,그 외 기타 상품 전문 도매업
+두나미스아트테크놀로지스,(주)두나미스아트테크놀로지스,두나미스아트테크놀로지스,Git;Docker;Linux;PostgreSQL;Kafka;Redis;FastAPI;Spring Boot;AWS;React;Python;Flask,연봉상승률 20% 이상;6호선 역세권 기업;유연근무제;점심지원,중소기업,응용 소프트웨어 개발 및 공급업
+위버케어,(주)위버케어,위버케어,TypeScript;Docker;PostgreSQL;MySQL;Node.js;AWS;NestJS,"연봉상승률 10% 이상;평균연봉 상위 10%;스타트업;장기근속 포상;휴가비 지원;2호선 역세권 기업;간식 제공;시리즈A 투자유치;평균연봉 7,000 이상",스타트업;주식회사;병역특례 인증업체,""
+쉬모스랩,(주)쉬모스랩,쉬모스랩,AI/인공지능;PostgreSQL;gRPC;SQL;REST API;AZURE;Git;Docker;Linux;GCP;AWS;Azure DevOps;Kubernetes;TensorFlow;Python,연봉상승률 30% 이상;급성장중;3호선 역세권 기업;유연근무제,중소기업,시스템 소프트웨어 개발 및 공급업
+블루닷,블루닷(주),블루닷,C++;C;Git;GitHub;Verilog;Spring Framework;iOS;AWS;Python,"급성장중;유연근무제;점심지원;평균연봉 6,000 이상",중소기업;주식회사;병역특례 인증업체,시스템 소프트웨어 개발 및 공급업
+엘리펀트키즈에듀테인먼트,엘리펀트키즈에듀테인먼트,엘리펀트키즈에듀테인먼트,C#;Java;JSP;JavaScript;Keras;Slim;MSSQL;TensorFlow,인천1호선 역세권 기업;유연근무제,기타,유아·유치원
+클로봇,(주)클로봇,클로봇,AngularJS;GitHub;Spring Boot;IBM Watson;TypeScript;Google Drive;NoSql;Docker;JavaScript;MySQL;MSA;Python;Java;C++;Node.js;Spring;React;Git;Linux;Django;ROS;FastAPI;Jandi;DB;Kubernetes,"스타트업;매출액 100억 기업;육아휴직;급성장중;장기근속 포상;코스닥;수인분당선 역세권 기업;점심지원;매출액 20% 지속성장;평균연봉 6,000 이상",스타트업;중소기업;코스닥;주식회사;연구소;병역특례 인증업체,응용 소프트웨어 개발 및 공급업
+에이치케이로지스틱스,(주)에이치케이로지스틱스,에이치케이로지스틱스,Java;Amazon ECR;GitHub;PostgreSQL;Amazon S3;Redis;Node.js;Next.js;Tailwind CSS;mobX;React;TypeScript;React Query;Docker;SCSS;MongoDB;Prisma;React Native;NestJS,급성장중;유연근무제;매출액 20% 지속성장;간식 제공,중소기업;주식회사,데이터베이스 및 온라인정보 제공업
+뮤즈블라썸,(주)뮤즈블라썸,뮤즈블라썸,AWS Lambda;RDB;AI/인공지능;PyTorch;NoSql;DeepLearning;Node.js;Android OS;AWS;NestJS;Amazon DynamoDB;TensorFlow,연봉상승률 10% 이상;급성장중;유연근무제,중소기업,그 외 기타 정보 서비스업
+(주)퓨쳐스콜레,(주)퓨쳐스콜레,퓨쳐스콜레,Java;REST API;JavaScript;Spring Framework;MariaDB;AWS;Airflow;GCP;Python,"연봉상승률 15% 이상;급성장중;장기근속 포상;2호선 역세권 기업;시리즈A 투자유치;성과급/상여금;평균연봉 6,000 이상",중소기업;주식회사,시스템 소프트웨어 개발 및 공급업
+바이트사이즈,(주)바이트사이즈,바이트사이즈,Airflow;Java;Microsoft Teams;PyTorch;Git;NLP;JavaScript;MySQL;Python,장기근속 포상;휴가비 지원;프리한 복장;점심지원,중소기업;주식회사,시스템 소프트웨어 개발 및 공급업
+씨드앤,(주)씨드앤,씨드앤,Java;GitHub;Kafka;Redis;Node.js;TypeScript;QA;Jenkins;AZURE;Linux;Docker;MySQL;JavaScript;SonarQube;MongoDB;AWS;NestJS;Azure DevOps;ExpressJS;Python,급성장중;8호선 역세권 기업;유연근무제,중소기업;주식회사;연구소,시스템 소프트웨어 개발 및 공급업
+한국딥러닝,한국딥러닝(주),한국딥러닝,C++;C;PostgreSQL;Kafka;Next.js;React;Jira;CUDA;PyTorch;Git;Docker;Linux;OpenCV;3D Rendering;JavaScript;MongoDB;AWS;TensorFlow;Kubernetes;Python,급성장중;7호선 역세권 기업;성과급/상여금,중소기업;주식회사,시스템 소프트웨어 개발 및 공급업
+메타이노텍,(주)메타이노텍,메타이노텍,FW;C++;C;AWS IoT Device Management;SW;Embedded;Google Cloud IoT Core;PCB;Azure IoT Hub;HW,자유로운 연차;프리한 복장;1호선 역세권 기업;유연근무제;점심지원;매출액 20% 지속성장;워라밸;간식 제공,중소기업,""
+테크핀레이팅스,주식회사 테크핀레이팅스,테크핀레이팅스,React Query;REST API;Java;GitHub;Zustand;Notion;Spring Boot;Next.js;React;ERP;Power BI;Tableau;Python;SQL,"평균연봉 상위 10%;2호선 역세권 기업;간식 제공;평균연봉 7,000 이상","",기타금융
+오픈헬스케어,오픈헬스케어(주),오픈헬스케어,C#;Java;OAuth2;Nexacro;MariaDB;Node.js;REST API;AZURE;Git;NoSql;Docker;.NET;MongoDB;Oracle;AWS;Kubernetes,5호선 역세권 기업,중소기업,경영 컨설팅업
+블루엘리펀트,(주)블루엘리펀트,블루엘리펀트,TypeScript;Git;jQuery;Slack;PostgreSQL;HTML5;Node.js;Tailwind CSS;Jira;React,영업이익 20% 지속성장;매출액 100억 기업;급성장중;매출액 150% 급성장;2호선 역세권 기업;매출액 20% 지속성장;영업이익 150% 급성장;영업이익률 20% 이상,중소기업;주식회사;수출입 기업,안경 및 안경렌즈 제조업
+뷰리드 강남오피스,(주)뷰리드 강남오피스,뷰리드 강남오피스,PHP;Laravel,자유로운 연차;2호선 역세권 기업;간식 제공,"",광고·홍보·전시
+푸딘코,(주)푸딘코,푸딘코,CSS 3;Java;Redux;MariaDB;Redis;Node.js;React;TypeScript;React Query;REST API;NoSql;Git;Linux;Slack;HTML5;JavaScript;MySQL;Zustand;PHP;React Native;AWS,"평균연봉 상위 10%;영업이익 20% 지속성장;연봉상승률 30% 이상;3호선 역세권 기업;점심지원;평균연봉 7,000 이상",중소기업,응용 소프트웨어 개발 및 공급업
+인엘씨테크놀러지,(주)인엘씨테크놀러지,인엘씨테크놀러지,FW;labview;VHDL;C;FPGA;Verilog;MATLAB;MCU;HW,"연봉상승률 15% 이상;자유로운 연차;프리한 복장;유연근무제;점심지원;평균연봉 6,000 이상",중소기업;외국인 투자기업;주식회사;외부감사법인;병역특례 인증업체;수출입 기업,유선 통신장비 제조업
+소테리아,(주)소테리아,소테리아,RTOS;AI/인공지능;FPGA;Blockchain;Embedded Linux;Windows;MachineLearning;CUDA;ASIC;PyTorch;Linux;Docker;Embedded;ARM;TensorFlow;Python,"평균연봉 상위 10%;연봉상승률 20% 이상;급성장중;2호선 역세권 기업;유연근무제;점심지원;간식 제공;평균연봉 7,000 이상",중소기업;주식회사;외부감사법인,전기ㆍ전자공학 연구개발업
+코보시스,(주)코보시스,코보시스,C#;Java;SW;JSP;iOS;WPF;React;Jira;Vue.js;REST API;Git;Linux;MySQL;Bootstrap;.NET;Flutter;Oracle;Android OS;Mybatis;Dart,"연봉상승률 20% 이상;장기근속 포상;자유로운 연차;성과급/상여금;사내 카페;평균연봉 6,000 이상",중소기업;주식회사;사단법인;연구소,시스템 소프트웨어 개발 및 공급업
+이비즈테크,(주)이비즈테크,이비즈테크,WebGL;CloudBees;vmware;OpenStack;Windows;ServiceStack;MSSQL;Cloud CMS;AZURE;Backpack;Linux;GCP;Amazon MQ;Oracle;AWS;Azure DevOps;DB,매출액 100억 기업;육아휴직;장기근속 포상;자유로운 연차;프리한 복장;간식 제공,중소기업,"컴퓨터 및 주변장치, 소프트웨어 도매업"
+모빌리티네트웍스,(주)모빌리티네트웍스,모빌리티네트웍스,RTOS;C++;SW;iOS;Jira;Kotlin;SQL;HW;AZURE;Git;NoSql;Confluence;GCP;MySQL;BigData;Swift;Embedded;Oracle;Android OS;AWS;Azure DevOps,"평균연봉 상위 10%;연봉상승률 20% 이상;급성장중;4호선 역세권 기업;점심지원;평균연봉 7,000 이상",중소기업;주식회사;수출입 기업,차체 및 특장차 제조업
