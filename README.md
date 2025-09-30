@@ -47,7 +47,7 @@ Microsoft Data School 3차 프로젝트, **DrawBridge** 저장소입니다.
 ├── PowerBI                  # Power BI 파일 (.pbix)
 │
 ├── image                    # 이미지 자료
-|    ├── Azure resource         # Azure 리소스 그룹 목록 및 비용
+|   ├── Azure resource         # Azure 리소스 그룹 목록 및 비용
 │   ├── ERD                  # 데이터 모델 ERD
 │   ├── Databricks           # 클러스터/잡 이미지
 │   │   ├── cluster
