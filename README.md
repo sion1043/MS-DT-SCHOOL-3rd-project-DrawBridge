@@ -14,56 +14,65 @@ Microsoft Data School 3차 프로젝트, **DrawBridge** 저장소입니다.
 
 ```bash
 │
-├── README.md                # 프로젝트 소개 (구조도 이미지, 웹 구현 GIF 포함)
-│
-├── data                     # 데이터 파일
-│   ├── PostgreSQL           # PostgreSQL 쿼리 결과
-│   │   ├── public           # 메달리온 아키텍처 (브론즈 계층)
-│   │   ├── bronze           # 브론즈 계층 데이터
-│   │   ├── silver           # 실버 계층 데이터
-│   │   └── gold             # 골드 계층 데이터
-│   └── Databricks           # Databricks 데이터
-│       ├── bronze
-│       ├── silver
-│       └── gold
-│
-├── src                      # 전체 코드
-│   ├── PostgreSQL           # PostgreSQL 쿼리
-│   │   ├── table definition # 테이블 정의 쿼리
-│   │   └── gold             # 골드 테이블 생성 쿼리
-│   ├── Databricks           # Databricks Notebook 소스
-│   │   ├── bronze
-│   │   ├── silver
-│   │   └── gold
-│   ├── Function App         # Azure Functions 코드
-│   │   ├── fapp-dummy       # 더미 데이터 생성
-│   │   ├── fapp-jumpit      # 점핏 실시간 데이터 수집
-│   │   ├── fapp-huggingface # HuggingFace API 실시간 수집
-│   │   ├── fapp-rag         # RAG 기능 구현
-│   │   └── fapp-saramin     # 사람인 데이터 수집
-│   ├── ASA                  # ASA 쿼리 텍스트
-│   └── Web                  # 웹 서비스 소스 코드
-│
 ├── PowerBI                  # Power BI 파일 (.pbix)
 │
+├── data                     # 데이터 파일
+│   ├── Cosmos               # RAG용 데이터
+│   ├── Databricks           # Databricks 데이터
+│   │   ├── bronze           # 
+│   │   ├── silver           # 
+│   │   └── gold             # 
+│   └── PostgreSQL           # PostgreSQL 쿼리 결과
+│       ├── public           # 메달리온 아키텍처 (브론즈 계층)
+│       ├── bronze           # 브론즈 계층 데이터
+│       ├── silver           # 실버 계층 데이터
+│       └── gold             # 골드 계층 데이터
+│
+├── docs                     # 문서 자료
+│   ├── PPT                  # 발표 자료
+│   ├── daily_report         # 데일리 리포트
+│   ├── feature_definition   # 웹페이지별 사용할 컬럼 정리 파일
+│   ├── proposal_paper       # 프로젝트 기획 및 제안서
+│   └── table_definition     # 테이블 명세서
+│ 
 ├── image                    # 이미지 자료
-│   ├── ERD                  # 데이터 모델 ERD
-│   ├── Databricks           # 클러스터/잡 이미지
-│   │   ├── cluster
-│   │   └── job
-│   ├── Function App
-│   │   ├── fapp-rag         # RAG 구조도
-│   │   └── fapp-saramin     # 웹훅 PNG
 │   ├── ASA                  # ASA 입출력 구조도
+│   ├── Azure resoure        # Azure 사용 리소스 및 비용
+│   ├── Databricks           # 클러스터/잡 이미지
+│   │   ├── cluster          # cluster 이미지
+│   │   └── job              # job 이미지
+│   ├── ERD                  # PostgreSQL ERD 및 웹 유저 ERD
+│   ├── Function App         # function app 사용량 및 환경 설정
+│   ├── PostgreSQL           # Postgres에서 사용한 쿼리 사진
+│   │   ├── bronze           # 브론즈 데이터 생성 및 스키마 사진
+│   │   └── gold             # 골드 데이터 생성 및 스키마 사진
+│   ├── PowerBI              # 대시보드 완성 이미지
 │   └── Web                  # 웹 서비스 화면
+│       ├── company          # 구인(기업) 페이지 화면들
+│       └── employee         # 구직(유저) 페이지 화면들
+│
+├── src                        # 전체 코드
+│   ├── ASA                    # ASA 쿼리 텍스트
+│   ├── Databricks             # Databricks Notebook 소스
+│   │   ├── bronze             # 
+│   │   ├── silver             # 
+│   │   └── gold               #
+│   ├── Function App           # Azure Functions 코드
+│   │   ├── capp-saramin       # 사람인 데이터 수집
+│   │   ├── fapp-dummy         # 더미 데이터 생성
+│   │   ├── fapp-huggingface   # HuggingFace API 실시간 수집
+│   │   └── fapp-rag           # RAG 기능 구현
+│   ├── JobKorea               # 잡코리아 크롤링 코드(더미 만들 때 참고한 정보)
+│   ├── PostgreSQL             # PostgreSQL 쿼리
+│   │   ├── bronze             # 브론즈 테이블 생성 쿼리
+│   │   ├── gold               # 골드 테이블 생성 쿼리
+│   │   └── schema definition  # 테이블 정의 쿼리
+│   ├── Wanted                 # 원티드 크롤링 코드(더미 만들 때 참고한 정보)
+│   └── Web                    # 웹 서비스 소스 코드
 │
 ├── video                    # 시연 영상
 │
-├── docs                     # 문서 자료
-│   ├── daily_report         # 데일리 리포트
-│   ├── proposal_paper       # 프로젝트 제안서
-│   ├── table_definition     # 테이블 명세서
-│   └── PPT                  # 발표 자료
+├── README.md                # 프로젝트 소개 (구조도 이미지, 웹 구현 GIF 포함)
 │
 ```
 
