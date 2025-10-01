@@ -1,0 +1,4 @@
+COMMENT ON TABLE bronze.brz_jumpit_job_category IS '직무 카테고리별 링크 수집 시각';
+COMMENT ON COLUMN bronze.brz_jumpit_job_category.uuid IS '범용 고유 식별자';
+COMMENT ON COLUMN bronze.brz_jumpit_job_category.job_category IS '직무 카테고리';
+COMMENT ON COLUMN bronze.brz_jumpit_job_category.jumpit_link_collection_time IS '점핏 공고 상세 링크 수집 시각';
