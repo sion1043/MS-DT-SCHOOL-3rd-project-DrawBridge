@@ -1,0 +1,13 @@
+CREATE TABLE gold.gld_employee_careerpit_tech_stack_reqs (
+	posting_tech_stack_one TEXT,
+	job_category_kor_one TEXT,
+	require_experience_single_year DOUBLE PRECISION,
+	exp_min	DOUBLE PRECISION,
+	exp_max	DOUBLE PRECISION,
+	require_experience_role TEXT,
+	require_experience_band_kr TEXT,
+	posting_start_month_key TEXT,
+	posting_count_s  DOUBLE PRECISION,
+	posting_share_s DOUBLE PRECISION,
+	PRIMARY KEY (posting_tech_stack_one, require_experience_single_year)
+);

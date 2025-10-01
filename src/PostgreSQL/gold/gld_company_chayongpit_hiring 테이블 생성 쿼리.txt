@@ -1,0 +1,9 @@
+CREATE TABLE gold.gld_company_chayongpit_hiring AS
+SELECT a.posting_id, a.posting_title_j, a.posting_title_s, a.company_name_j, a.company_name_s, a.company_name_clean_j, 
+		a.company_name_clean_s, a.job_category, a.job_category_kor, a.company_tech_stack, a.posting_tech_stack,
+		b.employee_id, b.employee_name, b.age, b.gender, b.education, b.career, b.job, b.posting_id AS posting_id_all,
+		b.skills_current, b.skfn_current, b.skills_past, b.skfn_past, b.skills_p2, b.skfn_p2, b.skills_p3, b.skfn_p3,
+		b.skills_p4, b.skfn_p4, b.skills_p5, b.skfn_p5, b.skills_p6, b.skfn_p6, b.last_process
+FROM SLV_CAREER_JS_POSTING_COMPANY a
+JOIN SLV_MONITOR_USER b
+ON a.posting_id = ANY(string_to_array(b.posting_id, ';'));

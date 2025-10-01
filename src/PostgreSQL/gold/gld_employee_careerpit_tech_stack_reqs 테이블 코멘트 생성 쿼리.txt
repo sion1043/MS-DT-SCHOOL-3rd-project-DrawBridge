@@ -1,0 +1,11 @@
+COMMENT ON TABLE gold.gld_employee_careerpit_tech_stack_reqs IS '구직자 - 커리어핏 - 연차별 기술스택 요구도';
+COMMENT ON COLUMN gold.gld_employee_careerpit_tech_stack_reqs.posting_tech_stack_one IS '요구 기술스택 단일값';
+COMMENT ON COLUMN gold.gld_employee_careerpit_tech_stack_reqs.job_category_kor_one IS '직무 카테고리 대표값';
+COMMENT ON COLUMN gold.gld_employee_careerpit_tech_stack_reqs.require_experience_single_year IS '요구 경력 연차 단일값';
+COMMENT ON COLUMN gold.gld_employee_careerpit_tech_stack_reqs.exp_min IS '요구 경력 최소 연차 단일값';
+COMMENT ON COLUMN gold.gld_employee_careerpit_tech_stack_reqs.exp_max IS '요구 경력 최대 연차 단일값';
+COMMENT ON COLUMN gold.gld_employee_careerpit_tech_stack_reqs.require_experience_role IS '요구 경력 직급 범위값';
+COMMENT ON COLUMN gold.gld_employee_careerpit_tech_stack_reqs.require_experience_band_kr IS '요구 경력 연차 범위값';
+COMMENT ON COLUMN gold.gld_employee_careerpit_tech_stack_reqs.posting_start_month_key IS '공고 시작월';
+COMMENT ON COLUMN gold.gld_employee_careerpit_tech_stack_reqs.posting_count_s IS '사람인 공고수_분배방식 사용';
+COMMENT ON COLUMN gold.gld_employee_careerpit_tech_stack_reqs.posting_share_s IS '사람인 공고수_대표방식 사용';
