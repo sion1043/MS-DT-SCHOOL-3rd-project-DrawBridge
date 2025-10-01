@@ -3,6 +3,16 @@
 Microsoft Data School 3차 프로젝트, **DrawBridge** 저장소입니다.  
 본 프로젝트는 **데이터 수집 → 처리 → 저장 → 시각화 → 웹 서비스 구현**까지의 **엔드 투 엔드(End-to-End) 데이터 파이프라인**을 다루고 있습니다.  
 
+---
+
+## 📽 시연 영상
+![데모 실행 장면](./image/시연영상.gif)
+
+---
+
+## 📊 아키텍처 다이어그램
+<img width="8000" height="4500" alt="Acrhitecture_Diagram" src="https://github.com/user-attachments/assets/ba719990-460a-4c0b-863f-84c579f791af" />
+
 - **데이터 계층화**: Medallion Architecture (Bronze → Silver → Gold)  
 - **데이터 처리 환경**: PostgreSQL, Databricks, Azure Function App, ASA  
 - **시각화**: Power BI  
@@ -85,25 +95,6 @@ Microsoft Data School 3차 프로젝트, **DrawBridge** 저장소입니다.
 - **실시간 분석**: Azure Stream Analytics (ASA)  
 - **데이터 시각화**: Power BI Dashboard  
 - **웹 서비스 구현**: Python 기반 데이터 제공 및 대시보드 연동  
-
----
-
-## 📊 아키텍처 & 화면 예시
-
-- **프로젝트 구조도**  
-  ![구조도](image/ASA/asa_architecture.png)
-
-- **웹 화면**  
-  ![웹 서비스](image/Web/web_demo.png)
-
-- **Power BI Dashboard**  
-  ![Power BI](image/Databricks/cluster/cluster_cost.png)
-
----
-
-## 📽 시연 영상
-
-👉 [시연 영상 보기](./video/demo.mp4)  
 
 ---
 
