@@ -1,12 +1,17 @@
 # MS-DT-SCHOOL-3rd-project-DrawBridge
 
-Microsoft Data School 3차 프로젝트, **DrawBridge** 저장소입니다.  
-본 프로젝트는 **데이터 수집 → 처리 → 저장 → 시각화 → 웹 서비스 구현**까지의 **엔드 투 엔드(End-to-End) 데이터 파이프라인**을 다루고 있습니다.  
+Microsoft Data School 1기에서 최우수상을 수상한 3차 프로젝트, **DrawBridge** 저장소입니다.
+
+본 프로젝트의 주제는 **기업과 구직자를 연결하는 채용 지원 서비스**입니다.
+
+페르소나는 실제 운영 중인 **점핏** 플랫폼의 **TF팀**이라고 설정했습니다.
+
+**데이터 수집 → 처리 → 저장 → 시각화 → 웹 서비스 구현**까지의 **End-to-End Pipeline**을 다루고 있습니다.  
 
 ---
 
 ## 📽 시연 영상
-![데모 실행 장면](./image/시연영상.gif)
+<img src="./video/시연영상.gif" alt="시연 영상" width="8000"/>
 
 ---
 
@@ -16,7 +21,18 @@ Microsoft Data School 3차 프로젝트, **DrawBridge** 저장소입니다.
 - **데이터 계층화**: Medallion Architecture (Bronze → Silver → Gold)  
 - **데이터 처리 환경**: PostgreSQL, Databricks, Azure Function App, ASA  
 - **시각화**: Power BI  
-- **웹 서비스**: Python 기반 Web  
+- **웹 서비스**: React, Typescript, Tailwind
+- **서버 설정**: www.drawbridge.fit (도메인 연결 예정)
+
+---
+
+## 🚀 주요 기능
+
+- **실시간 데이터 수집**: Jumpit, HuggingFace, Saramin 등  
+- **데이터 계층화 처리**: PostgreSQL & Databricks 기반 Bronze → Silver → Gold  
+- **실시간 분석**: Azure Stream Analytics (ASA)  
+- **데이터 시각화**: Power BI Dashboard  
+- **웹 서비스 구현**: React 기반 데이터 제공 및 대시보드 연동  
 
 ---
 
@@ -88,17 +104,7 @@ Microsoft Data School 3차 프로젝트, **DrawBridge** 저장소입니다.
 
 ---
 
-## 🚀 주요 기능
-
-- **실시간 데이터 수집**: Jumpit, HuggingFace, Saramin 등  
-- **데이터 계층화 처리**: PostgreSQL & Databricks 기반 Bronze → Silver → Gold  
-- **실시간 분석**: Azure Stream Analytics (ASA)  
-- **데이터 시각화**: Power BI Dashboard  
-- **웹 서비스 구현**: Python 기반 데이터 제공 및 대시보드 연동  
-
----
-
-## ⚙️ 실행 방법
+## ⚙️ 실행 방법(이후 local에서 실행 가능한 방법 작성 예정)
 
 ### 1. 환경 설정
 ```bash
@@ -116,11 +122,6 @@ pip install -r requirements.txt
 cd src/Web
 python app.py
 ```
-
-### 3. Databricks/ASA/Function App
-- Databricks: `src/Databricks/`의 Notebook 활용  
-- ASA: `src/ASA/` 내 쿼리 파일 참고  
-- Function App: `src/Function App/` 내 개별 함수 실행  
 
 ---
 
